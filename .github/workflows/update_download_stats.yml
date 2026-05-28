@@ -10,7 +10,7 @@ env:
 
 jobs:
   update-download-stats:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
