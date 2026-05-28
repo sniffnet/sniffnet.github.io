@@ -5,7 +5,7 @@ echo "---> GITHUB_CURL: $GITHUB_CURL"
 GITHUB_COUNT=$(echo "$GITHUB_CURL" | grep '"download_count"' | awk '{sum += $2} END {print sum}')
 echo "---> GITHUB_COUNT: $GITHUB_COUNT"
 
-CRATES_CURL=$(curl -s -A "sniffnet-website-download-stats (https://github.com/sniffnet/sniffnet-website)" https://crates.io/api/v1/crates/sniffnet)
+CRATES_CURL=$(curl -s -A "sniffnet-website-download-stats (https://github.com/sniffnet/sniffnet.github.io)" https://crates.io/api/v1/crates/sniffnet)
 echo "---> CRATES_CURL: $CRATES_CURL"
 CRATES_COUNT=$(echo "$CRATES_CURL" | grep -E -o '"downloads":[0-9]*' | head -1 | cut '-d:' -f 2)
 echo "---> CRATES_COUNT: $CRATES_COUNT"
