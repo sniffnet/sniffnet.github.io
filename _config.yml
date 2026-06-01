@@ -12,7 +12,7 @@ navbar-links:
   Sponsor: "sponsor"
 
 # Logo
-avatar: "/assets/img/icon.svg"
+avatar: "/favicon.svg"
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website
 #title-img: /path/to/image
