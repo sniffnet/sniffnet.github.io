@@ -446,6 +446,8 @@ img {
   border-width: 1px;
   border-style: solid;
   border-radius: 18%;
+  background-color: #0f1e3c;
+  color: #0f1e3c;
   -webkit-box-shadow: 0px 0px 5px 3px #01c6ff44;
   box-shadow: 0px 0px 5px 3px #01c6ff44;
 }
