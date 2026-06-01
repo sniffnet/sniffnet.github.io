@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" width="1024" height="1024" viewBox="50 146.397 1024 1024">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 1024 1024">
   <title>Sniffnet</title>
   <defs>
-    <linearGradient id="linearGradient48" x1="417.997" x2="972.442" y1="300.816" y2="165.194" gradientTransform="matrix(1,0,0,0.99929393,0,-0.03563671)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linearGradient48" x1="417.997" x2="972.442" y1="300.567954" y2="165.041717" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00c8ff" stop-opacity="1"/>
       <stop offset="0.67" stop-color="#1d89f5" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="linearGradient45" x1="55.557" x2="558.253" y1="264.093" y2="462.528" gradientTransform="matrix(1,0,0,0.99981341,0,0.30228119)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linearGradient45" x1="55.557" x2="558.253" y1="264.346005" y2="462.743994" gradientUnits="userSpaceOnUse">
       <stop offset="0.33" stop-color="#f5891d" stop-opacity="1"/>
       <stop offset="1" stop-color="#ffc800" stop-opacity="1"/>
     </linearGradient>
-    <linearGradient id="linearGradient28264" x1="411.735" x2="612.265" y1="742.431" y2="742.431" gradientTransform="translate(0.00079174006,-2)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linearGradient28264" x1="411.73579174" x2="612.26579174" y1="740.431" y2="740.431" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffc800" stop-opacity="1"/>
       <stop offset="0.75" stop-color="#b35900" stop-opacity="1"/>
     </linearGradient>
   </defs>
-  <rect width="1024" height="1024" x="50" y="146.397" rx="180" ry="180" fill="#0f1e3c"/>
-  <g transform="matrix(0.99999842,0,0,1,50.000079,147.25937)">
+  <rect width="1024" height="1024" x="0" y="0" rx="180" ry="180" fill="#0f1e3c"/>
+  <g transform="matrix(0.99999842,0,0,1,0.000079,0.86237)">
     <path d="m 496.82078,605.259 c 0,0 -7.137,108.241 -64.272,179.133 -57.135,70.892 22.819,78.412 10.484,71.905 -18.674,-9.853 4.813,-20.906 25.78,-7.336 5.901,3.819 10.603,8.814 14.939,11.969 14.362,10.445 22.378,14.575 32.255,14.672 9.877,0.096 18.071,-5.129 32.433,-15.575 4.336,-3.154 8.736,-8.661 14.939,-11.969 12.23,-6.521 42.244,-6.696 23.975,7.192 -11.023,8.38 24.319,-4.561 24.908,-22.513 0.549,-16.741 -55.068,-3.822 -96.548,26.187 -8.071,-94.579 -0.889,-252.94785 -1.674,-253.20985 -0.677,-0.225 -17.219,-0.45515 -17.219,-0.45515 z" fill="url(#linearGradient28264)"/>
     <g transform="translate(0.00072996115,-2.1998202)">
       <path d="m 767.838,599.9225 c 0,0 3.52,32.053 3.52,55.515 0,23.461 -6.452,42.818 -19.356,58.068 -12.905,15.25 -26.429,24.503 -40.472,28.154 -33.425,8.691 -93.3,2.816 -103.909,-1.76 -38.564,-16.632 -63.257,-131.736 -59.738,-134.083 3.519,-2.346 219.955,-5.894 219.955,-5.894 z" fill="#0faafa"/>
