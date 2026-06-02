@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /.well-known/security.txt
+sitemap: false
+---
+# Security contact for Sniffnet — https://sniffnet.app
+# Please report security vulnerabilities to the address below.
+
+Contact: mailto:security@sniffnet.app
+Expires: 2050-06-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://sniffnet.app/.well-known/security.txt
+Policy: https://github.com/GyulyVGC/sniffnet/blob/main/SECURITY.md
