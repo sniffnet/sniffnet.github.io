@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1371.4436 666.80927"
+   width="1371.4436"
+   height="666.80927"
+   role="img"
+   aria-label="Old sniffnet.net window switching to the new secure sniffnet.app window showing its three official mailboxes"
+   version="1.1"
+   id="svg20"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .mono { font-family: ui-monospace, &quot;SF Mono&quot;, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <!-- background: site page color -->
+  <rect
+     width="1371.4436"
+     height="666.80927"
+     fill="#0f1e3c"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.887049" />
+  <!-- ===== OLD window — sniffnet.net (muted) ===== -->
+  <!-- arrow: old to new -->
+  <!-- ===== NEW window — sniffnet.app (secure) with mailboxes ===== -->
+  <!-- address bar -->
+  <!-- page content: three official mailboxes -->
+  <g
+     id="g22"
+     transform="translate(24.348114,-56.595358)">
+    <g
+       opacity="0.55"
+       id="g5"
+       style="opacity:0.676">
+      <rect
+         x="294.90295"
+         y="69.902962"
+         width="732.9411"
+         height="165.19408"
+         rx="16.28758"
+         fill="#1e3a66"
+         stroke="#34598c"
+         stroke-width="1.80592"
+         id="rect2" />
+      <circle
+         cx="333"
+         cy="108"
+         r="8"
+         fill="#ff5f57"
+         id="circle2" />
+      <circle
+         cx="361"
+         cy="108"
+         r="8"
+         fill="#ffcc00"
+         id="circle3" />
+      <circle
+         cx="389"
+         cy="108"
+         r="8"
+         fill="#28c840"
+         id="circle4" />
+      <line
+         x1="294.17776"
+         y1="140"
+         x2="1028.1777"
+         y2="140"
+         stroke="#34598c"
+         stroke-width="1.80616"
+         id="line4" />
+      <rect
+         x="326.88269"
+         y="159.88269"
+         width="648.8316"
+         height="60.234612"
+         rx="23.28343"
+         fill="#16315a"
+         stroke="#2c4f80"
+         stroke-width="1.76539"
+         id="rect4" />
+      <circle
+         cx="359"
+         cy="190"
+         r="8"
+         fill="#9aa9c6"
+         id="circle5" />
+      <text
+         class="mono"
+         x="383"
+         y="200"
+         font-size="28px"
+         font-weight="700"
+         fill="#9aa9c6"
+         id="text5">https://sniffnet.net</text>
+    </g>
+    <g
+       stroke="#ffcc00"
+       stroke-width="6"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       fill="none"
+       id="g6"
+       transform="translate(-83.626312)">
+      <line
+         x1="745"
+         y1="258"
+         x2="745"
+         y2="300"
+         id="line6" />
+      <polyline
+         points="729,282 745,304 761,282"
+         id="polyline6" />
+    </g>
+    <rect
+       x="294.90265"
+       y="319.90265"
+       width="732.94208"
+       height="390.1947"
+       rx="16.287601"
+       fill="#1e3a66"
+       stroke="#34598c"
+       stroke-width="1.80531"
+       id="rect6" />
+    <circle
+       cx="333"
+       cy="358"
+       r="8"
+       fill="#ff5f57"
+       id="circle6" />
+    <circle
+       cx="361"
+       cy="358"
+       r="8"
+       fill="#ffcc00"
+       id="circle7" />
+    <circle
+       cx="389"
+       cy="358"
+       r="8"
+       fill="#28c840"
+       id="circle8" />
+    <line
+       x1="295"
+       y1="389.80798"
+       x2="1028.2275"
+       y2="389.80798"
+       stroke="#34598c"
+       stroke-width="1.80521"
+       id="line8" />
+    <rect
+       x="326.83392"
+       y="411.83392"
+       width="657.92932"
+       height="68.332123"
+       rx="26.757891"
+       fill="#0a1830"
+       stroke="#01c6ff"
+       stroke-width="2.66788"
+       id="rect8" />
+    <g
+       transform="matrix(0.89887649,0,0,0.89887649,363,425.74719)"
+       id="g9">
+      <rect
+         x="0"
+         y="16"
+         width="32"
+         height="26"
+         rx="6"
+         fill="#ffcc00"
+         id="rect9"
+         style="fill:#6b7ea3;fill-opacity:1" />
+      <path
+         d="m 6,16 v -6 a 10,10 0 0 1 20,0 v 6"
+         fill="none"
+         stroke="#ffcc00"
+         stroke-width="5"
+         id="path9"
+         style="stroke:#6b7ea3;stroke-opacity:1" />
+      <circle
+         cx="16"
+         cy="29"
+         r="4"
+         fill="#0a1830"
+         id="circle9" />
+    </g>
+    <text
+       class="mono"
+       x="420"
+       y="456"
+       font-size="30px"
+       font-weight="800"
+       id="text11"><tspan
+         fill="#6b7ea3"
+         id="tspan9">https://</tspan><tspan
+         fill="#ffffff"
+         id="tspan10">sniffnet.</tspan><tspan
+         fill="#ffcc00"
+         id="tspan11">app</tspan></text>
+    <g
+       id="g21">
+      <g
+         transform="matrix(1.3333333,0,0,1.3333333,400.66667,570.19694)"
+         stroke="#01c6ff"
+         stroke-width="4"
+         fill="none"
+         stroke-linejoin="round"
+         id="g11">
+        <rect
+           x="0"
+           y="0"
+           width="60"
+           height="44"
+           rx="6"
+           id="rect11" />
+        <polyline
+           points="3,5 30,27 57,5"
+           id="polyline11" />
+      </g>
+      <g
+         class="mono"
+         font-size="28px"
+         font-weight="700"
+         id="g20">
+        <text
+           x="520"
+           y="560"
+           id="text14"><tspan
+             fill="#ffffff"
+             id="tspan12">info</tspan><tspan
+             fill="#ffcc00"
+             id="tspan13">@</tspan><tspan
+             fill="#8194b8"
+             id="tspan14">sniffnet.app</tspan></text>
+        <text
+           x="520"
+           y="608"
+           id="text17"><tspan
+             fill="#ffffff"
+             id="tspan15">security</tspan><tspan
+             fill="#ffcc00"
+             id="tspan16">@</tspan><tspan
+             fill="#8194b8"
+             id="tspan17">sniffnet.app</tspan></text>
+        <text
+           x="520"
+           y="656"
+           id="text20"><tspan
+             fill="#ffffff"
+             id="tspan18">sponsor</tspan><tspan
+             fill="#ffcc00"
+             id="tspan19">@</tspan><tspan
+             fill="#8194b8"
+             id="tspan20">sniffnet.app</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

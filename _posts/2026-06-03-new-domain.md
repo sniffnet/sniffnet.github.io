@@ -17,7 +17,7 @@ I could've just updated the old plan to add emails, but I took the opportunity t
 As a nice bonus, the <code>.app</code> TLD is part of the HSTS preload list, meaning browsers enforce a secure HTTPS connection by default: perfectly in line with Sniffnet's commitment to security and privacy.
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post/new-domain/cover.png' | relative_url }}" width="100%"/>
+<img alt="" src="{{ 'assets/img/post/new-domain/cover-in-post.svg' | relative_url }}" width="100%"/>
 </div>
 
 The old domain still works and redirects to the new one, to avoid breaking existing links and killing SEO. <br>
