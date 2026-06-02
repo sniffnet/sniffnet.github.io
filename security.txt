@@ -3,7 +3,7 @@ layout: null
 permalink: /.well-known/security.txt
 sitemap: false
 ---
-# Security contact for Sniffnet — https://sniffnet.app
+# Security contact for Sniffnet.
 # Please report security vulnerabilities to the address below.
 
 Contact: mailto:security@sniffnet.app
