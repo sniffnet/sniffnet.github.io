@@ -1,0 +1,30 @@
+name: Update GitHub Badges
+
+on:
+  schedule:
+    - cron: '0 17 * * *' # Every day at 5pm UTC
+  workflow_dispatch:
+
+env:
+  GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  update-github-badges:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Run update_github_badges.sh
+        run: ./update_github_badges.sh
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "github badges auto-update"
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>

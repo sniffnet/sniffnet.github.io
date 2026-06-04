@@ -53,6 +53,6 @@ if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]{0,2}(\.[0-9]M|K)$ ]] ; then
        exit 1
 fi
 
-sed "s/REPLACE_ME/$DOWNLOADS_STRING/g" assets/img/downloads_badge_template.svg > assets/img/downloads_badge.svg
+sed "s/REPLACE_ME/$DOWNLOADS_STRING/g" assets/img/badges/downloads_badge_template.svg > assets/img/badges/downloads_badge.svg
 
 exit 0

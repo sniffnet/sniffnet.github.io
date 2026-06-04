@@ -38,8 +38,8 @@ layout: page
 </script>
 
 <div align="center">
-  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
-  <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
+  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/badges/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
+  <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="{{ 'assets/img/badges/stars_badge.svg' | relative_url }}"/></a>
 </div><br/>
 
 {% assign latest_post = site.posts.first %}

@@ -79,11 +79,13 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - sniffnet.gemspec
   - LICENSE
   - README.md
   - screenshot.png
   - docs/
   - update_download_stats.sh
+  - update_github_badges.sh
   - download_daily.txt
   - .sass-cache/
   - .jekyll-cache/
