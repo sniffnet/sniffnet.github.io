@@ -53,7 +53,7 @@ p.append('<defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">'
          '<stop offset="0.667" stop-color="#a06ee8"/><stop offset="1" stop-color="#f59a4d"/>'
          '</linearGradient></defs>')
 p.append(sniffnet_icon(W/2, 44, 150))                      # brand mark, top-center (visible bird ~= caption height)
-p.append(f'<text x="{W/2}" y="300" fill="url(#grad)" font-size="104" font-weight="800" text-anchor="middle">500k downloads</text>')
+p.append(f'<text x="{W/2}" y="300" fill="url(#grad)" font-size="104" font-weight="800" text-anchor="middle">500K DOWNLOADS</text>')
 p.append(donut(442,478,106,40,30,os_seg))                  # two legend-less donuts, generous side margins
 p.append(donut(758,478,106,40,30,src_seg))
 p.append('</svg>')
