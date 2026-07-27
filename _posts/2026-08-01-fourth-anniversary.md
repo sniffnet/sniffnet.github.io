@@ -1,19 +1,47 @@
 ---
 layout: post
-title: "4 years of Sniffnet"
-share-title: "4 years of Sniffnet"
+title: "4 years of Sniffnet: the temptation that made it possible"
+share-title: "4 years of Sniffnet: the temptation that made it possible"
 nav-title: News
 thumbnail-img: /assets/img/post/fourth-anniversary/cover.png
 tags: [anniversary]
 github-discussion: XXX
 ---
 
-<!-- ═══════════════════ INTRO ═══════════════════ -->
-<!-- Opening paragraphs: mark the 4-year milestone, set the tone, invite the reader in. -->
+**4 years ago** on this day, I made the very first commit to Sniffnet GitHub repository and,
+as it's tradition, today I'd like to celebrate the project's anniversary with a blog post.<br><br>
+Usually, the anniversary post is somewhat deep, reflective, and personal: the past years I've talked about how being a maintainer changed my life,
+how important is to balance Sniffnet development with a full-time job, and how sustainable open source is crucial to ensure a project's longevity.<br><br>
+I love discussing such topics because they help pulling the curtain back and showing the human that's behind the code, but this year I want to do something slightly different.<br>
+I think that delicate arguments must come out naturally without forcing them, so rather than repeating myself
+with another tear-jerking essay, or letting AI prose fake sentiments in my place, this time I was just genuinely curious to visually see how Sniffnet has evolved over all this time, so here we are.
 
-_Placeholder: write the intro here — a warm opening about reaching 4 years of Sniffnet, what the project has become, and what this post covers._
+<hr>
 
-<!-- (the interactive scrubber below — leave the widget markup intact) -->
+### <i>"The temptation to make a GUI is strong"</i>
+
+As many of you know, Sniffnet was originally a simple program that could only run from command line to collect network traffic and print some rudimental statistics.<br>
+At the time I was a student, I had just followed a Rust course... and I wasn't able to just stop there and move on with the following semester.<br>
+I don't know why, it's probably that the Rust language hit me differently or that I was getting into the magic world of network programming, but I felt like there was a huge potential in making something way more complete and useful out of this.<br>
+Fact is that on the 20th of October 2022, I wrote this message to the friend I worked with on the first version of Sniffnet CLI:
+
+[pic]
+
+Translated from Italian, it just says: "The temptation to make a GUI is strong".<br>
+And well... you know the rest of the story: I started neglecting lectures and sleep (without any apparent consequence) to work on what was becoming my new favorite hobby.<br>
+What you surely don't know though, is that attached to that message there was a short video showing a very early prototype of the graphical interface, which I never shared with the public.
+I didn't know how to make an application window spawn on the screen, and honestly I wasn't even sure one could do that purely in Rust at all.<br>
+After some research I found out different frameworks that could help me with this, and ultimately I decided to go with Iced.
+Nowadays, Sniffnet is prominently showcased on their website, but back then this is what I was able to make with it:
+
+[vid]
+
+I remember very well my first steps with Iced, which as you can see from the video consisted in a simple counter of the network packets that were being captured.<br>
+Yes, it was very primitive, but it didn't matter: I finally knew it was possible to make a GUI in Rust.
+From there things escalated quickly and just a month later, on the 21st of November, I released the first graphical interface as version 1.0.
+
+After all of this time, I was curious to review the evolution of the interface in a handy way, so I made a simple widget that allows to travel through Sniffnet's main pages and releases.<br>
+
 <style>
 .evo * { box-sizing: border-box; }
 .evo { margin: 2.2em 0; }
@@ -57,8 +85,6 @@ _Placeholder: write the intro here — a warm opening about reaching 4 years of 
 .evo-tab.active { background:#6c5ce7; color:#fff; border-color:#6c5ce7; }
 </style>
 
-<p>Drag the handle to travel through Sniffnet's releases, and switch tabs to follow how each part of the app has evolved.</p>
-
 <div class="evo" id="evo-tabbed">
   <div class="evo-tabs">
     <span class="evo-tabs-label">Page:</span>
@@ -77,33 +103,42 @@ _Placeholder: write the intro here — a warm opening about reaching 4 years of 
   <div class="evo-ticks"></div>
 </div>
 
+You can use the scrubber to see how the app has become more complete and polished over time.
+
 <hr>
 
-<!-- ═══════════════════ MAIN BODY ═══════════════════ -->
-<!-- Write your article below in plain Markdown. Reorder, rename, add, or drop -->
-<!-- any of these sections freely — they're just scaffolding to fill in.       -->
+## The past 12 months
 
-## A look back
+The past year saw the release of a new major version, which among the other things finally brought the long-awaited **process identification** feature.<br>
+Implementing it was quite a challenge, but now I can say it was worth it: version 1.5.0 has
+been the most successful release of the project so far, with more than 100k downloads in the first 2 months after its launch.<br>
 
-_Placeholder: the story of the past year (or the whole 4 years) — key milestones, releases, turning points. Reference the scrubber above to tie the visuals to the narrative._
+In addition to 1.5.0, three minor releases were published to introduce more features like BPF filtering, remote notifications, pausable packet captures, custom IP blacklists support, connections latency measurements, and signed packages for Windows.<br>
 
-## What's new in the latest release
+This year brought the total number of downloads to 530k, with a daily average of 650 downloads, which is considerably higher than the previous year (400 downloads per day).<br>
 
-_Placeholder: highlight the headline features/changes of the newest version (v1.5). Screenshots, before/after, why it matters to users._
+The GitHub repository has also gained 10k new stars, which is lower than the previous year (14k), but still a very good result considering that the project is now more mature and has been around for a while.<br>
+This further growth now places Sniffnet in the top xx% of all GitHub public repositories (xx out of yy): something impressive to even think about.
 
-## By the numbers
+Recently we also met new contributors who helped packaging Sniffnet as AppImage, fixing various bugs, and adding 4 new languages (bringing the total to 26 different translations by native speakers).<br>
 
-_Placeholder: stats worth celebrating — downloads, GitHub stars, commits, contributors, releases. (These mirror the video end card: 500k+ downloads, 40k+ stars, 3k+ commits, 70+ contributors, 18 releases.)_
+Last but not least, the project also has a new domain and custom email addresses as announced in one of the previous blog posts.
 
-## Thank you
-
-_Placeholder: thank contributors, sponsors, translators, and the community. Link the repo, sponsor page, and discussions._
+<hr>
 
 ## What's next
 
-_Placeholder: a look ahead — roadmap, upcoming features, how people can get involved._
+If during the past couple years I found the energies and motivation to keep working on Sniffnet until late at night,
+it was also thanks to the substantial support I received from European Commission's Next Generation Internet program. <br>
+Their support is coming to an end, but I'll still keep maintaining Sniffnet after the funding period, even if not at the pace of the past months:
+in these cases long term consistency beats speed and intensity, keeps away from burning out, and allows to enjoy life as much as development.<br>
 
-<hr>
+The next major release will be version 1.6.0. and will finally make it possible to inspect network traffic from remote machines and routers.<br>
+You can already give a look at sniffnet-agent, a new companion program that will soon allow you to capture traffic from remote devices and send it to Sniffnet for inspection.<br>
+
+The complete set of upcoming features is already defined as you can see from our usual Roadmap.
+
+Until the next blog post, I wish Sniffnet a happy birthday!
 
 <script>
 (function(){
