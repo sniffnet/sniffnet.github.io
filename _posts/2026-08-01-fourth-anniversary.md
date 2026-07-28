@@ -12,9 +12,10 @@ github-discussion: XXX
 as it's tradition, today I'd like to celebrate the project's anniversary with a blog post.<br><br>
 Usually, the anniversary post is somewhat deep, reflective, and personal: the past years I've talked about how being a maintainer changed my life,
 how important is to balance Sniffnet development with a full-time job, and how sustainable open source is crucial to ensure a project's longevity.<br><br>
-I love discussing such topics because they help pulling the curtain back and showing the human that's behind the code, but this year I want to do something slightly different.<br>
+I love discussing such topics because they help pulling the curtain back and showing the human that's behind the code, but this year it'll be slightly different.<br>
 I think that delicate arguments must come out naturally without forcing them, so rather than repeating myself
-with another tear-jerking essay, or letting AI prose fake sentiments in my place, this time I was just genuinely curious to visually see how Sniffnet has evolved over all this time, so here we are.
+with another tear-jerking essay, or letting AI prose fake sentiments in my place,
+this time I was genuinely curious to visually see how Sniffnet has evolved over all this time as a reminder of the journey I've been through.
 
 <hr>
 
@@ -25,22 +26,30 @@ At the time I was a student, I had just followed a Rust course... and I wasn't a
 I don't know why, it's probably that the Rust language hit me differently or that I was getting into the magic world of network programming, but I felt like there was a huge potential in making something way more complete and useful out of this.<br>
 Fact is that on the 20th of October 2022, I wrote this message to the friend I worked with on the first version of Sniffnet CLI:
 
-[pic]
+<div align="center">
+<img width="50%" alt="" src="{{ 'assets/img/post/fourth-anniversary/chat.jpeg' | relative_url }}">
+</div>
 
 Translated from Italian, it just says: "The temptation to make a GUI is strong".<br>
-And well... you know the rest of the story: I started neglecting lectures and sleep (without any apparent consequence) to work on what was becoming my new favorite hobby.<br>
-What you surely don't know though, is that attached to that message there was a short video showing a very early prototype of the graphical interface, which I never shared with the public.
-I didn't know how to make an application window spawn on the screen, and honestly I wasn't even sure one could do that purely in Rust at all.<br>
+And well... you know the rest of the story: I started neglecting lectures and sleep (_without any apparent consequence_) to work on what was becoming my new favorite hobby.<br>
+What you surely don't know though, is that attached to that message there was a short video that I've never shared publicly so far.
+
+<div align="center">
+    <video class="myShadow" controls muted width="100%" height="auto">
+        <source type="video/mp4" src="{{ 'assets/img/post/fourth-anniversary/gui_experiment.mp4' | relative_url }}">
+    </video>
+</div>
+
+The video shows a very early prototype of the graphical interface, which was just a simple counter of the network packets that were being captured.<br>
+I remember very well the excitement I felt when I saw a window appear for the first time: in retrospective it was a small step, but it was a huge leap for me at the time.<br>
+In fact, initially I didn't even know if it was possible to make a graphical interface in Rust at all.
+
 After some research I found out different frameworks that could help me with this, and ultimately I decided to go with Iced.
-Nowadays, Sniffnet is prominently showcased on their website, but back then this is what I was able to make with it:
+I remember very well my first steps with Iced, and I'd have never imagined that 4 years later Sniffnet would be prominently featured on their website landing page as one of the most popular tools built with it.
 
-[vid]
-
-I remember very well my first steps with Iced, which as you can see from the video consisted in a simple counter of the network packets that were being captured.<br>
-Yes, it was very primitive, but it didn't matter: I finally knew it was possible to make a GUI in Rust.
 From there things escalated quickly and just a month later, on the 21st of November, I released the first graphical interface as version 1.0.
 
-After all of this time, I was curious to review the evolution of the interface in a handy way, so I made a simple widget that allows to travel through Sniffnet's main pages and releases.<br>
+After all of this time, I was interested in reviewing the evolution of the interface in a handy way, so I made a simple widget that allows to travel through Sniffnet's main pages and releases.
 
 <style>
 .evo * { box-sizing: border-box; }
@@ -109,20 +118,20 @@ You can use the scrubber to see how the app has become more complete and polishe
 
 ## The past 12 months
 
-The past year saw the release of a new major version, which among the other things finally brought the long-awaited **process identification** feature.<br>
+Shifting to the recent history, the past year saw the release of a new major version, which among the other things finally brought the long-awaited **process identification** feature.<br>
 Implementing it was quite a challenge, but now I can say it was worth it: version 1.5.0 has
 been the most successful release of the project so far, with more than 100k downloads in the first 2 months after its launch.<br>
 
 In addition to 1.5.0, three minor releases were published to introduce more features like BPF filtering, remote notifications, pausable packet captures, custom IP blacklists support, connections latency measurements, and signed packages for Windows.<br>
 
-This year brought the total number of downloads to 530k, with a daily average of 650 downloads, which is considerably higher than the previous year (400 downloads per day).<br>
+This year brought the total number of downloads to 530k, with a daily average of 650 downloads that is considerably higher than the previous year's 400 per day.
 
-The GitHub repository has also gained 10k new stars, which is lower than the previous year (14k), but still a very good result considering that the project is now more mature and has been around for a while.<br>
-This further growth now places Sniffnet in the top xx% of all GitHub public repositories (xx out of yy): something impressive to even think about.
+The GitHub repository has also gained 10k new stars, which is lower than the previous year (14k), but still a very good result considering that the project is more mature and has been around for a while.<br>
+This further growth today places Sniffnet in the top xx% of all GitHub public repositories (xx out of yy): something astonishing to even think about.
 
-Recently we also met new contributors who helped packaging Sniffnet as AppImage, fixing various bugs, and adding 4 new languages (bringing the total to 26 different translations by native speakers).<br>
+Recently we also met new contributors who helped packaging Sniffnet as AppImage, fixed various bugs, and added 4 new languages (bringing the total to 26 different translations by native speakers).<br>
 
-Last but not least, the project also has a new domain and custom email addresses as announced in one of the previous blog posts.
+Last but not least, the project also has a new domain and custom email addresses as announced not long ago.
 
 <hr>
 
@@ -130,13 +139,14 @@ Last but not least, the project also has a new domain and custom email addresses
 
 If during the past couple years I found the energies and motivation to keep working on Sniffnet until late at night,
 it was also thanks to the substantial support I received from European Commission's Next Generation Internet program. <br>
-Their support is coming to an end, but I'll still keep maintaining Sniffnet after the funding period, even if not at the pace of the past months:
-in these cases long term consistency beats speed and intensity, keeps away from burning out, and allows to enjoy life as much as development.<br>
+However, their support is now coming to an end.<br>
+I'll keep maintaining Sniffnet after the funding period, even if probably not at the pace of the past months:
+in these cases long term consistency beats speed and intensity, keeps away from burning out, and allows to enjoy life as much as development.
 
 The next major release will be version 1.6.0. and will finally make it possible to inspect network traffic from remote machines and routers.<br>
-You can already give a look at sniffnet-agent, a new companion program that will soon allow you to capture traffic from remote devices and send it to Sniffnet for inspection.<br>
+You can already give a look at `sniffnet-agent`, a new companion program that will soon allow you to capture traffic from remote devices and send it to Sniffnet for inspection.
 
-The complete set of upcoming features is already defined as you can see from our usual Roadmap.
+The complete set of planned features is already defined and available for consultation in the usual Roadmap.
 
 Until the next blog post, I wish Sniffnet a happy birthday!
 
