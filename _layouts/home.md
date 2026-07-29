@@ -156,5 +156,5 @@ The project is rapidly evolving, with new features rolling out regularly.<br>
 Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>
 
 <div style="width:100%; padding-top:50%; position:relative;">
-    <iframe title="Sniffnet visual roadmap" allow="fullscreen" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
+    <iframe title="Sniffnet visual roadmap" allow="fullscreen" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo?color-mode=dark"></iframe>
 </div>

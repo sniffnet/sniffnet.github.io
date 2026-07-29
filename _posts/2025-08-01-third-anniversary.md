@@ -29,7 +29,7 @@ but was also characterised by a bunch of behind-the-scenes efforts to set up thi
 drop cool <a target="_blank" rel="noopener" href="https://grindhouse.dev/collections/sniffnet">merchandise</a>, and come up with a detailed roadmap that you can find below.
 
 <div style="width:100%; padding-top:50%; position:relative;">
-    <iframe style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
+    <iframe title="Sniffnet visual roadmap" allow="fullscreen" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo?color-mode=dark"></iframe>
 </div>
 
 As you can see, the plan is to keep Sniffnet alive and kicking for a long time, with new features and improvements being added regularly.
