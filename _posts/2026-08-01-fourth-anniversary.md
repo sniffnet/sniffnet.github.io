@@ -130,14 +130,20 @@ been the most successful release of the project so far, with more than 100k down
 
 In addition to 1.5.0, three minor releases were published to introduce more features such as BPF filtering, remote notifications, pausable packet captures, custom IP blacklists support, connections latency measurements, and signed packages for Windows.<br>
 
-This year brought the total number of downloads to 530k, with a daily average of 650 downloads that is considerably higher than the previous year's 400 per day.
+This year brought the total number of downloads to 530k, with a daily average of 657 downloads that is considerably higher than the previous year's 397 per day.
+
+<div align="center">
+<picture>
+  <img alt="Average daily downloads over the years" title="Average daily downloads over the years" style="border-radius: 15px" src="{{ 'assets/img/post/fourth-anniversary/downloads.png' | relative_url }}" width="70%"/>
+</picture>
+</div>
 
 The GitHub repository has also gained 10k new stars, which is lower than the previous year (14k), but still a very good result considering that the project is more mature and has been around for a while.<br>
-This further growth today places Sniffnet in the top xx% of all GitHub public repositories (xx out of yy): something astonishing to even think about.
+This further growth today places Sniffnet in the top 0.0002% of all GitHub public repositories (678th<sup><a target="_blank" rel="noopener" title="Source: top1000repos.com" href="https://top1000repos.com/#GyulyVGC/sniffnet">[↗]</a></sup> out of 395 million<sup><a target="_blank" rel="noopener" title="Source: GitHub Octoverse 2025" href="https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/">[↗]</a></sup>): something astonishing to even think about.
 
 Recently we also met new contributors who helped packaging Sniffnet as AppImage, fixed various bugs, and added 4 new languages (bringing the total to 26 different translations by native speakers).<br>
 
-Last but not least, the project also has a new domain and custom email addresses as announced not long ago.
+Last but not least, the project also has a new domain and custom email addresses as <a href="{{ 'news/new-domain' | relative_url }}">announced</a> not long ago.
 
 <hr>
 
@@ -150,12 +156,16 @@ Unfortunately nothing lasts forever, and their support is now coming to an end.
 I'll keep maintaining Sniffnet after the funding period, even if probably not at the pace of the past months:
 in these cases _long term consistency_ beats speed and intensity, keeps away from burning out, and allows to enjoy life as much as development.
 
-The next major release will be version 1.6.0. and will finally make it possible to inspect network traffic from remote machines and routers.<br>
-You can already give a look at `sniffnet-agent`, a new companion program that will soon allow you to capture traffic from remote devices and send it to Sniffnet for inspection.
+The next major release will be version 1.6.0. and will finally make it possible to inspect network traffic from remote machines, firewalls, and routers.<br>
+You can already give a look at <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet-agent"><code>sniffnet-agent</code></a>,
+a new companion program that will soon allow you to capture traffic from headless devices and send it to Sniffnet for inspection.
 
-[pic]
+<div align="center">
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet-agent"><img width="100%" alt="" title="sniffnet-agent" src="{{ 'assets/img/post/fourth-anniversary/sniffnet-agent.png' | relative_url }}"></a>
+</div>
 
-The complete set of planned features is already defined and available for consultation in the usual Roadmap.
+Other exciting features are already in the pipeline, so make sure to
+check the complete set of planned items in the usual <a target="_blank" rel="noopener" href="https://whimsical.com/Damodrdfx22V9jGnpHSCGo">Roadmap</a>.
 
 Until the next blog post, I wish Sniffnet a happy birthday!
 
