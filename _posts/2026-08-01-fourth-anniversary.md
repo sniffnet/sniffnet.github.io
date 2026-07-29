@@ -135,11 +135,15 @@ and signed installers for Windows (shoutout to <a target="_blank" rel="noopener"
 This year brought the total number of downloads to 530k, with a daily average of 657 downloads that is considerably higher than the previous year's 397 per day.
 
 <div align="center">
-<img alt="Average daily downloads over the years" title="Average daily downloads over the years" style="border-radius: 15px" src="{{ 'assets/img/post/fourth-anniversary/downloads.png' | relative_url }}" width="70%"/>
+<img alt="Downloads over the years" title="Downloads over the years" style="border-radius: 15px" src="{{ 'assets/img/post/fourth-anniversary/downloads.png' | relative_url }}" width="70%"/>
 </div>
 
 The GitHub repository has also gained 10k new stars, fewer than last year's 14k, but still a very good result considering that the project is more mature and has been around for a while.<br>
 This growth places Sniffnet in the top 0.0002% of all GitHub public repositories (678th<sup><a target="_blank" rel="noopener" title="Source: top1000repos.com" href="https://top1000repos.com/#GyulyVGC/sniffnet">[↗]</a></sup> out of 395 million<sup><a target="_blank" rel="noopener" title="Source: GitHub Octoverse 2025" href="https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/">[↗]</a></sup>): something astonishing to even think about.
+
+<div align="center">
+<img alt="GitHub Stars over the years" title="GitHub Stars over the years" style="border-radius: 15px" src="{{ 'assets/img/post/fourth-anniversary/stars.png' | relative_url }}" width="70%"/>
+</div>
 
 Along the way I met new contributors who helped package Sniffnet as an AppImage, fixed various bugs, and added four new languages (bringing the total to 26 different translations by native speakers).
 
