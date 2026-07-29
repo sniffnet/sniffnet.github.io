@@ -1,6 +1,6 @@
 {
     "ignoredFiles": [
-        "*nocompress.svg",
+        "*.svg",
     ],
     "minKBReduced": 0,
 }
