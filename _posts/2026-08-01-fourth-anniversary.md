@@ -40,7 +40,8 @@ Attached to that message there was a short video showing a very early prototype 
 It was the first time I saw a window with Sniffnet's name on it, and I'm only sharing the video publicly today.
 
 <div align="center">
-    <video class="myShadow" controls muted width="100%" height="auto">
+    <video class="myShadow" controls muted preload="none" width="100%" height="auto"
+           poster="{{ 'assets/img/post/fourth-anniversary/gui_experiment_poster.jpg' | relative_url }}">
         <source type="video/mp4" src="{{ 'assets/img/post/fourth-anniversary/gui_experiment.mp4' | relative_url }}">
     </video>
 </div>
