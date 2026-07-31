@@ -5,7 +5,7 @@ share-title: "4 years of Sniffnet: the temptation that made it possible"
 nav-title: News
 thumbnail-img: /assets/img/post/fourth-anniversary/cover.png
 tags: [anniversary]
-github-discussion: XXX
+github-discussion: 1262
 ---
 
 **4 years ago** on this day, I made the very first commit to the Sniffnet GitHub repository and,
@@ -147,7 +147,7 @@ This growth places Sniffnet in the top 0.0002% of all GitHub public repositories
 
 Along the way I met new contributors who helped package Sniffnet as an AppImage, fixed various bugs, and added four new languages (bringing the total to 26 different translations by native speakers).
 
-Lately I've also had the pleasure of being contacted by <a target="_blank" rel="noopener" href="https://www.recall.ai">recall.ai</a> and <a target="_blank" rel="noopener" href="https://www.coderabbit.ai">CodeRabbit</a>, two companies that started sponsoring Sniffnet with a recurring monthly donation.
+Lately I've also had the pleasure of being contacted by <a target="_blank" rel="noopener" href="https://www.recall.ai/?ashby_jid=7b02811e-bc91-4ef2-925d-f56a5acac13b&utm_source=github&utm_medium=sponsorship&utm_campaign=sniffnet">recall.ai</a> and <a target="_blank" rel="noopener" href="https://www.coderabbit.ai">CodeRabbit</a>, two companies that started sponsoring Sniffnet with a recurring monthly donation.
 
 Last but not least, the project also has a new domain and custom email addresses, as <a href="{{ 'news/new-domain' | relative_url }}">announced</a> not long ago.
 
