@@ -5,7 +5,7 @@ share-title: "4 years of Sniffnet: the temptation that made it possible"
 nav-title: News
 thumbnail-img: /assets/img/post/fourth-anniversary/cover.png
 tags: [anniversary]
-github-discussion: 1262
+github-discussion: 1263
 ---
 
 **4 years ago** on this day, I made the very first commit to the Sniffnet GitHub repository and,
