@@ -709,6 +709,26 @@ table tr td :last-child {
   border-right: none;
 }
 
+.blog-post table {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  border-collapse: collapse;
+}
+.blog-post table th {
+  color: {{ site.link-col }};
+  background-color: {{ site.navbar-col }};
+  text-align: left;
+  padding: 0.8125rem;
+  border: 1px solid #129ac3;
+}
+.blog-post table td {
+  vertical-align: top;
+  border: 1px solid #129ac3;
+}
+.blog-post table tbody tr:nth-child(even) td {
+  background-color: rgba(1, 198, 255, 0.05);
+}
+
 /* --- Code blocks --- */
 
 pre code {
