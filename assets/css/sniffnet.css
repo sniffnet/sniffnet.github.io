@@ -478,12 +478,13 @@ footer {
 
 footer a {
   color: {{ site.footer-link-col }};
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-/* icon links (socials, contact, RSS) keep no underline */
-footer a:has(img) {
-  text-decoration: none;
+/* only textual links are underlined (icon links are not) */
+footer .footer-nav a,
+footer a.text-link {
+  text-decoration: underline;
 }
 
 footer a:hover,
