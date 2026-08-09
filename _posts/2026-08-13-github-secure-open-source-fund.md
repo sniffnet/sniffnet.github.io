@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Sniffnet security levels up with the GitHub Secure Open Source Fund"
-share-title: "Sniffnet security levels up with the GitHub Secure Open Source Fund"
+title: "What I learned securing Sniffnet with the GitHub Secure Open Source Fund"
+share-title: "What I learned securing Sniffnet with the GitHub Secure Open Source Fund"
 nav-title: News
 thumbnail-img: /assets/img/post/github-secure-open-source-fund/cover.png
 tags: [security]
@@ -9,7 +9,12 @@ github-discussion: TODO
 ---
 
 I've always built Sniffnet with a security-first mindset, and today I'm thrilled to announce a major milestone
-faithfully aligned with that philosophy: Sniffnet recently took part in the <a target="_blank" rel="noopener" href="https://github.com/open-source/github-secure-open-source-fund">GitHub Secure Open Source Fund</a>!<br><br>
+faithfully aligned with that philosophy: Sniffnet recently took part in the <a target="_blank" rel="noopener" href="https://github.com/open-source/github-secure-open-source-fund">GitHub Secure Open Source Fund</a>!
+<div align="center">
+    <a target="_blank" rel="noopener" href="https://github.com/open-source/github-secure-open-source-fund">
+        <img width="70%" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" style="border-radius: 15px" src="{{ 'assets/img/post/github-secure-open-source-fund/cover.png' | relative_url }}">
+    </a>
+</div>
 Backed by industry giants like Microsoft, Stripe, 1Password, and Shopify,
 it's a dedicated initiative focused on improving the security and sustainability of critical open-source software.<br><br>
 In this blog post, I'll share how the program made Sniffnet more secure, and walk you through the steps you can follow to do the same.<br><br>
@@ -26,15 +31,11 @@ It consists of an immersive 3-week sprint that provides each onboarded project w
 understand that security is a baseline requirement, not a nice-to-have.<br>
 The sprint is curated by the <a target="_blank" rel="noopener" href="https://securitylab.github.com">GitHub Security Lab</a> and delivered by a team of security experts.
 
-<div align="center">
-    <a target="_blank" rel="noopener" href="https://github.com/open-source/github-secure-open-source-fund">
-        <img width="90%" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" style="border-radius: 15px" src="{{ 'assets/img/post/github-secure-open-source-fund/cover.png' | relative_url }}">
-    </a>
-</div>
-
 Sniffnet and other TODO projects joined the fourth session of the program this past April,
 and selected participants were asked not to share the news until today's <a target="_blank" rel="noopener" href="TODO-OFFICIAL-ANNOUNCEMENT-URL">official announcement</a>,
 to avoid any potential exposure and to focus on securing our codebases.
+
+[pic: TODO]
 
 The best part?<br>
 The program isn't only about learning and theory: it's designed as a series of practical steps
@@ -62,7 +63,7 @@ rather than downgrading it to a mere reactive countermeasure.
 
 [pic: TODO]
 
-With that in mind, I feel a responsibility to amplify security awareness by sharing the knowledge and best practices I learned,
+I feel a responsibility to amplify security awareness by sharing the knowledge and best practices I learned,
 so that other developers can take inspiration and apply similar measures in their own projects.
 
 <hr>
@@ -125,7 +126,7 @@ You already know the answer to this question, and it's... \*_drum roll_\*... **N
 Security is a bit like life: you can give it one hundred percent and do everything right,
 but something can still go sideways.<br>
 In a world where Murphy's law reigns supreme (_"anything that can go wrong will go wrong"_),
-what we can do is be prepared for it, and I must thank the cybersecurity courses
+what we can do is **be prepared for it**, and I must thank the cybersecurity courses
 I took at university and the GitHub Secure Open Source Fund for instilling this kind of mentality in me.
 
 And don't forget we're in the era of LLM-generated code,
