@@ -478,6 +478,13 @@ footer {
 
 footer a {
   color: {{ site.footer-link-col }};
+  text-decoration: none;
+}
+
+/* only textual links are underlined (icon links are not) */
+footer .footer-nav a,
+footer a.text-link {
+  text-decoration: underline;
 }
 
 footer a:hover,
@@ -523,6 +530,32 @@ footer .copyright {
 
   footer .list-inline-right {
     float: right;
+  }
+}
+
+footer .footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer-nav > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  footer .footer-nav > li:not(:last-child):after {
+    content: "\2022";
+    color: #888888;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer .footer-nav > li {
+    display: block;
+    margin: 4px 0;
   }
 }
 
