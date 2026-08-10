@@ -82,7 +82,7 @@ layout: page
 Sniffnet is a <b>network monitoring app</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
 The app is fully free and open-source, easy to use, and available for all major operating systems.<br/><br/>
-It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<sup>[<a href="{{ 'news/github-accelerator' | relative_url }}" title="GitHub Accelerator" aria-label="GitHub Accelerator">1</a>][<a href="{{ 'news/ngi-program' | relative_url }}" title="Next Generation Internet" aria-label="Next Generation Internet">2</a>][<a href="{{ 'news/github-secure-open-source-fund' | relative_url }}" title="GitHub Secure Open Source Fund" aria-label="GitHub Secure Open Source Fund">3</a>]</sup>
+It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<sup>[<a href="{{ 'news/github-accelerator' | relative_url }}" title="GitHub Accelerator" aria-label="GitHub Accelerator">1</a>] [<a href="{{ 'news/ngi-program' | relative_url }}" title="Next Generation Internet" aria-label="Next Generation Internet">2</a>] [<a href="{{ 'news/github-secure-open-source-fund' | relative_url }}" title="GitHub Secure Open Source Fund" aria-label="GitHub Secure Open Source Fund">3</a>]</sup>
   
 <hr/>
 
