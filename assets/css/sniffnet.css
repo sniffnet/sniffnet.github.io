@@ -719,10 +719,12 @@ table tr td :last-child {
   text-align: center;
   padding: 0.8125rem;
   border: 1px solid #888888;
+  color: #999999;
 }
 .blog-post table td {
   text-align: center;
   vertical-align: middle;
+  font-size: 1rem;
   border: 1px solid #888888;
   background-color: #08102044;
 }
