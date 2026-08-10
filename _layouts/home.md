@@ -79,15 +79,17 @@ layout: page
 <hr/>
 
 <h2 class="myHeading"> What is Sniffnet? </h2>
-Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
-Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you are exchanging data with</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
+Sniffnet is a <b>network monitoring app</b> to help you easily keep track of your Internet traffic.<br/><br/>
+Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
+The app is fully free and open-source, easy to use, and available for all major operating systems.<br/><br/>
+It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<sup>[<a href="{{ 'news/github-accelerator' | relative_url }}" title="GitHub Accelerator" aria-label="GitHub Accelerator">1</a>][<a href="{{ 'news/ngi-program' | relative_url }}" title="Next Generation Internet" aria-label="Next Generation Internet">2</a>][<a href="{{ 'news/github-secure-open-source-fund' | relative_url }}" title="GitHub Secure Open Source Fund" aria-label="GitHub Secure Open Source Fund">3</a>]</sup>
   
 <hr/>
 
 <h2 class="myHeading"> What makes Sniffnet unique? </h2>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a technical tool, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be usable with ease by everyone.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -96,7 +98,7 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 
 <div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
-Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' <b>data privacy</b> and <b>system integrity</b>, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
+Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' data privacy and system integrity, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -129,14 +131,14 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
   <li>🚫 import custom <b>IP blacklists</b> to highlight potentially dangerous connections</li>
   <li>🎨 choose the <b>style</b> that fits you the most, including custom themes support</li>
-<li><b>... and more!</b>
+<li>... and more!</li>
 </ul>
 
 <hr/>
 
 <h2 class="myHeading"> User manual </h2>
 Do you want to learn more? <br>
-Check out the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
+Check out the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">Sniffnet Wiki</a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
@@ -150,7 +152,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <h2 class="myHeading"> Stay in the loop </h2>
 Wait... there's more!<br>
-A lot is happening behind the scenes: follow the <a href="{{ 'news' | relative_url }}"><b>news</b></a> to never miss an update.<br><br>
+A lot is happening behind the scenes: follow the <a href="{{ 'news' | relative_url }}">news</a> to never miss an update.<br><br>
 
 The project is rapidly evolving, with new features rolling out regularly.<br>
 Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>
