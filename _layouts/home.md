@@ -82,18 +82,18 @@ layout: page
 Sniffnet is a <b>network monitoring app</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
 The app is fully free and open-source, easy to use, and available for all major operating systems.<br/><br/>
-It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<sup>[<a href="{{ 'news/github-accelerator' | relative_url }}" title="GitHub Accelerator" aria-label="GitHub Accelerator">1</a>] [<a href="{{ 'news/ngi-program' | relative_url }}" title="Next Generation Internet" aria-label="Next Generation Internet">2</a>] [<a href="{{ 'news/github-secure-open-source-fund' | relative_url }}" title="GitHub Secure Open Source Fund" aria-label="GitHub Secure Open Source Fund">3</a>]</sup>
+It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<a href="{{ 'news/github-accelerator' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Accelerator" alt="GitHub Accelerator" src="{{ 'assets/img/programs-badges/gh-accelerator-badge.svg' | relative_url }}"/></a><a href="{{ 'news/ngi-program' | relative_url }}"><img class="program-badge hoverExpand" title="Next Generation Internet" alt="Next Generation Internet" src="{{ 'assets/img/programs-badges/ngi-badge.svg' | relative_url }}"/></a><a href="{{ 'news/github-secure-open-source-fund' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" src="{{ 'assets/img/programs-badges/gh-secure-badge.png' | relative_url }}"/></a>
   
 <hr/>
 
 <h2 class="myHeading"> What makes Sniffnet unique? </h2>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a technical tool, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be usable with ease by everyone.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a technical tool, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are difficult to understand, while one of Sniffnet's cornerstones is to be usable with ease by everyone.
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">26 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many people as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">26 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div class="hoverRotateChildImg">

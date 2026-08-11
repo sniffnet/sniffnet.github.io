@@ -1086,6 +1086,19 @@ pre {
   margin-top: 2px;
 }
 
+/* HOMEPAGE PROGRAM BADGES */
+
+.program-badge {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.2em;
+  vertical-align: middle;
+  object-fit: cover;
+  border: 2px solid {{ site.navbar-col }};
+  border-radius: 50%;
+}
+
 /* NEWS POST CARDS */
 
 .news-cards {
