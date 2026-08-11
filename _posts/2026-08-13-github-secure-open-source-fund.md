@@ -61,7 +61,9 @@ even worse, only considered in a moment of panic after a vulnerability is discov
 A shift in mentality is therefore needed to proactively design and plan security,
 rather than downgrading it to a mere reactive countermeasure.
 
-[pic: TODO]
+<div align="center">
+    <img width="80%" title="Sniffnet's quote from the program" alt="Sniffnet's quote from the program" style="border-radius: 15px" src="{{ 'assets/img/post/github-secure-open-source-fund/quote.png' | relative_url }}">
+</div>
 
 I feel a responsibility to amplify security awareness by sharing the knowledge and best practices I learned,
 so that other developers can take inspiration and apply similar measures in their own projects.

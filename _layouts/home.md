@@ -131,7 +131,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
   <li>🚫 import custom <b>IP blacklists</b> to highlight potentially dangerous connections</li>
   <li>🎨 choose the <b>style</b> that fits you the most, including custom themes support</li>
-<li>... and more!</li>
+  <li>...and more!</li>
 </ul>
 
 <hr/>
