@@ -47,7 +47,7 @@ that have to be taken to satisfy outcome-driven goals and verified security requ
 
 As mentioned in the introduction, I've always cared about securing Sniffnet:
 this website's homepage states that _"one of the top priorities is to protect data privacy and system integrity"_,
-and not long ago the project underwent an independent <a href="{{ 'news/security-audit' | relative_url }}">security audit</a>.
+and not long ago the project underwent an independent <a href="{{ '/news/security-audit/' | relative_url }}">security audit</a>.
 
 And... can you guess the specialization of my Computer Science Master's degree?<br>
 Cybersecurity, of course!

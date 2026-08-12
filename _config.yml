@@ -6,10 +6,10 @@ author: Giuliano Bellini
 
 # List of tabs in the navigation bar
 navbar-links:
-  News: "news"
-  Download: "download"
-  Gallery: "gallery"
-  Sponsor: "sponsor"
+  News: "/news/"
+  Download: "/download/"
+  Gallery: "/gallery/"
+  Sponsor: "/sponsor/"
 
 # Logo
 avatar: "/favicon.svg"

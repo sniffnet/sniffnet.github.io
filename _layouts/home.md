@@ -11,7 +11,7 @@ layout: page
       "applicationCategory": "NetworkingApplication",
       "operatingSystem": "Windows, macOS, Linux",
       "url": {{ '/' | absolute_url | jsonify }},
-      "downloadUrl": {{ '/download' | absolute_url | jsonify }},
+      "downloadUrl": {{ '/download/' | absolute_url | jsonify }},
       "softwareHelp": "https://github.com/GyulyVGC/sniffnet/wiki",
       "description": {{ page.share-description | jsonify }},
       "image": {{ '/assets/img/overview_page.png' | absolute_url | jsonify }},
@@ -38,7 +38,7 @@ layout: page
 </script>
 
 <div align="center">
-  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/badges/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
+  <a title="Download" href="{{ '/download/' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/badges/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
   <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="{{ 'assets/img/badges/stars_badge.svg' | relative_url }}"/></a>
 </div><br/>
 
@@ -82,7 +82,7 @@ layout: page
 Sniffnet is a <b>network monitoring app</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
 The app is fully free and open-source, easy to use, and available for all major operating systems.<br/><br/>
-It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<a href="{{ 'news/github-accelerator' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Accelerator" alt="GitHub Accelerator" src="{{ 'assets/img/programs-badges/gh-accelerator-badge.svg' | relative_url }}"/></a><a href="{{ 'news/ngi-program' | relative_url }}"><img class="program-badge hoverExpand" title="Next Generation Internet" alt="Next Generation Internet" src="{{ 'assets/img/programs-badges/ngi-badge.svg' | relative_url }}"/></a><a href="{{ 'news/github-secure-open-source-fund' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" src="{{ 'assets/img/programs-badges/gh-secure-badge.png' | relative_url }}"/></a>
+It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.<a href="{{ '/news/github-accelerator/' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Accelerator" alt="GitHub Accelerator" src="{{ 'assets/img/programs-badges/gh-accelerator-badge.svg' | relative_url }}"/></a><a href="{{ '/news/ngi-program/' | relative_url }}"><img class="program-badge hoverExpand" title="Next Generation Internet" alt="Next Generation Internet" src="{{ 'assets/img/programs-badges/ngi-badge.svg' | relative_url }}"/></a><a href="{{ '/news/github-secure-open-source-fund/' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" src="{{ 'assets/img/programs-badges/gh-secure-badge.png' | relative_url }}"/></a>
   
 <hr/>
 
@@ -98,7 +98,7 @@ It is trusted by thousands of users worldwide, and backed by prestigious interna
 
 <div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
-Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' data privacy and system integrity, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
+Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' data privacy and system integrity, as demonstrated by <a href="{{ '/news/security-audit/' | relative_url }}">security audits</a> assessing the application safety.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -152,7 +152,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <h2 class="myHeading"> Stay in the loop </h2>
 Wait... there's more!<br>
-A lot is happening behind the scenes: follow the <a href="{{ 'news' | relative_url }}">news</a> to never miss an update.<br><br>
+A lot is happening behind the scenes: follow the <a href="{{ '/news/' | relative_url }}">news</a> to never miss an update.<br><br>
 
 The project is rapidly evolving, with new features rolling out regularly.<br>
 Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>

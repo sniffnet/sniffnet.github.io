@@ -12,7 +12,7 @@
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
         <li class="nav-item">
-          <a class="nav-link {% if link[0] == page.nav-title %}active-now{% endif %} {% if link[1] == 'sponsor' %}sponsor{% endif %}" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+          <a class="nav-link {% if link[0] == page.nav-title %}active-now{% endif %} {% if link[1] == '/sponsor/' %}sponsor{% endif %}" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
         </li>
       {%- endfor -%}
       {% if site.post_search %}

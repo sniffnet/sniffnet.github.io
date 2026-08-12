@@ -9,7 +9,7 @@ github-discussion: 1202
 ---
 
 Here we go with a brand refresh for Sniffnet!<br><br>
-Back in June 2023, <a href="{{ 'news/website' | relative_url }}">this website was first published</a> under the domain name <code>sniffnet.net</code>. <br>
+Back in June 2023, <a href="{{ '/news/website/' | relative_url }}">this website was first published</a> under the domain name <code>sniffnet.net</code>. <br>
 The domain was chosen in a hurry, and as time passed I grew more and more dissatisfied with it,
 especially because of the <i>"net"</i> repeating in the app name and TLD.<br><br>
 Additionally, I originally acquired the domain without enabling the mail service, which made it impossible to have official emails for the project. <br>

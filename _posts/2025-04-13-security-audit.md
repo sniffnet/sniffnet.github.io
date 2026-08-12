@@ -29,7 +29,7 @@ the world’s first not-for-profit computer security consultancy company.<br>
     </a>
 </div>
 
-The audit, offered as part of the <a href="{{ 'news/ngi-program' | relative_url }}">Next Generation Internet program</a>, was conducted by a seasoned penetration tester in **different phases**:
+The audit, offered as part of the <a href="{{ '/news/ngi-program/' | relative_url }}">Next Generation Internet program</a>, was conducted by a seasoned penetration tester in **different phases**:
 - Static analysis and dependency checking
 - Code analysis and fuzzing
 - Dynamic analysis on most of the supported platforms (Windows, Linux, macOS, FreeBSD)

@@ -90,7 +90,7 @@ However, getting paid for the work we carry out is a much more solid way to make
 
 Monetary support from end-users is typically narrow in open source, so part of our efforts is directed towards looking for alternative funding sources.<br>
 In the past year, I was lucky enough to be able to work on Sniffnet while also being employed full-time.<br>
-This was made possible not only by my intrinsic motivation but also by the <a href="{{ 'news/ngi-program' | relative_url }}">financial support received</a> from the European Union's <a target="_blank" rel="noopener" href="https://ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next Generation Internet</a> program,
+This was made possible not only by my intrinsic motivation but also by the <a href="{{ '/news/ngi-program/' | relative_url }}">financial support received</a> from the European Union's <a target="_blank" rel="noopener" href="https://ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next Generation Internet</a> program,
 which allocated 21.6 million euros to support hundreds of projects just like Sniffnet.
 
 Having this kind of support should be the norm for widespread and impactful open source projects,

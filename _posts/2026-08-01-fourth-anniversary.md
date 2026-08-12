@@ -21,7 +21,7 @@ this time I'd like to take a more lighthearted route, sharing some fun facts and
 
 ### <i>"The temptation to make a GUI is strong"</i>
 
-As many of you know, Sniffnet was <a href="{{ 'news/announcing-sniffnet' | relative_url }}">originally</a>
+As many of you know, Sniffnet was <a href="{{ '/news/announcing-sniffnet/' | relative_url }}">originally</a>
 a simple program that could only run from the command line to collect network traffic and print some rudimentary statistics.
 
 At the time I was a student, and I had just taken a Rust course.<br>
@@ -125,11 +125,11 @@ You can use the scrubber to see how the app has become more complete and polishe
 
 Let's now shift to recent history.
 
-The past year saw the release of a <a href="{{ 'news/v1.5' | relative_url }}">new major version</a>, which finally brought the long-awaited process identification feature.<br>
-Implementing it was quite a <a href="{{ 'news/process-identification' | relative_url }}">challenge</a>, but I can say it was worth it: version 1.5.0 has
+The past year saw the release of a <a href="{{ '/news/v1.5/' | relative_url }}">new major version</a>, which finally brought the long-awaited process identification feature.<br>
+Implementing it was quite a <a href="{{ '/news/process-identification/' | relative_url }}">challenge</a>, but I can say it was worth it: version 1.5.0 has
 been the most successful release of the project so far, with more than 100k downloads in the first two months after its launch.
 
-In addition to 1.5.0, three minor releases were published to introduce more features such as <a href="{{ 'news/remote-notifications' | relative_url }}">remote notifications</a>,
+In addition to 1.5.0, three minor releases were published to introduce more features such as <a href="{{ '/news/remote-notifications/' | relative_url }}">remote notifications</a>,
 BPF filtering, pausable packet captures, custom IP blacklist support, connection latency measurements,
 and signed installers for Windows (shoutout to <a target="_blank" rel="noopener" href="https://signpath.org">SignPath</a> for providing free code signing to Sniffnet).
 
@@ -150,14 +150,14 @@ Along the way I met new contributors who helped package Sniffnet as an AppImage,
 
 Lately I've also had the pleasure of being contacted by <a target="_blank" rel="noopener" href="https://www.recall.ai/?ashby_jid=7b02811e-bc91-4ef2-925d-f56a5acac13b&utm_source=github&utm_medium=sponsorship&utm_campaign=sniffnet">recall.ai</a> and <a target="_blank" rel="noopener" href="https://www.coderabbit.ai">CodeRabbit</a>, two companies that started sponsoring Sniffnet with a recurring monthly donation.
 
-Last but not least, the project also has a new domain and custom email addresses, as <a href="{{ 'news/new-domain' | relative_url }}">announced</a> not long ago.
+Last but not least, the project also has a new domain and custom email addresses, as <a href="{{ '/news/new-domain/' | relative_url }}">announced</a> not long ago.
 
 <hr>
 
 ### What's next
 
 If during the past couple of years I found the energy and motivation to keep working on Sniffnet until late at night,
-it was largely thanks to the substantial support I received from the European Commission's <a href="{{ 'news/ngi-program' | relative_url }}">Next Generation Internet</a> program.<br>
+it was largely thanks to the substantial support I received from the European Commission's <a href="{{ '/news/ngi-program/' | relative_url }}">Next Generation Internet</a> program.<br>
 Unfortunately, nothing lasts forever, and their funding is now coming to an end.
 
 I'll keep maintaining Sniffnet after the funding period, albeit probably not at the pace of the past months:

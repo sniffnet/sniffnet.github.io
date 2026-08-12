@@ -54,7 +54,7 @@ layout: base
         <div class="blog-tags">
           <i class="fas fa-tag" aria-hidden="true" style="color: #808080;"></i>
           {% for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
+            <a href="{{ '/tags/' | relative_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
           {% endfor %}
         </div>
       {% endif %}
