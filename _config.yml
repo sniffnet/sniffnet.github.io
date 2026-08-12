@@ -18,7 +18,7 @@ avatar: "/favicon.svg"
 #title-img: /path/to/image
 
 # RSS feed description
-rss-description: "Sniffnet: comfortably monitor your Internet traffic"
+rss-description: "Sniffnet: comfortably monitor your network traffic"
 
 ###########################
 # --- General options --- #
