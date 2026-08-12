@@ -2,6 +2,7 @@
 layout: post
 title: "When rethinking a codebase is better than a workaround"
 share-title: "When rethinking a codebase is better than a workaround"
+share-description: "A technical look at why rethinking Sniffnet's rendering framework beat patching around it, and what the rewrite cost and returned."
 nav-title: News
 thumbnail-img: /assets/img/post/rethink-over-workaround/cover.png
 tags: [development]

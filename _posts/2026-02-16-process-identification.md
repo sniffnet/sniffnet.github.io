@@ -2,6 +2,7 @@
 layout: post
 title: "One of the most annoying programming challenges I've ever faced"
 share-title: "One of the most annoying programming challenges I've ever faced"
+share-description: "How Sniffnet works out which process owns each network connection on Windows, macOS and Linux — the most requested feature, and the hardest to build."
 nav-title: News
 thumbnail-img: /assets/img/post/process-identification/cover.jpeg
 tags: [development]

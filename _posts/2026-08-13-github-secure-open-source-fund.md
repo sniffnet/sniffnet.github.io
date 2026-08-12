@@ -2,6 +2,7 @@
 layout: post
 title: "What I learned securing Sniffnet with the GitHub Secure Open Source Fund"
 share-title: "What I learned securing Sniffnet with the GitHub Secure Open Source Fund"
+share-description: "Sniffnet took part in the GitHub Secure Open Source Fund. What the three-week sprint changed, and the steps any maintainer can follow to do the same."
 nav-title: News
 thumbnail-img: /assets/img/post/github-secure-open-source-fund/cover.png
 tags: [security]

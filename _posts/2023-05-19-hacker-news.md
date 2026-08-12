@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet made it to Hacker News front page!
 share-title: Sniffnet made it to Hacker News front page!
+share-description: "Sniffnet hit the Hacker News front page and passed Wireshark's GitHub star count on the same day."
 nav-title: News
 thumbnail-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]

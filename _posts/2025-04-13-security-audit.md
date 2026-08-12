@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet recently got a complete security audit
 share-title: Sniffnet recently got a complete security audit
+share-description: "Sniffnet underwent a complete independent security audit. How the review was carried out, and what it means for the safety of the application."
 nav-title: News
 thumbnail-img: /assets/img/post/security-audit/cover.png
 tags: [security]

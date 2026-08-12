@@ -2,6 +2,7 @@
 layout: post
 title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
 share-title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
+share-description: "Two years of Sniffnet: balancing an open-source project with a full-time job, and what changes when you can no longer give it twelve hours a day."
 nav-title: News
 thumbnail-img: /assets/img/post/second-anniversary/cover.png
 tags: [anniversary]

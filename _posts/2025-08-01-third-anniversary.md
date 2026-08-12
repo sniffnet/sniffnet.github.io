@@ -2,6 +2,7 @@
 layout: post
 title: "Towards sustainable open source — Sniffnet's 3rd anniversary"
 share-title: "Towards sustainable open source — Sniffnet's 3rd anniversary"
+share-description: "Three years of Sniffnet: reflections on planning, and on why sustainable funding decides whether an open-source project survives."
 nav-title: News
 thumbnail-img: /assets/img/post/third-anniversary/cover.png
 tags: [anniversary]

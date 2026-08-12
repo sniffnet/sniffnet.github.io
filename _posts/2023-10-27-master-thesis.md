@@ -2,6 +2,7 @@
 layout: post
 title: I concluded a Master's degree defending a thesis about Sniffnet
 share-title: I concluded a Master's degree defending a thesis about Sniffnet
+share-description: "From discovering Rust in a university course to defending a Master's thesis about Sniffnet, by way of 10k GitHub stars and the GitHub Accelerator."
 nav-title: News
 thumbnail-img: /assets/img/post/master-thesis/cover.png
 tags: [event]

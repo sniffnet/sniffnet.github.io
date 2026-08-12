@@ -124,7 +124,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li>🌍 discover the <b>geographical location</b> of remote hosts</li>
   <li>🌐 find out <b>domain name</b> and <b>ASN</b> of the hosts you are exchanging traffic with</li>
   <li>📖 identify <b>6000+ upper layer services</b>, protocols, trojans, and worms</li>
-  <li>🎮 see which <b>programs</b> are generating network traffic</li>
+  <li>🎮 see which <b>programs</b> are generating network bandwidth</li>
   <li>⭐ save your <b>favorite</b> network hosts, services, and programs</li>
   <li>📌 keep an eye on your network even when the application is <b>minimized</b></li>
   <li>🔎️ search and <b>inspect</b> each of your network connections in real time</li>

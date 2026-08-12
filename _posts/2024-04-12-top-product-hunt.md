@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
 share-title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
+share-description: "Sniffnet v1.3 launched on Product Hunt and landed among the day's top products, days after the release went out."
 nav-title: News
 thumbnail-img: /assets/img/post/top-product-hunt/cover.png
 tags: [trending]

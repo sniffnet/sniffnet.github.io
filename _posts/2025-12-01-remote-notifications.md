@@ -2,6 +2,7 @@
 layout: post
 title: "Sniffnet webhook notifications to monitor remote network activity"
 share-title: "Sniffnet webhook notifications to monitor remote network activity"
+share-description: "Forward Sniffnet notifications via webhook to keep an eye on a computer's network activity remotely — from another machine, your phone, or a server."
 nav-title: News
 thumbnail-img: /assets/img/post/remote-notifications/cover.png
 tags: [tutorial]

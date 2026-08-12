@@ -2,6 +2,7 @@
 layout: post
 title: "4 years of Sniffnet: the temptation that made it possible"
 share-title: "4 years of Sniffnet: the temptation that made it possible"
+share-description: "Four years of Sniffnet: the temptation that made the project possible, and an honest look back at what sustained it."
 nav-title: News
 thumbnail-img: /assets/img/post/fourth-anniversary/cover.png
 tags: [anniversary]

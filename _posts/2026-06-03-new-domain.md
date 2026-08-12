@@ -2,6 +2,7 @@
 layout: post
 title: "New domain name and official emails for Sniffnet"
 share-title: "New domain name and official emails for Sniffnet"
+share-description: "Sniffnet moved from sniffnet.net to sniffnet.app and gained official email addresses — why the domain changed and how the migration was handled."
 nav-title: News
 thumbnail-img: /assets/img/post/new-domain/cover.png
 tags: [branding]

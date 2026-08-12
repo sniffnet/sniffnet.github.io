@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub official Twitter account just posted about Sniffnet: if it’s a dream don’t wake me up"
 share-title: "GitHub official Twitter account just posted about Sniffnet: if it’s a dream don’t wake me up"
+share-description: "GitHub's official account tweeted about Sniffnet. Reflections on the reach of open source, and what unexpected recognition does for a solo maintainer."
 nav-title: News
 thumbnail-img: /assets/img/post/github-tweet/cover.png
 tags: [trending]
