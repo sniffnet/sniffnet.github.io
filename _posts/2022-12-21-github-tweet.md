@@ -2,12 +2,13 @@
 layout: post
 title: "GitHub official Twitter account just posted about Sniffnet: if it’s a dream don’t wake me up"
 share-title: "GitHub official Twitter account just posted about Sniffnet: if it’s a dream don’t wake me up"
+share-description: "GitHub's official account tweeted about Sniffnet. Reflections on the reach of open source, and what unexpected recognition does for a solo maintainer."
 nav-title: News
 thumbnail-img: /assets/img/post/github-tweet/cover.png
 tags: [trending]
 ---
 
-<a href="{{ 'news/github-trending' | relative_url }}">Some weeks ago</a>, Sniffnet reached the GitHub trending page — I was so proud about it.<br><br>
+<a href="{{ '/news/github-trending/' | relative_url }}">Some weeks ago</a>, Sniffnet reached the GitHub trending page — I was so proud about it.<br><br>
 But I would have never imagined what happened earlier today: **GitHub itself tweeted about the project** and I’m feeling blessed.
 
 <div align="center">

@@ -2,6 +2,7 @@
 layout: post
 title: "Sniffnet webhook notifications to monitor remote network activity"
 share-title: "Sniffnet webhook notifications to monitor remote network activity"
+share-description: "Forward Sniffnet notifications via webhook to keep an eye on a computer's network activity remotely — from another machine, your phone, or a server."
 nav-title: News
 thumbnail-img: /assets/img/post/remote-notifications/cover.png
 tags: [tutorial]
@@ -22,7 +23,7 @@ Or even you're a network administrator in need to be alerted about events happen
 
 Today you'll understand how Sniffnet makes this possible, and you'll also learn how to get the most out of built-in notifications by setting up advanced packet filter programs.
 
-The only prerequisite is to <a href="{{ 'download' | relative_url }}">install Sniffnet 1.4.2</a>. <br>
+The only prerequisite is to <a href="{{ '/download/' | relative_url }}">install Sniffnet 1.4.2</a>. <br>
 If you already downloaded it, sit back and have a good read!
 
 <hr>

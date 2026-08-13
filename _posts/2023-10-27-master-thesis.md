@@ -2,6 +2,7 @@
 layout: post
 title: I concluded a Master's degree defending a thesis about Sniffnet
 share-title: I concluded a Master's degree defending a thesis about Sniffnet
+share-description: "From discovering Rust in a university course to defending a Master's thesis about Sniffnet, by way of 10k GitHub stars and the GitHub Accelerator."
 nav-title: News
 thumbnail-img: /assets/img/post/master-thesis/cover.png
 tags: [event]
@@ -10,7 +11,7 @@ tags: [event]
 The last 18 months have been crazy:
 - a **university course** made me discover the Rust programming language
 - I started a Rust **project**, today known as Sniffnet, that rapidly got more than 10k stars on GitHub
-- I had the luck of <a href="{{ 'news/github-accelerator' | relative_url }}">being part of the first GitHub Accelerator cohort</a>
+- I had the luck of <a href="{{ '/news/github-accelerator/' | relative_url }}">being part of the first GitHub Accelerator cohort</a>
 - last month I started working as a **remote Rust developer**
 - two days ago I defended a **Master's thesis** about Sniffnet
 

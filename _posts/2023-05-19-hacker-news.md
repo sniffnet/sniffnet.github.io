@@ -2,13 +2,14 @@
 layout: post
 title: Sniffnet made it to Hacker News front page!
 share-title: Sniffnet made it to Hacker News front page!
+share-description: "Sniffnet hit the Hacker News front page and passed Wireshark's GitHub star count on the same day."
 nav-title: News
 thumbnail-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]
 github-discussion: 195
 ---
 
-I'm super excited to share that after <a href="{{ 'news/v1.2' | relative_url }}">yesterday's release</a>, Sniffnet has made it to <a target="_blank" rel="noopener" href="https://news.ycombinator.com">Hacker News</a> front page!<br>
+I'm super excited to share that after <a href="{{ '/news/v1.2/' | relative_url }}">yesterday's release</a>, Sniffnet has made it to <a target="_blank" rel="noopener" href="https://news.ycombinator.com">Hacker News</a> front page!<br>
 <div align="center">
 <img  width="70%" src="{{ 'assets/img/post/hacker-news/hn.jpeg' | relative_url }}"/>
 </div>

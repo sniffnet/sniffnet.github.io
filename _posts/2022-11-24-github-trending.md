@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet went trending on GitHub and I'm happy as a kid
 share-title: Sniffnet went trending on GitHub and I'm happy as a kid
+share-description: "Sniffnet reached the GitHub overall trending page a few months after the first commit. What that moment meant for a side project built out of curiosity."
 nav-title: News
 thumbnail-img: /assets/img/post/github-trending/cover.jpeg
 tags: [trending]

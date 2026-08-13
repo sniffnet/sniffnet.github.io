@@ -535,28 +535,26 @@ footer .copyright {
 
 footer .footer-nav {
   list-style: none;
-  margin: 0;
+  margin: 25px 0 0;
   padding: 0;
+  /* shrink with the viewport so all links stay on a single line */
+  font-size: clamp(0.55rem, 2.7vw, 0.8rem);
+  white-space: nowrap;
+}
+
+footer .footer-nav .copyright {
+  font-size: inherit;
 }
 
 footer .footer-nav > li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 0.25em;
 }
 
-@media (min-width: 768px) {
-  footer .footer-nav > li:not(:last-child):after {
-    content: "\2022";
-    color: #888888;
-    margin-left: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  footer .footer-nav > li {
-    display: block;
-    margin: 4px 0;
-  }
+footer .footer-nav > li:not(:last-child):after {
+  content: "\2022";
+  color: #888888;
+  margin-left: 0.5em;
 }
 
 /* --- Tags --- */
@@ -740,6 +738,26 @@ table tr td :last-child {
 }
 .border-none tr td:last-child {
   border-right: none;
+}
+
+.blog-post table {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  border-collapse: collapse;
+}
+.blog-post table th {
+  background-color: {{ site.navbar-col }};
+  text-align: center;
+  padding: 0.8125rem;
+  border: 1px solid #888888;
+  color: #999999;
+}
+.blog-post table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+  border: 1px solid #888888;
+  background-color: #08102044;
 }
 
 /* --- Code blocks --- */
@@ -1066,6 +1084,58 @@ pre {
 .anniv-post-sub {
   display: block;
   margin-top: 2px;
+}
+
+/* HOMEPAGE PROGRAM BADGES */
+
+.program-badges {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.program-badges a {
+  display: inline-block;
+  position: relative;
+  transition: transform 200ms;
+}
+
+/* spread the badges apart while any of them is hovered */
+.program-badges:hover a:nth-of-type(2) {
+  transform: translateX(0.55em);
+}
+
+.program-badges:hover a:nth-of-type(3) {
+  transform: translateX(1.1em);
+}
+
+.program-badges a + a {
+  margin-left: -0.45em;
+}
+
+.program-badges a:nth-of-type(1) {
+  z-index: 1;
+}
+
+.program-badges a:nth-of-type(2) {
+  z-index: 2;
+}
+
+.program-badges a:nth-of-type(3) {
+  z-index: 3;
+}
+
+.program-badges a:hover {
+  z-index: 4;
+}
+
+.program-badge {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  object-fit: cover;
+  border: 2px solid {{ site.navbar-col }};
+  border-radius: 50%;
 }
 
 /* NEWS POST CARDS */

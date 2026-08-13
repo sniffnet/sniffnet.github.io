@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet will be supported by the Next Generation Internet program
 share-title: Sniffnet will be supported by the Next Generation Internet program
+share-description: "Sniffnet received funding from NLnet under the Next Generation Internet programme, supporting work towards a more open and trustworthy Internet."
 nav-title: News
 thumbnail-img: /assets/img/post/ngi-program/cover.jpeg
 tags: [sponsorship]

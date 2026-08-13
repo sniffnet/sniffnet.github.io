@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet official merchandise released!
 share-title: Sniffnet official merchandise released!
+share-description: "Sniffnet official merchandise is here, marking 20k stars on GitHub — apparel featuring the project's logo."
 nav-title: News
 thumbnail-img: /assets/img/merch.png
 tags: [branding]

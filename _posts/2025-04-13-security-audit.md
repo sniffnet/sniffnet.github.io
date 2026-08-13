@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet recently got a complete security audit
 share-title: Sniffnet recently got a complete security audit
+share-description: "Sniffnet underwent a complete independent security audit. How the review was carried out, and what it means for the safety of the application."
 nav-title: News
 thumbnail-img: /assets/img/post/security-audit/cover.png
 tags: [security]
@@ -29,7 +30,7 @@ the world’s first not-for-profit computer security consultancy company.<br>
     </a>
 </div>
 
-The audit, offered as part of the <a href="{{ 'news/ngi-program' | relative_url }}">Next Generation Internet program</a>, was conducted by a seasoned penetration tester in **different phases**:
+The audit, offered as part of the <a href="{{ '/news/ngi-program/' | relative_url }}">Next Generation Internet program</a>, was conducted by a seasoned penetration tester in **different phases**:
 - Static analysis and dependency checking
 - Code analysis and fuzzing
 - Dynamic analysis on most of the supported platforms (Windows, Linux, macOS, FreeBSD)

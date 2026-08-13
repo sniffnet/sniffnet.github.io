@@ -16,7 +16,7 @@
   "projects": [{
     "guid": "sniffnet",
     "name": "Sniffnet",
-    "description": "An application to comfortably monitor your Internet traffic",
+    "description": "An application to comfortably monitor your network traffic",
     "webpageUrl": {
       "url": "https://sniffnet.app"
     },

@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Giuliano Bellini"]
   spec.email         = ["gyulyvgc99@gmail.com"]
 
-  spec.summary       = "Sniffnet is a cross-platform application to help you comfortably monitor your Internet traffic."
+  spec.summary       = "Sniffnet is a cross-platform application to help you comfortably monitor your network traffic."
   spec.homepage      = "https://www.sniffnet.app"
   spec.license       = "MIT"
 

@@ -2,13 +2,14 @@
 layout: post
 title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
 share-title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
+share-description: "Sniffnet v1.3 launched on Product Hunt and landed among the day's top products, days after the release went out."
 nav-title: News
 thumbnail-img: /assets/img/post/top-product-hunt/cover.png
 tags: [trending]
 github-discussion: 501
 ---
 
-A <a href="{{ 'news/v1.3' | relative_url }}">new major version</a> of Sniffnet was published just a few days ago,
+A <a href="{{ '/news/v1.3/' | relative_url }}">new major version</a> of Sniffnet was published just a few days ago,
 featuring some really cool functionalities that aim to enrich the **networking capabilities** of the app as well as to improve the overall **user experience**.<br><br>
 Moreover, this release finally comes with a <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">complete user manual</a>
 and gives a **new identity** to the app by replacing the old logo with a simpler and more modern-looking one.

@@ -9,7 +9,9 @@ layout: base
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ page.title | strip_html | jsonify }},
-  {% if page.subtitle %}"description": {{ page.subtitle | strip_html | jsonify }},{% endif %}
+  {% capture post_description %}{{ page.subtitle | default: page.share-description }}{% endcapture %}
+  {% assign post_description = post_description | strip %}
+  {% if post_description != "" %}"description": {{ post_description | strip_html | jsonify }},{% endif %}
   {% capture article_img %}{% if page.thumbnail-img %}{{ page.thumbnail-img }}{% elsif site.avatar %}{{ site.avatar }}{% endif %}{% endcapture %}
   {% assign article_img = article_img | strip %}
   {% if article_img != "" %}"image": {{ article_img | absolute_url | jsonify }},{% endif %}
@@ -54,7 +56,7 @@ layout: base
         <div class="blog-tags">
           <i class="fas fa-tag" aria-hidden="true" style="color: #808080;"></i>
           {% for tag in page.tags %}
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
+            <a href="{{ '/tags/' | relative_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
           {% endfor %}
         </div>
       {% endif %}
