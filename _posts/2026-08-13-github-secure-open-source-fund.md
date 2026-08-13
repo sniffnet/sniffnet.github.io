@@ -6,7 +6,7 @@ share-description: "Sniffnet took part in the GitHub Secure Open Source Fund. Wh
 nav-title: News
 thumbnail-img: /assets/img/post/github-secure-open-source-fund/cover.png
 tags: [security]
-github-discussion: TODO
+github-discussion: 1274
 ---
 
 I've always built Sniffnet with a security-first mindset, and today I'm thrilled to announce a major milestone
@@ -32,11 +32,15 @@ It consists of an immersive 3-week sprint that provides each onboarded project w
 understand that security is a baseline requirement, not a nice-to-have.<br>
 The sprint is curated by the <a target="_blank" rel="noopener" href="https://securitylab.github.com">GitHub Security Lab</a> and delivered by a team of security experts.
 
-Sniffnet and other TODO projects joined the fourth session of the program this past April,
-and selected participants were asked not to share the news until today's <a target="_blank" rel="noopener" href="TODO-OFFICIAL-ANNOUNCEMENT-URL">official announcement</a>,
+Sniffnet and other 49 projects joined the fourth session of the program this past April,
+and selected participants were asked not to share the news until today's <a target="_blank" rel="noopener" href="https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/">official announcement</a>,
 to avoid any potential exposure and to focus on securing our codebases.
 
-[pic: TODO]
+<div align="center">
+    <a target="_blank" rel="noopener" href="https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/">
+        <img width="70%" title="Official Announcement from GitHub" alt="Official Announcement from GitHub" style="border-radius: 15px" src="{{ 'assets/img/post/github-secure-open-source-fund/announcement.png' | relative_url }}">
+    </a>
+</div>
 
 The best part?<br>
 The program isn't only about learning and theory: it's designed as a series of practical steps
