@@ -1088,12 +1088,51 @@ pre {
 
 /* HOMEPAGE PROGRAM BADGES */
 
-.program-badge {
+.program-badges {
   display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.program-badges a {
+  display: inline-block;
+  position: relative;
+  transition: transform 200ms;
+}
+
+/* spread the badges apart while any of them is hovered */
+.program-badges:hover a:nth-of-type(2) {
+  transform: translateX(0.55em);
+}
+
+.program-badges:hover a:nth-of-type(3) {
+  transform: translateX(1.1em);
+}
+
+.program-badges a + a {
+  margin-left: -0.45em;
+}
+
+.program-badges a:nth-of-type(1) {
+  z-index: 1;
+}
+
+.program-badges a:nth-of-type(2) {
+  z-index: 2;
+}
+
+.program-badges a:nth-of-type(3) {
+  z-index: 3;
+}
+
+.program-badges a:hover {
+  z-index: 4;
+}
+
+.program-badge {
+  display: block;
   width: 1.5em;
   height: 1.5em;
-  margin-left: 0.2em;
-  vertical-align: middle;
   object-fit: cover;
   border: 2px solid {{ site.navbar-col }};
   border-radius: 50%;
