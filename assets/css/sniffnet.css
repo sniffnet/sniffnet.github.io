@@ -537,9 +537,8 @@ footer .footer-nav {
   list-style: none;
   margin: 25px 0 0;
   padding: 0;
-  /* shrink with the viewport so all links stay on a single line */
+  /* shrink with the viewport so all links stay on a single line when they fit */
   font-size: clamp(0.55rem, 2.7vw, 0.8rem);
-  white-space: nowrap;
 }
 
 footer .footer-nav .copyright {
