@@ -11,12 +11,12 @@ github-discussion: 195
 
 I'm super excited to share that after <a href="{{ '/news/v1.2/' | relative_url }}">yesterday's release</a>, Sniffnet has made it to <a target="_blank" rel="noopener" href="https://news.ycombinator.com">Hacker News</a> front page!<br>
 <div align="center">
-<img  width="70%" src="{{ 'assets/img/post/hacker-news/hn.jpeg' | relative_url }}"/>
+<img  width="70%" alt="Sniffnet on the Hacker News front page" src="{{ 'assets/img/post/hacker-news/hn.jpeg' | relative_url }}"/>
 </div>
 I take advantage of this moment to also celebrate another milestone: Sniffnet just surpassed Wireshark stars on GitHub!
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post/hacker-news/cover.png' | relative_url }}" width="70%"/>
+<img alt="GitHub star history comparing gyulyvgc/sniffnet and wireshark/wireshark, with Sniffnet catching up to about 5,500 stars" src="{{ 'assets/img/post/hacker-news/cover.png' | relative_url }}" width="70%"/>
 </div>
 
 I know that those are just numbers, but make me really proud and are a small reward for me after all the efforts I'm putting on this project 💖

@@ -32,7 +32,7 @@ but I felt like there was huge potential to make something way more complete and
 The fact is that on the 20th of October 2022, I wrote this message to the friend I worked with on the first version of Sniffnet CLI:
 
 <div align="center">
-<img width="50%" alt="" src="{{ 'assets/img/post/fourth-anniversary/chat.jpeg' | relative_url }}">
+<img width="50%" alt="A chat message dated 20 October 2022 reading 'La tentazione di fare una GUI è forte', sent with a video of the Sniffnet app icon on a desktop" src="{{ 'assets/img/post/fourth-anniversary/chat.jpeg' | relative_url }}">
 </div>
 
 Translated from Italian, the message just says: _"The temptation to make a GUI is strong"_.
@@ -169,7 +169,7 @@ You can already have a look at <a target="_blank" rel="noopener" href="https://g
 a new companion program that will soon allow you to capture traffic from headless devices and send it to Sniffnet for inspection.
 
 <div align="center">
-<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet-agent"><img width="100%" alt="" title="sniffnet-agent" src="{{ 'assets/img/post/fourth-anniversary/sniffnet-agent.png' | relative_url }}"></a>
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet-agent"><img width="100%" alt="sniffnet-agent repository on GitHub" title="sniffnet-agent" src="{{ 'assets/img/post/fourth-anniversary/sniffnet-agent.png' | relative_url }}"></a>
 </div>
 
 Other exciting features are already in the pipeline, so make sure to

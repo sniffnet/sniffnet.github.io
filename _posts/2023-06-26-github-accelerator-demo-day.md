@@ -20,7 +20,7 @@ This is also an occasion for you all to know more about what it means to build a
 In the hope the event is of your interest, wish me good luck 🤞 🍀 
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post/github-accelerator-demo-day/cover.png' | relative_url }}" width="100%"/>
+<img alt="GitHub Accelerator Demo Day banner: 20 open source projects, June 28 2023, 8-10am PDT" src="{{ 'assets/img/post/github-accelerator-demo-day/cover.png' | relative_url }}" width="100%"/>
 </div>
 
 _Originally posted on <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/discussions/287">GitHub Discussions</a>._

@@ -21,7 +21,7 @@ Seeing Sniffnet getting traction and evolving, improving day after day, motivate
 <hr>
 
 <a target="_blank" rel="noopener" href="https://accelerator.github.com">
-<img width="40%" alt="" align="right" src="{{ 'assets/img/post/github-accelerator/purple.png' | relative_url }}"/>
+<img width="40%" alt="GitHub Accelerator" align="right" src="{{ 'assets/img/post/github-accelerator/purple.png' | relative_url }}"/>
 </a>
 
 Today, the 12th of April 2023, it’s such a joy for me to announce that **Sniffnet has been selected for the GitHub Accelerator Program** 🎉
@@ -42,6 +42,6 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 <br>I can’t wait to see what the future has in store, and I feel blessed to have such an amazing occasion.<br>
 I’ll do my best to get the most out of this experience 🌟
 
-<img alt="" src="{{ 'assets/img/post/github-accelerator/cover.jpeg' | relative_url }}" width="100%"/>
+<img alt="GitHub Accelerator welcome kit: a branded backpack, hoodie, stickers and an Octocat plush" src="{{ 'assets/img/post/github-accelerator/cover.jpeg' | relative_url }}" width="100%"/>
 
 _Originally posted on <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/discussions/133">GitHub Discussions</a>._

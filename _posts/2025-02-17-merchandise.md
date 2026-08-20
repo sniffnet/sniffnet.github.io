@@ -17,7 +17,7 @@ You can visit the online store <a target="_blank" rel="noopener" href="https://g
 
 <div align="center">
 <a target="_blank" rel="noopener" href="https://grindhouse.dev/collections/sniffnet">
-<img alt="" width="80%" src="{{ 'assets/img/merch.png' | relative_url }}"/>
+<img alt="Sniffnet merchandise: caps, beanies, hoodies, t-shirts, tank tops and a laptop sleeve, all carrying the Sniffnet logo" width="80%" src="{{ 'assets/img/merch.png' | relative_url }}"/>
 </a>
 </div>
 

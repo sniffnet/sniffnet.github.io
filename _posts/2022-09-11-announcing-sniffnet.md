@@ -21,9 +21,9 @@ Feel free to open an issue or a pull request, thanks in advance for your support
 If you like the project, consider giving it a star!
 
 <div align="center">
-<img  width="100%" title="Graphical report" src="{{ 'assets/img/post/announcing-sniffnet/cover.png' | relative_url }}"/><br><br>
-<img  width="70%" title="Textual report summary" src="{{ 'assets/img/post/announcing-sniffnet/r1.png' | relative_url }}"/><br><br>
-<img  width="70%" title="Textual report details" src="{{ 'assets/img/post/announcing-sniffnet/r2.png' | relative_url }}"/>
+<img  width="100%" alt="Sniffnet graphical report of captured network traffic" title="Graphical report" src="{{ 'assets/img/post/announcing-sniffnet/cover.png' | relative_url }}"/><br><br>
+<img  width="70%" alt="Sniffnet textual report summary listing captured packet counts" title="Textual report summary" src="{{ 'assets/img/post/announcing-sniffnet/r1.png' | relative_url }}"/><br><br>
+<img  width="70%" alt="Sniffnet textual report details showing per-connection traffic information" title="Textual report details" src="{{ 'assets/img/post/announcing-sniffnet/r2.png' | relative_url }}"/>
 </div>
 
 _Originally posted on <a target="_blank" rel="noopener" href="https://www.reddit.com/r/rust/comments/xbn5o6/announcing_sniffnet_v040_a_multithreaded/">Reddit</a>._

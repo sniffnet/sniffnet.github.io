@@ -33,7 +33,7 @@ At first, I thought I was at a _**crossroads**_:
 
 <div align="center">
 <picture>
-<img alt="" title="The crossroads" src="{{ 'assets/img/post/second-anniversary/roads.png' | relative_url }}" width="50%"/>
+<img alt="A wooden signpost at a fork in the road, with two arrows pointing in opposite directions" title="The crossroads" src="{{ 'assets/img/post/second-anniversary/roads.png' | relative_url }}" width="50%"/>
 </picture>
 </div>
 
@@ -50,7 +50,7 @@ Something I understood during the past year is that every single activity we per
 Instead of seeing it as a crossroads, I now like to see it as _**two pieces of the same puzzle**_: they can live on their own, but together they can form a bigger and more complete picture.
 
 <div align="center">
-<img alt="" title="The puzzle" width="50%" src="{{ 'assets/img/post/second-anniversary/cover.png' | relative_url }}"/>
+<img alt="Two hands joining two puzzle pieces together against a sunset" title="The puzzle" width="50%" src="{{ 'assets/img/post/second-anniversary/cover.png' | relative_url }}"/>
 </div>
 
 Every working day, I notice how helpful are the skills that I built through thousands of hours maintaining Sniffnet.<br>
@@ -72,14 +72,14 @@ Just considering the past week, the repository got about 1k more stars, the app 
 
 <div align="center">
 <picture>
-<img alt="" title="Adoption on Arch Linux" src="{{ 'assets/img/post/second-anniversary/arch.png' | relative_url }}" width="52%"/>
+<img alt="Arch Linux usage statistics for sniffnet, rising steadily from near zero in December 2022 to about 1.4 percent by mid-2024" title="Adoption on Arch Linux" src="{{ 'assets/img/post/second-anniversary/arch.png' | relative_url }}" width="52%"/>
 </picture>&nbsp;
 <picture>
-<img alt="" title="GitHub stars" src="{{ 'assets/img/post/second-anniversary/stars.png' | relative_url }}" width="42%"/>
+<img alt="GitHub star history chart for gyulyvgc/sniffnet, climbing past 15,000 stars in roughly two years" title="GitHub stars" src="{{ 'assets/img/post/second-anniversary/stars.png' | relative_url }}" width="42%"/>
 </picture>
 <br><br>
 <picture>
-<img alt="" title="Rust trending repository of the day" src="{{ 'assets/img/post/second-anniversary/gh.png' | relative_url }}" width="95%"/>
+<img alt="GitHub trending page listing GyulyVGC/sniffnet as the top Rust repository of the day, with 16,040 stars and 502 gained that day" title="Rust trending repository of the day" src="{{ 'assets/img/post/second-anniversary/gh.png' | relative_url }}" width="95%"/>
 </picture>
 </div>
 

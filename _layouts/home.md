@@ -39,7 +39,7 @@ layout: page
 
 <div align="center">
   <a title="Download" href="{{ '/download/' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/badges/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
-  <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="{{ 'assets/img/badges/stars_badge.svg' | relative_url }}"/></a>
+  <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="Sniffnet GitHub stars" class="shield" height="30px" src="{{ 'assets/img/badges/stars_badge.svg' | relative_url }}"/></a>
 </div><br/>
 
 {% assign latest_post = site.posts.first %}
@@ -103,7 +103,7 @@ Sniffnet is designed with a <b>security-first approach</b>: one of the top prior
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt="Sniffnet source code on GitHub"/></a>
 Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
 </div><br/>
 

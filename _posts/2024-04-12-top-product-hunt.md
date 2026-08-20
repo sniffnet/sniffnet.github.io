@@ -23,9 +23,9 @@ It's a huge pleasure for me to see that Sniffnet received appreciation by the pu
 
 <div align="center">
 
-<a target="_blank" rel="noopener" href="https://www.producthunt.com/posts/sniffnet-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-sniffnet&#0045;3"><img src="{{ 'assets/img/post/top-product-hunt/ph.svg' | relative_url }}" alt="" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a target="_blank" rel="noopener" href="https://www.producthunt.com/posts/sniffnet-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-sniffnet&#0045;3"><img src="{{ 'assets/img/post/top-product-hunt/ph.svg' | relative_url }}" alt="Product Hunt badge: Sniffnet, #5 Product of the Day" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <br><br>
-<img alt="" src="{{ 'assets/img/post/top-product-hunt/cover.png' | relative_url }}"/>
+<img alt="Product Hunt 'Best of April 12, 2024' list, with Sniffnet among the top five products at 149 upvotes" src="{{ 'assets/img/post/top-product-hunt/cover.png' | relative_url }}"/>
 
 </div>
 
