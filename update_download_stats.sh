@@ -3,8 +3,13 @@
 YESTERDAY=$(date -d yesterday +%F)
 echo "---> YESTERDAY: $YESTERDAY"
 
-if grep -q "^$YESTERDAY " download_daily.txt; then
-    echo "Error: download_daily.txt already contains an entry for $YESTERDAY"
+LAST_DATE=$(tail -n 1 download_daily.txt | cut '-d ' -f 1)
+echo "---> LAST_DATE: $LAST_DATE"
+EXPECTED_DATE=$(date -d "$LAST_DATE + 1 day" +%F)
+echo "---> EXPECTED_DATE: $EXPECTED_DATE"
+
+if [ "$YESTERDAY" != "$EXPECTED_DATE" ]; then
+    echo "Error: $YESTERDAY is not the day following the last entry in download_daily.txt ($LAST_DATE)"
     exit 1
 fi
 
