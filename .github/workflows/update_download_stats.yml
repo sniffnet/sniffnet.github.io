@@ -3,7 +3,7 @@ name: Update Download Stats
 on:
   schedule:
     - cron: '0 5 * * *' # Every day at 5am UTC
-#  workflow_dispatch:
+  workflow_dispatch:
 
 env:
   GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}

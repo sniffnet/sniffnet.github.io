@@ -1,5 +1,13 @@
 #!/bin/bash
 
+YESTERDAY=$(date -d yesterday +%F)
+echo "---> YESTERDAY: $YESTERDAY"
+
+if grep -q "^$YESTERDAY " download_daily.txt; then
+    echo "Error: download_daily.txt already contains an entry for $YESTERDAY"
+    exit 1
+fi
+
 GITHUB_CURL=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases --header "Authorization: Bearer $GH_API_TOKEN")
 echo "---> GITHUB_CURL: $GITHUB_CURL"
 GITHUB_COUNT=$(echo "$GITHUB_CURL" | grep '"download_count"' | awk '{sum += $2} END {print sum}')
@@ -33,7 +41,7 @@ fi
 
 DIFF=$((TOTAL_DOWNLOADS - PREVIOUS_DOWNLOADS))
 echo "DIFF: $DIFF"
-echo "$(date -d yesterday +%F) $DIFF" >> download_daily.txt
+echo "$YESTERDAY $DIFF" >> download_daily.txt
 echo -n "$(tail -n 31 download_daily.txt)" > download_daily_31.txt
 
 echo -n $TOTAL_DOWNLOADS > download_count.txt
