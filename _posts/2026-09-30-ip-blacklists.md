@@ -4,7 +4,7 @@ title: "IP Blacklists: how to detect suspicious network connections with Sniffne
 share-title: "IP Blacklists: how to detect suspicious network connections with Sniffnet"
 share-description: "Learn how to use Sniffnet to detect suspicious network connections by leveraging custom IP blacklists."
 nav-title: News
-thumbnail-img: /assets/img/post/ip-blacklist/cover.png
+thumbnail-img: /assets/img/post/ip-blacklists/cover.png
 tags: [tutorial]
 github-discussion: XXXX
 ---
@@ -43,29 +43,35 @@ then navigate to the _"General"_ tab, where you'll find the _"IP Blacklist"_ sec
 From there, you can select the file containing the blacklist you want to import.
 
 <div align="center">
-<img width="90%" alt="Sniffnet general settings, including the possibility to import a custom IP blacklist" title="IP blacklist settings" src="{{ 'assets/img/post/ip-blacklist/settings.png' | relative_url }}">
+<img width="90%" alt="Sniffnet general settings, including the possibility to import a custom IP blacklist" title="IP blacklist settings" src="{{ 'assets/img/post/ip-blacklists/settings.png' | relative_url }}">
 </div>
 
 The app supports blocklists in any file format, as long as the file contains one IP address or CIDR range per line.<br>
-Sniffnet will ignore any lines that do not start with a valid IP address or CIDR range.
-
+Sniffnet will ignore any lines that do not start with a valid IP address or CIDR range.<br>
 If the import is successful, you'll be able to see the number of entries in the list.
 
 From now on, Sniffnet will check all network connections against the imported blacklist,
 and, if you enable _blacklist notifications_, the app will notify you whenever a suspicious address is involved in your network traffic.
 
 <div align="center">
-<img width="70%" alt="Sniffnet notification settings, including the possibility to set alerts on traffic from a blacklisted IP" title="Notification settings" src="{{ 'assets/img/post/ip-blacklist/notification-settings.png' | relative_url }}">
+<img width="70%" alt="Sniffnet notification settings, including the possibility to set alerts on traffic from a blacklisted IP" title="Notification settings" src="{{ 'assets/img/post/ip-blacklists/notification-settings.png' | relative_url }}">
 </div>
 
 The alert will include the time of the connection, the amount of data exchanged, and the IP address that triggered it, with the associated country and organization name.
 
 <div align="center">
-<img width="90%" alt="Sniffnet notification settings, including the possibility to set alerts on traffic from a blacklisted IP" title="Notification settings" src="{{ 'assets/img/post/ip-blacklist/blacklisted.png' | relative_url }}">
+<img width="90%" alt="Sniffnet notification settings, including the possibility to set alerts on traffic from a blacklisted IP" title="Notification settings" src="{{ 'assets/img/post/ip-blacklists/blacklisted.png' | relative_url }}">
 </div>
 
 You can also filter your connections and see only the ones that are flagged as suspicious in the _"Inspect"_ page,
 by enabling the _"Only show blacklisted"_ option.
+
+<div align="center">
+    <video class="myShadow" controls muted preload="none" width="90%" height="auto"
+            poster="{{ 'assets/img/post/ip-blacklists/inspect-poster.png' | relative_url }}">>
+        <source type="video/mp4" src="{{ 'assets/img/post/ip-blacklists/inspect.mp4' | relative_url }}">
+    </video>
+</div>
 
 <hr>
 
