@@ -6,14 +6,18 @@ share-description: "Learn how to use Sniffnet to detect suspicious network conne
 nav-title: News
 thumbnail-img: /assets/img/post/ip-blacklists/cover.png
 tags: [tutorial]
-github-discussion: XXXX
+github-discussion: 1318
 ---
 
 The most recent versions of Sniffnet introduced support for custom IP blacklists,
 and today we're going to learn how to leverage this feature to detect potentially malicious network connections.<br><br>
-Sniffnet has supported importing IP blacklists since <a href="{{ '/news/v1.5/' | relative_url }}">version 1.5.0</a>,
-but the feature hasn't been in the spotlight until now,
+Sniffnet has supported importing IP blacklists since 6 months ago with <a href="{{ '/news/v1.5/' | relative_url }}">version 1.5.0</a>,
+but the feature has never been in the spotlight,
 so let's take a closer look at it and see how it can be used to improve your network security.
+
+<div align="center">
+<img width="90%" style="border-radius: 15px" alt="Spot suspicious connections with Sniffnet" src="{{ 'assets/img/post/ip-blacklists/cover.png' | relative_url }}">
+</div>
 
 <hr>
 
