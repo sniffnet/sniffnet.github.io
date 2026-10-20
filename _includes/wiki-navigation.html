@@ -1,0 +1,36 @@
+<nav class="wiki-tree" aria-label="{{ include.label }}">
+  <ul class="wiki-nav-home">
+    <li>
+      <a class="wiki-nav-link{% if page.slug == 'Home' %} active{% endif %}" href="{{ '/wiki/' | relative_url }}"{% if page.slug == 'Home' %} aria-current="page"{% endif %}>
+        <i class="fas fa-home" aria-hidden="true"></i>Home
+      </a>
+    </li>
+  </ul>
+
+  {% for section in site.data.wiki.sections %}
+  <hr>
+  <section class="wiki-nav-section" aria-labelledby="{{ include.id_prefix }}-wiki-{{ section.slug }}-heading">
+    <h2 id="{{ include.id_prefix }}-wiki-{{ section.slug }}-heading">
+      <a{% if page.slug == section.page %} class="active" aria-current="page"{% endif %} href="{{ '/wiki/' | append: section.page | append: '/' | relative_url }}">{{ section.title }}</a>
+    </h2>
+    <ul>
+      {% for item in section.items %}
+      <li>
+        <a class="wiki-nav-link{% if page.slug == item.page %} active{% endif %}" href="{{ '/wiki/' | append: item.page | append: '/' | relative_url }}"{% if page.slug == item.page %} aria-current="page"{% endif %}>
+          <i class="{{ item.icon }}" aria-hidden="true"></i>{{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  <hr>
+  <ul class="wiki-nav-home wiki-nav-faq">
+    <li>
+      <a class="wiki-nav-link{% if page.slug == 'FAQ' %} active{% endif %}" href="{{ '/wiki/FAQ/' | relative_url }}"{% if page.slug == 'FAQ' %} aria-current="page"{% endif %}>
+        <i class="fas fa-question-circle" aria-hidden="true"></i>FAQ
+      </a>
+    </li>
+  </ul>
+</nav>

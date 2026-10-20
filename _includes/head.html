@@ -49,6 +49,12 @@
     {% endfor %}
   {% endif %}
 
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}">
+    {% endfor %}
+  {% endif %}
+
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}

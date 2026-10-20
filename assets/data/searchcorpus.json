@@ -11,6 +11,15 @@ layout: null
 "date"     : "{{ post.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" 
 }, 
 {% endfor %} 
+{% for doc in site.wiki %}
+{
+"title"    : {{ doc.title | strip_html | jsonify }},
+"desc"     : {{ doc.title | strip_html | jsonify }},
+"category" : "wiki",
+"url"      : "{{ site.baseurl }}{{ doc.url }}",
+"date"     : ""
+},
+{% endfor %}
 {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "404 - Page not found" %} 
 { 
 "title"    : "{% if page.title != "" %}{{ page.title | strip_html | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", 

@@ -12,11 +12,11 @@ common-js:
 <html lang="{{ page.language | default: site.language | default: 'en' }}">
 {% include head.html %}
 
-<body>
+<body{% if page.body-class %} class="{{ page.body-class }}"{% endif %}>
 
   {% include nav.html %}
 
-  <div style="background-color: #0f1e3c; padding-bottom: 3.125rem;"> {{ content }} </div>
+  <div class="site-content{% if page.body-class %} {{ page.body-class }}-content{% endif %}" style="background-color: #0f1e3c; padding-bottom: 3.125rem;"> {{ content }} </div>
 
   {% include footer.html %}
 

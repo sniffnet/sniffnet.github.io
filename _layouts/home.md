@@ -12,7 +12,7 @@ layout: page
       "operatingSystem": "Windows, macOS, Linux",
       "url": {{ '/' | absolute_url | jsonify }},
       "downloadUrl": {{ '/download/' | absolute_url | jsonify }},
-      "softwareHelp": "https://github.com/GyulyVGC/sniffnet/wiki",
+      "softwareHelp": {{ '/wiki/' | absolute_url | jsonify }},
       "description": {{ page.share-description | jsonify }},
       "image": {{ '/assets/img/overview_page.png' | absolute_url | jsonify }},
       "license": "https://github.com/GyulyVGC/sniffnet/blob/main/LICENSE-MIT",
@@ -80,7 +80,7 @@ layout: page
 
 <h2 class="myHeading"> What is Sniffnet? </h2>
 Sniffnet is a <b>network monitoring app</b> to help you easily keep track of your Internet traffic.<br/><br/>
-Whether you want to check your bandwidth usage, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
+Whether you want to <a href="{{ '/wiki/Traffic-overview/' | relative_url }}">check your bandwidth usage</a>, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this tool will get you covered.<br/><br/>
 The app is fully free and open-source, easy to use, and available for all major operating systems.<br/><br/>
 It is trusted by thousands of users worldwide, and backed by prestigious international programs fostering a safer and more open Internet.
 <span class="program-badges"><a href="{{ '/news/github-accelerator/' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Accelerator" alt="GitHub Accelerator" src="{{ 'assets/img/programs-badges/gh-accelerator-badge.svg' | relative_url }}"/></a><a href="{{ '/news/ngi-program/' | relative_url }}"><img class="program-badge hoverExpand" title="Next Generation Internet" alt="Next Generation Internet" src="{{ 'assets/img/programs-badges/ngi-badge.svg' | relative_url }}"/></a><a href="{{ '/news/github-secure-open-source-fund/' | relative_url }}"><img class="program-badge hoverExpand" title="GitHub Secure Open Source Fund" alt="GitHub Secure Open Source Fund" src="{{ 'assets/img/programs-badges/gh-secure-badge.png' | relative_url }}"/></a></span>
@@ -139,12 +139,12 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <h2 class="myHeading"> User manual </h2>
 Do you want to learn more? <br>
-Check out the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">Sniffnet Wiki</a>, a comprehensive manual to help you
+Check out the <a href="{{ '/wiki/' | relative_url }}">Sniffnet Wiki</a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
 <p align="center">
-<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">
+<a href="{{ '/wiki/' | relative_url }}">
 <img class="hoverExpand" alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
