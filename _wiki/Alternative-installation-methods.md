@@ -1,7 +1,7 @@
 ---
 title: "Alternative installation methods"
 ---
-The recommended way to install Sniffnet is via the [official download page](https://sniffnet.app/download/), which provides packages featuring the latest version directly from [GitHub releases](https://github.com/GyulyVGC/sniffnet/releases).
+The recommended way to install Sniffnet is via the [official download page](https://sniffnet.app/download/), which provides packages featuring the latest version directly from <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>.
 
 However, depending on your operating system and configuration, you can also take advantage of one of the following methods to install the application.
 
@@ -97,7 +97,7 @@ sudo docker run -d \
 
   <summary>Crates.io</summary>
 
-Follow this method only if you have [Rust installed](https://www.rust-lang.org/tools/install) on your machine. <br>
+Follow this method only if you have <a target="_blank" rel="noopener noreferrer" href="https://www.rust-lang.org/tools/install">Rust installed</a> on your machine. <br>
 In this case, the application binary can be built and installed with:
 
 ```sh
@@ -110,7 +110,7 @@ cargo install sniffnet --locked
 
   <summary>Homebrew</summary>
 
-  You can install [Sniffnet Homebrew package](https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet) with:
+  You can install <a target="_blank" rel="noopener noreferrer" href="https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet">Sniffnet Homebrew package</a> with:
 
   ```sh
 brew install sniffnet
@@ -122,7 +122,7 @@ brew install sniffnet
 
   <summary>Scoop</summary>
 
-  You can install Sniffnet from [Scoop](https://scoop.sh) with:
+  You can install Sniffnet from <a target="_blank" rel="noopener noreferrer" href="https://scoop.sh">Scoop</a> with:
 
   ```sh
 scoop bucket add extras
@@ -135,7 +135,7 @@ scoop install extras/sniffnet
 
   <summary>Nixpkgs</summary>
 
-  You can install [Sniffnet Nix package](https://search.nixos.org/packages?channel=23.05&show=sniffnet&from=0&size=50&sort=relevance&type=packages&query=sniffnet) adding the following Nix code to your NixOS Configuration, usually located in `/etc/nixos/configuration.nix`:
+  You can install <a target="_blank" rel="noopener noreferrer" href="https://search.nixos.org/packages?channel=23.05&amp;show=sniffnet&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=sniffnet">Sniffnet Nix package</a> adding the following Nix code to your NixOS Configuration, usually located in `/etc/nixos/configuration.nix`:
 
   ```nix
   environment.systemPackages = [
@@ -143,7 +143,7 @@ scoop install extras/sniffnet
   ];
 ```
 
-  Alternatively, you can install it in your home using [Home Manager](https://github.com/nix-community/home-manager) with:
+  Alternatively, you can install it in your home using <a target="_blank" rel="noopener noreferrer" href="https://github.com/nix-community/home-manager">Home Manager</a> with:
 
   ```nix
   home.packages = [
@@ -163,7 +163,7 @@ nix-shell -p sniffnet
 
   <summary>Arch Linux</summary>
 
-  You can install Sniffnet community package via [pacman](https://wiki.archlinux.org/title/Pacman):
+  You can install Sniffnet community package via <a target="_blank" rel="noopener noreferrer" href="https://wiki.archlinux.org/title/Pacman">pacman</a>:
 
   ```sh
 pacman -S sniffnet
@@ -187,7 +187,7 @@ pkg install sniffnet
 
   <summary>NetBSD</summary>
 
-You can install Sniffnet from the official repositories via [pkgin](https://pkgin.net):
+You can install Sniffnet from the official repositories via <a target="_blank" rel="noopener noreferrer" href="https://pkgin.net">pkgin</a>:
 
   ```sh
 pkgin install sniffnet

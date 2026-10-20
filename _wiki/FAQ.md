@@ -29,7 +29,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 > The precise number of packets per second that Sniffnet can handle depends on the hardware and the operating system you are using. <br>
 > On an average machine, Sniffnet should be able to read and display more than **100k packets per second** smoothly. <br>
-> More information about this topic can be found in issue [#489](https://github.com/GyulyVGC/sniffnet/issues/489), 
+> More information about this topic can be found in issue <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/issues/489">#489</a>,
 > where I plan to share more accurate benchmarks.
 
 </details>
@@ -113,7 +113,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 <summary><i>Can Sniffnet be used to monitor a remote host?</i></summary>
 
 > No, it can't. Sniffnet is designed to monitor the network traffic of the machine it is running on. <br>
-> However, this is a planned feature for the upcoming future (see [#303](https://github.com/GyulyVGC/sniffnet/issues/303)).
+> However, this is a planned feature for the upcoming future (see <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/issues/303">#303</a>).
 
 </details>
 
@@ -136,7 +136,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 <summary><i>Can I use Sniffnet on the web?</i></summary>
 
 > Currently, Sniffnet is only available as a **Desktop application**, compatible with all the major operating systems. <br>
-> Web support is planned (see [#57](https://github.com/GyulyVGC/sniffnet/issues/57)) but unluckily this is not a feature that will be implemented in the short term.
+> Web support is planned (see <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/issues/57">#57</a>) but unluckily this is not a feature that will be implemented in the short term.
 
 </details>
 
@@ -165,7 +165,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 <summary><i>Is an AppImage of Sniffnet available to install the app on Linux?</i></summary>
 
 > Yes, Sniffnet packages for Linux are available in `AppImage`, `DEB` and `RPM` format. <br>
-> Help to create other kinds of Linux packages is welcome and warmly appreciated (see [#252](https://github.com/GyulyVGC/sniffnet/issues/252)). <br>
+> Help to create other kinds of Linux packages is welcome and warmly appreciated (see <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/issues/252">#252</a>). <br>
 > Alternatively, you can [build Sniffnet from source](/wiki/Build-from-source/) or use the package manager of your distribution to install it (if available).
 
 </details>

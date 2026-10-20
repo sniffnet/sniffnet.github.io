@@ -5,7 +5,7 @@ title: "Install on macOS"
 
 You can easily do that by following the next steps:
 
-1. download a macOS-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or [GitHub releases](https://github.com/GyulyVGC/sniffnet/releases)
+1. download a macOS-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded file, and drag Sniffnet icon into the `Applications` folder
 <p align="center"><img alt="" width="80%" src="/assets/img/wiki/macos_1.png"/></p>
@@ -19,7 +19,7 @@ You can easily do that by following the next steps:
 
 ***
 
-> If you decide to download Sniffnet in an alternative way (e.g., from [Homebrew](https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet)) remember that you'll have to launch the app **with administrator privileges from your terminal** (`sudo sniffnet`) to correctly monitor your network adapters.
+> If you decide to download Sniffnet in an alternative way (e.g., from <a target="_blank" rel="noopener noreferrer" href="https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet">Homebrew</a>) remember that you'll have to launch the app **with administrator privileges from your terminal** (`sudo sniffnet`) to correctly monitor your network adapters.
 {: .wiki-callout .wiki-callout-warning data-callout-label="WARNING"}
 
 

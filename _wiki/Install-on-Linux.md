@@ -5,7 +5,7 @@ title: "Install on Linux"
 
 You can easily do that by following the next steps:
 
-1. download a Linux-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or [GitHub releases](https://github.com/GyulyVGC/sniffnet/releases)
+1. download a Linux-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded package (DEB or RPM depending on your distribution) with the native `Software Install` utility and click `Install`
 

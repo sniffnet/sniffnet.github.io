@@ -10,12 +10,12 @@ Depending on your operating system, you may need to install some dependencies to
 
   <summary>Windows dependencies&emsp;<img alt="" src="https://user-images.githubusercontent.com/100347457/193474292-d84f2a96-f445-40ac-8930-9d0f00a3c2bb.png" width="35px"/></summary>
 
-  - Install [Npcap](https://npcap.com/#download), making sure to check the box `Install Npcap in WinPcap API-compatible Mode` during the installation.
+  - Install <a target="_blank" rel="noopener noreferrer" href="https://npcap.com/#download">Npcap</a>, making sure to check the box `Install Npcap in WinPcap API-compatible Mode` during the installation.
 
   If you are a user of the app, that's all you need to do! <br>
   If you are a developer and you want to build the project, you also need to:
 
-  - Download the [Npcap SDK](https://npcap.com/#download).
+  - Download the <a target="_blank" rel="noopener noreferrer" href="https://npcap.com/#download">Npcap SDK</a>.
 
   - Add the SDK's ```/Lib/x64``` (or ```/Lib```) folder to your ```LIB``` environment variable.
 
@@ -26,12 +26,12 @@ Depending on your operating system, you may need to install some dependencies to
 
   <summary>Linux dependencies&emsp;<img alt="" src="https://user-images.githubusercontent.com/100347457/193474239-c48d37af-d4c1-4a94-9207-0d46c6d75f1f.png" width="35px"/></summary>
 
-  - On [Debian-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based) distributions:
+  - On <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based">Debian-based</a> distributions:
     - `libpcap-dev`
     - `libasound2-dev`
     - `libfontconfig1-dev`
     - `libgtk-3-dev`
-  - On [RPM-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#RPM-based) distributions:
+  - On <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/List_of_Linux_distributions#RPM-based">RPM-based</a> distributions:
     - `libpcap-devel`
     - `alsa-lib-devel`
     - `fontconfig-devel`

@@ -18,10 +18,10 @@ Sniffnet will ignore any lines that do not start with a valid IP address or CIDR
 
 You are free to create your own blocklist, but it's advisable to use reputable sources that regularly update their lists based on the latest threat intelligence. <br>
 Some open-source IP blacklists are available at the following links:
-- [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets)
-- [bitwire-it/ipblocklist](https://github.com/bitwire-it/ipblocklist)
-- [duggytuxy/Data-Shield_IPv4_Blocklist](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist)
-- [romainmarcoux/malicious-ip](https://github.com/romainmarcoux/malicious-ip)
+- <a target="_blank" rel="noopener noreferrer" href="https://github.com/firehol/blocklist-ipsets">firehol/blocklist-ipsets</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://github.com/bitwire-it/ipblocklist">bitwire-it/ipblocklist</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist">duggytuxy/Data-Shield_IPv4_Blocklist</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://github.com/romainmarcoux/malicious-ip">romainmarcoux/malicious-ip</a>
 
 ***
 

@@ -19,13 +19,13 @@ text_headers = "#232634"      # header and footer text color
 starred      = "#e5c890"      # favorites' star color
 ```
 
-The example theme above uses colors from [Catppuccin](https://github.com/catppuccin/catppuccin). <br>
-You can also check the [`themes`](https://github.com/GyulyVGC/sniffnet/tree/main/resources/themes) folder,
+The example theme above uses colors from <a target="_blank" rel="noopener noreferrer" href="https://github.com/catppuccin/catppuccin">Catppuccin</a>. <br>
+You can also check the <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/tree/main/resources/themes"><code>themes</code></a> folder,
 which contains sample TOML files with additional themes.
 
 > 
 > All colors are in RGB or RGBA hexadecimal format. <br>
-> You can use tools like [this](https://www.w3schools.com/colors/colors_picker.asp) to find the hexadecimal code of a color.
+> You can use tools like <a target="_blank" rel="noopener noreferrer" href="https://www.w3schools.com/colors/colors_picker.asp">this</a> to find the hexadecimal code of a color.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
 
 Once you have created your TOML file, you can use it in Sniffnet 
