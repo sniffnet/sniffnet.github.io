@@ -1,5 +1,6 @@
 ---
 title: "Install on Windows"
+share-description: "Install Sniffnet on Windows with the official package, configure Npcap correctly, and complete the setup needed to monitor network traffic."
 ---
 **_Would you like to install Sniffnet on Windows?_**
 

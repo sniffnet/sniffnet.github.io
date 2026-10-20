@@ -1,5 +1,6 @@
 ---
 title: "IP blacklists"
+share-description: "Load custom IP blacklists in Sniffnet to identify connections involving addresses known to be malicious or suspicious."
 ---
 An **IP blacklist** (or blocklist) is a set of IP addresses that are known to be **malicious**
 or **suspicious** given their past behavior, including spamming, malware distribution, and DDoS attacks. <br>

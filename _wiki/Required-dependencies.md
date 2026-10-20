@@ -1,5 +1,6 @@
 ---
 title: "Required dependencies"
+share-description: "Review the dependencies required to run or build Sniffnet on Windows, Linux, and macOS, including Npcap and platform-specific packages."
 ---
 Are you ready to start using Sniffnet? <br>
 First of all we have to make sure your environment is correctly set up — no worries, this will take at most 5 minutes.

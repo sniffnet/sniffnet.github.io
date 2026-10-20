@@ -1,5 +1,6 @@
 ---
 title: "Network hosts"
+share-description: "Understand the network hosts shown by Sniffnet, including IP addresses, domains, countries, autonomous systems, and exchanged traffic."
 ---
 The bottom-left portion of the _Overview_ page features interesting details about the **network hosts** your machine is exchanging data with.
 

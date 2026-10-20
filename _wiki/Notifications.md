@@ -1,5 +1,6 @@
 ---
 title: "Notifications"
+share-description: "Configure Sniffnet notifications for network events, traffic thresholds, specific hosts, services, countries, or monitored applications."
 ---
 Sniffnet allows configuring **custom notifications** to warn you about specific network events. <br>
 You can set up notifications from the _Notifications_ tab of the application's settings.

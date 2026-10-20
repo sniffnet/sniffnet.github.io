@@ -1,5 +1,6 @@
 ---
 title: "Data source selection"
+share-description: "Learn how to select the correct network adapter or capture source in Sniffnet before starting a new network traffic analysis."
 ---
 After having installed the application, you're finally ready to use it!
 

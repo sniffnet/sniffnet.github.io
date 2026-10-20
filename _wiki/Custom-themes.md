@@ -1,5 +1,6 @@
 ---
 title: "Custom themes"
+share-description: "Create and use custom Sniffnet themes with TOML files to personalize application colors, text, charts, and interface elements."
 ---
 Sniffnet is a technical tool that's all about monitoring network traffic, 
 but at the same time it wants to be **visually appealing**. <br>

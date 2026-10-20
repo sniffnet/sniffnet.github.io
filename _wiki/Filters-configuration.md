@@ -1,5 +1,6 @@
 ---
 title: "Filters configuration"
+share-description: "Configure Sniffnet traffic filters with Berkeley Packet Filter expressions to monitor only the protocols, addresses, or ports you need."
 ---
 By default, all the traffic will be monitored by the application. <br>
 However, you can set **filters** to explicitly limit the analysis to the kind of traffic you're most interested in.

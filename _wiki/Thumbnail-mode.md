@@ -1,5 +1,6 @@
 ---
 title: "Thumbnail mode"
+share-description: "Use Sniffnet's thumbnail mode to monitor essential traffic statistics in a compact window while continuing to work in other applications."
 ---
 Sniffnet provides valuable insights about your network traffic, but sometimes you just can't
 dedicate a whole screen to the application. <br>

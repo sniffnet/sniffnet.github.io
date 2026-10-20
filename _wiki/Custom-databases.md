@@ -1,5 +1,6 @@
 ---
 title: "Custom databases"
+share-description: "Configure custom MMDB databases in Sniffnet for IP geolocation and autonomous system information from providers such as IPinfo."
 ---
 Sniffnet **natively embeds MMDB databases** useful to gain insights about the observed IP addresses.
 

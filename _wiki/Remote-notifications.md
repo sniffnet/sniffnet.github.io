@@ -1,5 +1,6 @@
 ---
 title: "Remote notifications"
+share-description: "Configure Sniffnet to send remote network notifications through webhook services such as SIGNL4, IFTTT, Svix, or a custom endpoint."
 ---
 Sniffnet allows you to be warned about specific network events in the form of [in-app notifications](/wiki/Notifications/). <br>
 While this is useful to get alerts on the monitored machine, sometimes you may want to be **notified remotely**.

@@ -1,5 +1,6 @@
 ---
 title: "PCAP file export"
+share-description: "Export network traffic captured by Sniffnet to a PCAP file, choose its destination, and understand the storage implications."
 ---
 Since version 1.3, Sniffnet allows exporting the captured network traffic as a **PCAP file**. <br>
 This special format is **widely adopted** among network monitoring tools and is useful in case you want to keep a copy of the data to perform further, more careful inspections.

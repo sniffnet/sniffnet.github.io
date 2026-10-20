@@ -1,5 +1,6 @@
 ---
 title: "Traffic inspection"
+share-description: "Inspect individual network connections in Sniffnet, including addresses, ports, protocols, transferred data, and available host information."
 ---
 Now that we've discussed how to use Sniffnet to analyze your network at a high level,
 let's talk about how you can use it to **inspect** each of your **connections** more in depth.

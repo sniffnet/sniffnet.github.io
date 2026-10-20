@@ -1,5 +1,6 @@
 ---
 title: "Services"
+share-description: "Learn how Sniffnet identifies network services from transport protocols and port numbers, and understand the service information it displays."
 ---
 It's now time to dig into **network services**, visible in the bottom-middle portion of the _Overview_ page.
 

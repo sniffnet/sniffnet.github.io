@@ -1,5 +1,6 @@
 ---
 title: "Programs"
+share-description: "See which applications and processes are using network bandwidth in Sniffnet and review their traffic, connections, and executable details."
 ---
 The last portion of _Overview_ page we still have to discuss features the list of **programs** using network bandwidth.
 

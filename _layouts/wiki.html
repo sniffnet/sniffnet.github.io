@@ -42,12 +42,10 @@ layout: base
     {% endunless %}
 
     <article class="wiki-article">
-    {% unless page.slug == 'Home' %}
       <header class="wiki-title-row">
-        <h1>{{ page.title }}</h1>
+        <h1>{% if page.slug == 'Home' %}Sniffnet Wiki{% else %}{{ page.title }}{% endif %}</h1>
       </header>
       <hr>
-    {% endunless %}
       <div class="wiki-content">
         {{ content }}
       </div>

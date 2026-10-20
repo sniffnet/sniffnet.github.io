@@ -1,5 +1,6 @@
 ---
 title: "Install on macOS"
+share-description: "Install Sniffnet on macOS using the official DMG package and learn how to grant the permissions required for network traffic monitoring."
 ---
 **_Would you like to install Sniffnet on macOS?_**
 
