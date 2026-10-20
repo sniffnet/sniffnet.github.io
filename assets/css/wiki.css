@@ -259,39 +259,73 @@ a.wiki-nav-link:focus,
 }
 
 .wiki-content blockquote.wiki-callout {
+  --wiki-callout-foreground: #58a6ff;
+  --wiki-callout-border: #1f6feb;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/note.svg");
   display: block;
   position: relative;
   padding: 2.15rem 1rem 0.25rem;
-  background: rgba(1, 198, 255, 0.06);
-  border: 1px solid var(--wiki-border);
-  border-left: 3px solid #01c6ff;
-  border-radius: 0.65rem;
+  background: transparent;
+  border: 0;
+  border-left: 0.25em solid var(--wiki-callout-border);
+  border-radius: 0;
   color: #bcd0dd;
   font-style: normal;
 }
 
 .wiki-content blockquote.wiki-callout::before {
-  content: attr(data-callout-label);
+  content: "";
   position: absolute;
   top: 0.75rem;
   left: 1rem;
-  color: #01c6ff;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--wiki-callout-foreground);
+  -webkit-mask: var(--wiki-callout-icon) center / contain no-repeat;
+  mask: var(--wiki-callout-icon) center / contain no-repeat;
+}
+
+.wiki-content blockquote.wiki-callout::after {
+  content: attr(data-callout-label);
+  position: absolute;
+  top: 0.75rem;
+  left: 2.5rem;
+  color: var(--wiki-callout-foreground);
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   font-weight: 800;
+  line-height: 1rem;
   letter-spacing: 0.08em;
 }
 
-.wiki-content blockquote.wiki-callout-warning,
-.wiki-content blockquote.wiki-callout-caution {
-  background: rgba(255, 229, 114, 0.06);
-  border-color: rgba(255, 229, 114, 0.3);
-  border-left-color: #ffe572;
+.wiki-content blockquote.wiki-callout-note {
+  --wiki-callout-foreground: #58a6ff;
+  --wiki-callout-border: #1f6feb;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/note.svg");
 }
 
-.wiki-content blockquote.wiki-callout-warning::before,
-.wiki-content blockquote.wiki-callout-caution::before {
-  color: #ffe572;
+.wiki-content blockquote.wiki-callout-tip {
+  --wiki-callout-foreground: #3fb950;
+  --wiki-callout-border: #238636;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/tip.svg");
+}
+
+.wiki-content blockquote.wiki-callout-important {
+  --wiki-callout-foreground: #a371f7;
+  --wiki-callout-border: #8957e5;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/important.svg");
+}
+
+.wiki-content blockquote.wiki-callout-warning {
+  --wiki-callout-foreground: #d29922;
+  --wiki-callout-border: #9e6a03;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/warning.svg");
+}
+
+.wiki-content blockquote.wiki-callout-caution {
+  --wiki-callout-foreground: #f85149;
+  --wiki-callout-border: #da3633;
+  --wiki-callout-icon: url("/assets/img/wiki-callouts/caution.svg");
 }
 
 .wiki-content blockquote.wiki-callout strong {
@@ -301,7 +335,6 @@ a.wiki-nav-link:focus,
 
 .wiki-content blockquote.wiki-callout p {
   margin: 0.28rem 0 0;
-  font-size: 0.95rem;
   line-height: 1.55;
 }
 
