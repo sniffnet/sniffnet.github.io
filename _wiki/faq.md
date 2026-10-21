@@ -167,7 +167,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 > Yes, Sniffnet packages for Linux are available in `AppImage`, `DEB` and `RPM` format. <br>
 > Help to create other kinds of Linux packages is welcome and warmly appreciated (see <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/252">#252</a>). <br>
-> Alternatively, you can [build Sniffnet from source](/wiki/Build-from-source/) or use the package manager of your distribution to install it (if available).
+> Alternatively, you can [build Sniffnet from source](/wiki/build-from-source/) or use the package manager of your distribution to install it (if available).
 
 </details>
 

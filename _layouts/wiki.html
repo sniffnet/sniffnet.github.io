@@ -29,7 +29,7 @@ layout: base
       {% endfor %}
     {% endfor %}
 
-    {% unless page.slug == 'Home' %}
+    {% unless page.slug == 'home' %}
     <nav class="wiki-breadcrumbs" aria-label="Breadcrumb">
       <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
       <i class="fas fa-chevron-right" aria-hidden="true"></i>
@@ -43,7 +43,7 @@ layout: base
 
     <article class="wiki-article">
       <header class="wiki-title-row">
-        <h1>{% if page.slug == 'Home' %}Sniffnet Wiki{% else %}{{ page.title }}{% endif %}</h1>
+        <h1>{% if page.slug == 'home' %}Sniffnet Wiki{% else %}{{ page.title }}{% endif %}</h1>
       </header>
       <hr>
       <div class="wiki-content">
@@ -58,7 +58,7 @@ layout: base
     {% assign wiki_found_current = false %}
     {% assign wiki_last_title = 'Wiki' %}
     {% assign wiki_last_url = '/wiki/' %}
-    {% if page.slug == 'Home' %}
+    {% if page.slug == 'home' %}
       {% assign wiki_found_current = true %}
     {% endif %}
 
@@ -96,12 +96,12 @@ layout: base
 
     {% if wiki_found_current %}
       {% unless wiki_next_url %}
-        {% unless page.slug == 'FAQ' %}
+        {% unless page.slug == 'faq' %}
           {% assign wiki_next_title = 'FAQ' %}
-          {% assign wiki_next_url = '/wiki/FAQ/' %}
+          {% assign wiki_next_url = '/wiki/faq/' %}
         {% endunless %}
       {% endunless %}
-    {% elsif page.slug == 'FAQ' %}
+    {% elsif page.slug == 'faq' %}
       {% assign wiki_previous_title = wiki_last_title %}
       {% assign wiki_previous_url = wiki_last_url %}
       {% assign wiki_found_current = true %}

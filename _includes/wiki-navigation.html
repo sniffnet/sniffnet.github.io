@@ -1,7 +1,7 @@
 <nav class="wiki-tree" aria-label="{{ include.label }}">
   <ul class="wiki-nav-home">
     <li>
-      <a class="wiki-nav-link{% if page.slug == 'Home' %} active{% endif %}" href="{{ '/wiki/' | relative_url }}"{% if page.slug == 'Home' %} aria-current="page"{% endif %}>
+      <a class="wiki-nav-link{% if page.slug == 'home' %} active{% endif %}" href="{{ '/wiki/' | relative_url }}"{% if page.slug == 'home' %} aria-current="page"{% endif %}>
         <i class="fas fa-home" aria-hidden="true"></i>Home
       </a>
     </li>
@@ -28,7 +28,7 @@
   <hr>
   <ul class="wiki-nav-home wiki-nav-faq">
     <li>
-      <a class="wiki-nav-link{% if page.slug == 'FAQ' %} active{% endif %}" href="{{ '/wiki/FAQ/' | relative_url }}"{% if page.slug == 'FAQ' %} aria-current="page"{% endif %}>
+      <a class="wiki-nav-link{% if page.slug == 'faq' %} active{% endif %}" href="{{ '/wiki/faq/' | relative_url }}"{% if page.slug == 'faq' %} aria-current="page"{% endif %}>
         <i class="fas fa-question-circle" aria-hidden="true"></i>FAQ
       </a>
     </li>

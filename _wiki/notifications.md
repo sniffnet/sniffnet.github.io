@@ -28,7 +28,7 @@ and, in case of data threshold exceeded notifications, you can specify a **custo
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
 
 This settings page also includes a checkbox to enable remote notifications forwarding to a custom endpoint;
-such feature is described in the dedicated [Remote notifications](/wiki/Remote-notifications/) Wiki page.
+such feature is described in the dedicated [Remote notifications](/wiki/remote-notifications/) Wiki page.
 
 ***
 
@@ -43,6 +43,6 @@ and each notification includes details about the type of event, the timestamp of
 and other information depending on the specific event.
 
 > 
-> Enabling notifications is particularly useful when paired with a custom [filters configuration](/wiki/Filters-configuration/),
+> Enabling notifications is particularly useful when paired with a custom [filters configuration](/wiki/filters-configuration/),
 > as you can set up alerts for specific network conditions that you want to monitor closely.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}

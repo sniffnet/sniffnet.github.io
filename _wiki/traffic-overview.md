@@ -44,4 +44,4 @@ Finally, in this portion of the page you can find a **donut chart** reporting **
 
 ***
 
-The bottom section of the _Overview_ page includes further insights about items discussed in the next dedicated sections: [network hosts](/wiki/Network-hosts/), [services](/wiki/Services/), and [programs](/wiki/Programs/).
+The bottom section of the _Overview_ page includes further insights about items discussed in the next dedicated sections: [network hosts](/wiki/network-hosts/), [services](/wiki/services/), and [programs](/wiki/programs/).

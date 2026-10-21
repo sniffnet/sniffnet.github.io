@@ -1,83 +1,83 @@
 sections:
   - title: Getting started
     slug: getting-started
-    page: Getting-started
+    page: getting-started
     items:
       - title: Required dependencies
-        page: Required-dependencies
+        page: required-dependencies
         icon: fas fa-box-open
       - title: Install on Windows
-        page: Install-on-Windows
+        page: install-on-windows
         icon: fab fa-windows
       - title: Install on Linux
-        page: Install-on-Linux
+        page: install-on-linux
         icon: fab fa-linux
       - title: Install on macOS
-        page: Install-on-macOS
+        page: install-on-macos
         icon: fab fa-apple
       - title: Alternative installation methods
-        page: Alternative-installation-methods
+        page: alternative-installation-methods
         icon: fas fa-download
       - title: Build from source
-        page: Build-from-source
+        page: build-from-source
         icon: fas fa-code
   - title: Set up the analysis
     slug: set-up-the-analysis
-    page: Set-up-the-analysis
+    page: set-up-the-analysis
     items:
       - title: Data source selection
-        page: Data-source-selection
+        page: data-source-selection
         icon: fas fa-database
       - title: Filters configuration
-        page: Filters-configuration
+        page: filters-configuration
         icon: fas fa-filter
       - title: PCAP file export
-        page: PCAP-file-export
+        page: pcap-file-export
         icon: fas fa-file-export
   - title: Internet traffic monitoring
     slug: internet-traffic-monitoring
-    page: Internet-traffic-monitoring
+    page: internet-traffic-monitoring
     items:
       - title: Traffic overview
-        page: Traffic-overview
+        page: traffic-overview
         icon: fas fa-chart-area
       - title: Network hosts
-        page: Network-hosts
+        page: network-hosts
         icon: fas fa-globe
       - title: Services
-        page: Services
+        page: services
         icon: fas fa-network-wired
       - title: Programs
-        page: Programs
+        page: programs
         icon: fas fa-gamepad
       - title: Traffic inspection
-        page: Traffic-inspection
+        page: traffic-inspection
         icon: fas fa-search-plus
       - title: Notifications
-        page: Notifications
+        page: notifications
         icon: fas fa-bell
       - title: Thumbnail mode
-        page: Thumbnail-mode
+        page: thumbnail-mode
         icon: fas fa-compress-alt
   - title: Advanced features
     slug: advanced-features
-    page: Advanced-features
+    page: advanced-features
     items:
       - title: Remote notifications
-        page: Remote-notifications
+        page: remote-notifications
         icon: fas fa-paper-plane
       - title: Custom themes
-        page: Custom-themes
+        page: custom-themes
         icon: fas fa-palette
       - title: Custom databases
-        page: Custom-databases
+        page: custom-databases
         icon: fas fa-server
       - title: IP blacklists
-        page: IP-blacklists
+        page: ip-blacklists
         icon: fas fa-shield-alt
       - title: Keyboard shortcuts
-        page: Keyboard-shortcuts
+        page: keyboard-shortcuts
         icon: fas fa-keyboard
       - title: Command line arguments
-        page: Command-line-arguments
+        page: command-line-arguments
         icon: fas fa-terminal

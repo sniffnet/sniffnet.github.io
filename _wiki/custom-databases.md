@@ -9,7 +9,7 @@ More precisely, the app comes with the following databases:
 - an **IP to ASN** MMDB
 
 The MMDB file format and how these databases are used by the application is better discussed
-in the [_Network hosts_](/wiki/Network-hosts/) section.
+in the [_Network hosts_](/wiki/network-hosts/) section.
 
 The databases embedded in the application are the **free version** of the <a target="_blank" rel="noopener" href="https://www.maxmind.com">MaxMind</a> _GeoLite2_ databases,
 but you can also use **your own MMDB files** in Sniffnet. <br>

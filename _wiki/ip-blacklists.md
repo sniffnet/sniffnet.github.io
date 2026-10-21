@@ -27,5 +27,5 @@ Some open-source IP blacklists are available at the following links:
 ***
 
 Once imported, Sniffnet will check for matches between the addresses in the blacklist and the IP addresses of the network traffic it monitors. <br>
-When a match is found, if blacklist [notifications](/wiki/Notifications/) are enabled, the app will display a notification alerting the user about the potential threat. <br>
-You can also see all blacklisted connections in the [_Inspect_ page](/wiki/Traffic-inspection/) table by activating the corresponding filter toggle.
+When a match is found, if blacklist [notifications](/wiki/notifications/) are enabled, the app will display a notification alerting the user about the potential threat. <br>
+You can also see all blacklisted connections in the [_Inspect_ page](/wiki/traffic-inspection/) table by activating the corresponding filter toggle.

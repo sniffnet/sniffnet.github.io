@@ -14,7 +14,7 @@ You can easily do that by following the next steps:
 
 ***
 
-> Installing Sniffnet via the provided packages should automatically add all the needed dependencies; if this is not the case, check the [required dependencies page](/wiki/Required-dependencies/).
+> Installing Sniffnet via the provided packages should automatically add all the needed dependencies; if this is not the case, check the [required dependencies page](/wiki/required-dependencies/).
 {: .wiki-callout .wiki-callout-note data-callout-label="NOTE"}
 
 > If you decide to download Sniffnet in an alternative way (e.g., using a dedicated package manager), remember that you may need to set capabilities to correctly inspect a network adapter:
