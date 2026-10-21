@@ -27,7 +27,7 @@ These 3 parameters, in the order, are displayed for each of the hosts, and are b
 The geolocation of a host has **country-wide granularity** and is represented by the corresponding **flag**. <br>
 Hovering over the flag will display the country code, in case you are having troubles to recognise it.
 
-The geographical location is **based on the host IP address**, and it's retrieved performing a lookup against an <a target="_blank" rel="noopener noreferrer" href="https://maxmind.github.io/MaxMind-DB/">MMDB</a> database natively integrated in Sniffnet.
+The geographical location is **based on the host IP address**, and it's retrieved performing a lookup against an <a target="_blank" rel="noopener" href="https://maxmind.github.io/MaxMind-DB/">MMDB</a> database natively integrated in Sniffnet.
 
 >
 > The MMDB (MaxMind database) format has been developed especially for IP lookups. <br>

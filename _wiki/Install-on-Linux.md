@@ -6,7 +6,7 @@ share-description: "Install Sniffnet on Linux using the official DEB or RPM pack
 
 You can easily do that by following the next steps:
 
-1. download a Linux-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
+1. download a Linux-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded package (DEB or RPM depending on your distribution) with the native `Software Install` utility and click `Install`
 

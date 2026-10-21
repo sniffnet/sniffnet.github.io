@@ -16,7 +16,7 @@ To address these and other possible scenarios, you can set up remote notificatio
 </div>
 
 All you need is to provide an **endpoint URL** where notifications will be sent via HTTP POST webhook. <br>
-In the example above notifications are configured to be sent to a <a target="_blank" rel="noopener noreferrer" href="https://signl4.com/">SIGNL4</a> URL, and will appear as alerts on the mobile device associated with that account.
+In the example above notifications are configured to be sent to a <a target="_blank" rel="noopener" href="https://signl4.com/">SIGNL4</a> URL, and will appear as alerts on the mobile device associated with that account.
 
 <div align="center">
 <img alt="" width="30%" src="/assets/img/wiki/signl4.png">
@@ -24,7 +24,7 @@ In the example above notifications are configured to be sent to a <a target="_bl
 
 SIGNL4 is an example of service to receive remote notifications,
 but you can use any solution that supports receiving webhooks such as
-<a target="_blank" rel="noopener noreferrer" href="https://ifttt.com/maker_webhooks/">IFTTT</a>, <a target="_blank" rel="noopener noreferrer" href="https://svix.com/">Svix</a>, or <a target="_blank" rel="noopener noreferrer" href="https://webhook.site/">Webhook.site</a>. <br>
+<a target="_blank" rel="noopener" href="https://ifttt.com/maker_webhooks/">IFTTT</a>, <a target="_blank" rel="noopener" href="https://svix.com/">Svix</a>, or <a target="_blank" rel="noopener" href="https://webhook.site/">Webhook.site</a>. <br>
 You can even set up your own server to handle Sniffnet notifications in a custom way. 
 
 The kinds of events you want to be notified about are chosen by enabling the corresponding toggles,

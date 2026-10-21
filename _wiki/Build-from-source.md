@@ -13,7 +13,7 @@ share-description: "Build Sniffnet from source by installing Rust and the requir
 
 You can do that by following the next steps:
 
-1. <a target="_blank" rel="noopener noreferrer" href="https://www.rust-lang.org/tools/install">install the Rust programming language</a> on your machine, making sure to follow all the required steps
+1. <a target="_blank" rel="noopener" href="https://www.rust-lang.org/tools/install">install the Rust programming language</a> on your machine, making sure to follow all the required steps
 
 2. install all the needed [build dependencies](/wiki/Required-dependencies/) for Sniffnet
 

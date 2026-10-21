@@ -44,10 +44,10 @@ In the following are reported **some examples** of the most common services with
 ***
 
 Network services are inferred from the transport protocol and port number,
-following the convention maintained by <a target="_blank" rel="noopener noreferrer" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml">IANA</a>.
+following the convention maintained by <a target="_blank" rel="noopener" href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml">IANA</a>.
 
-Sniffnet's list of services is generated from <a target="_blank" rel="noopener noreferrer" href="https://nmap.org/book/nmap-services.html">Nmap's service collection</a>
-and is available in the file <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/services/services.txt"><code>services.txt</code></a>.
+Sniffnet's list of services is generated from <a target="_blank" rel="noopener" href="https://nmap.org/book/nmap-services.html">Nmap's service collection</a>
+and is available in the file <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/services/services.txt"><code>services.txt</code></a>.
 
 >
 > The Internet Assigned Numbers Authority (IANA) is responsible for maintaining

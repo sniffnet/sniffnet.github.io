@@ -11,7 +11,7 @@ More precisely, the app comes with the following databases:
 The MMDB file format and how these databases are used by the application is better discussed
 in the [_Network hosts_](/wiki/Network-hosts/) section.
 
-The databases embedded in the application are the **free version** of the <a target="_blank" rel="noopener noreferrer" href="https://www.maxmind.com">MaxMind</a> _GeoLite2_ databases,
+The databases embedded in the application are the **free version** of the <a target="_blank" rel="noopener" href="https://www.maxmind.com">MaxMind</a> _GeoLite2_ databases,
 but you can also use **your own MMDB files** in Sniffnet. <br>
 This can be useful in different scenarios:
 
@@ -20,7 +20,7 @@ This can be useful in different scenarios:
 - you want to use a **different database provider** for your analysis
 
 > 
-> A really valuable provider of MMDB files is <a target="_blank" rel="noopener noreferrer" href="https://ipinfo.io"><strong>IPinfo</strong></a>,
+> A really valuable provider of MMDB files is <a target="_blank" rel="noopener" href="https://ipinfo.io"><strong>IPinfo</strong></a>,
 > which offers daily updated datasets characterized by unmatched levels of accuracy and reliability.
 > 
 > The reason why Sniffnet doesn't natively use IPinfo is that their databases are bigger in size,

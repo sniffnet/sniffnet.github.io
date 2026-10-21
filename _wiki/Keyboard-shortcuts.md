@@ -37,4 +37,4 @@ The currently **available hotkeys** are reported in the following table.
 
 If you want to suggest a different key combination for one of the existing shortcuts,
 or if you want to propose a new shortcut,
-share your ideas in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/GyulyVGC/sniffnet/issues/97">dedicated issue</a>.
+share your ideas in the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/97">dedicated issue</a>.
