@@ -88,6 +88,59 @@ layout: null
   text-transform: uppercase;
 }
 
+.wiki-nav-section-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #b8c8d7;
+  cursor: pointer;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  list-style: none;
+  text-transform: none;
+}
+
+.wiki-nav-section-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.wiki-nav-section-toggle::before {
+  width: 0.45rem;
+  height: 0.45rem;
+  margin: 0 0.15rem 0 0.1rem;
+  color: #587086;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  content: '';
+  transform: rotate(-45deg);
+  transition: transform 160ms ease;
+}
+
+.wiki-nav-section[open] > .wiki-nav-section-toggle {
+  margin-bottom: 0.45rem;
+}
+
+.wiki-nav-section[open] > .wiki-nav-section-toggle::before {
+  transform: rotate(45deg);
+}
+
+.wiki-nav-section-toggle h2 {
+  flex: 1;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.wiki-nav-section-toggle:hover,
+.wiki-nav-section-toggle:focus-visible,
+.wiki-nav-section-toggle.active {
+  color: #01c6ff;
+}
+
 .wiki-nav-section h2 a {
   color: inherit;
   text-decoration: none;
