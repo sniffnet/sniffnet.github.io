@@ -14,7 +14,9 @@ layout: base
   </details>
 
   <aside class="wiki-sidebar">
-    {% include wiki-navigation.html id_prefix="desktop" label="Wiki navigation" %}
+    <div class="wiki-sidebar-scroll">
+      {% include wiki-navigation.html id_prefix="desktop" label="Wiki navigation" %}
+    </div>
   </aside>
 
   <main class="wiki-main" id="main-content">
@@ -29,7 +31,7 @@ layout: base
       {% endfor %}
     {% endfor %}
 
-    {% unless page.slug == 'home' %}
+    {% unless page.slug == 'sniffnet-wiki' %}
     <nav class="wiki-breadcrumbs" aria-label="Breadcrumb">
       <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
       <i class="fas fa-chevron-right" aria-hidden="true"></i>
@@ -43,7 +45,7 @@ layout: base
 
     <article class="wiki-article">
       <header class="wiki-title-row">
-        <h1>{% if page.slug == 'home' %}Sniffnet Wiki{% else %}{{ page.title }}{% endif %}</h1>
+        <h1>{{ page.title }}</h1>
       </header>
       <hr>
       <div class="wiki-content">
@@ -56,9 +58,9 @@ layout: base
     {% assign wiki_next_title = nil %}
     {% assign wiki_next_url = nil %}
     {% assign wiki_found_current = false %}
-    {% assign wiki_last_title = 'Wiki' %}
+    {% assign wiki_last_title = 'Sniffnet Wiki' %}
     {% assign wiki_last_url = '/wiki/' %}
-    {% if page.slug == 'home' %}
+    {% if page.slug == 'sniffnet-wiki' %}
       {% assign wiki_found_current = true %}
     {% endif %}
 

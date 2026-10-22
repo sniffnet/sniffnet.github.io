@@ -30,10 +30,50 @@ layout: null
 }
 
 .wiki-sidebar {
+  position: sticky;
+  top: 6.5rem;
   align-self: start;
-  padding: 1rem;
+  max-height: calc(100vh - 8rem);
+  padding: 0.5rem;
   background: {{ site.footer-col }};
   border-radius: 0.75rem;
+}
+
+.wiki-sidebar-scroll {
+  --wiki-scrollbar-thumb: rgba(145, 165, 186, 0.2);
+  max-height: calc(100vh - 9rem);
+  padding: 0.5rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.wiki-sidebar-scroll:hover,
+.wiki-sidebar-scroll:focus-within {
+  --wiki-scrollbar-thumb: rgba(145, 165, 186, 0.65);
+}
+
+.wiki-sidebar-scroll::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+.wiki-sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.wiki-sidebar-scroll:hover::-webkit-scrollbar-track,
+.wiki-sidebar-scroll:focus-within::-webkit-scrollbar-track {
+  background: rgba(145, 165, 186, 0.2);
+}
+
+.wiki-sidebar-scroll::-webkit-scrollbar-thumb {
+  background: var(--wiki-scrollbar-thumb);
+  border-radius: 999px;
+  transition: background-color 160ms ease;
+}
+
+.wiki-sidebar-scroll:hover::-webkit-scrollbar-thumb:hover,
+.wiki-sidebar-scroll:focus-within::-webkit-scrollbar-thumb:hover {
+  background: #b8c8d7;
 }
 
 .wiki-nav-section {
@@ -59,7 +99,7 @@ layout: null
   color: #01c6ff;
 }
 
-.wiki-nav-home {
+.wiki-nav-root {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -120,6 +160,11 @@ a.wiki-nav-link:focus,
 
 .wiki-breadcrumbs a {
   color: #9fb6ca;
+}
+
+.wiki-breadcrumbs [aria-current="page"] {
+  color: var(--wiki-text);
+  font-weight: 700;
 }
 
 .wiki-breadcrumbs i {

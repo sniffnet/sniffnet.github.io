@@ -1,8 +1,8 @@
 <nav class="wiki-tree" aria-label="{{ include.label }}">
-  <ul class="wiki-nav-home">
+  <ul class="wiki-nav-root">
     <li>
-      <a class="wiki-nav-link{% if page.slug == 'home' %} active{% endif %}" href="{{ '/wiki/' | relative_url }}"{% if page.slug == 'home' %} aria-current="page"{% endif %}>
-        <i class="fas fa-home" aria-hidden="true"></i>Home
+      <a class="wiki-nav-link{% if page.slug == 'sniffnet-wiki' %} active{% endif %}" href="{{ '/wiki/' | relative_url }}"{% if page.slug == 'sniffnet-wiki' %} aria-current="page"{% endif %}>
+        <i class="fas fa-book-open" aria-hidden="true"></i>Sniffnet Wiki
       </a>
     </li>
   </ul>
@@ -26,7 +26,7 @@
   {% endfor %}
 
   <hr>
-  <ul class="wiki-nav-home wiki-nav-faq">
+  <ul class="wiki-nav-root wiki-nav-faq">
     <li>
       <a class="wiki-nav-link{% if page.slug == 'faq' %} active{% endif %}" href="{{ '/wiki/faq/' | relative_url }}"{% if page.slug == 'faq' %} aria-current="page"{% endif %}>
         <i class="fas fa-question-circle" aria-hidden="true"></i>FAQ

@@ -143,11 +143,11 @@ Check out the <a href="{{ '/wiki/' | relative_url }}">Sniffnet Wiki</a>, a compr
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
-<p align="center">
+<div align="center">
 <a href="{{ '/wiki/' | relative_url }}">
-<img class="hoverExpand" alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
+<img alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
-</p>
+</div>
 
 <hr/>
 

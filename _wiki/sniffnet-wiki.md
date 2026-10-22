@@ -1,11 +1,10 @@
 ---
-title: "Home"
-share-title: "Sniffnet Wiki"
+title: "Sniffnet Wiki"
 share-description: "The Sniffnet user manual, with installation instructions, traffic monitoring guides, advanced features, and frequently asked questions."
 permalink: /wiki/
 ---
 <div align="center" markdown="1">
-<img alt="" width="450px" src="/assets/img/wiki/wikilogo.svg"/>
+<img alt="" width="400px" src="/assets/img/wiki/wikilogo.svg"/>
 
 **_Welcome to the Sniffnet Wiki!_**
 </div>
