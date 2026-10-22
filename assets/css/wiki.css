@@ -296,6 +296,39 @@ a.wiki-nav-link:focus,
   color: inherit;
 }
 
+.wiki-content .highlight .nt {
+  color: #a0e8f8;
+}
+
+.wiki-content .highlight .c,
+.wiki-content .highlight .c1,
+.wiki-content .highlight .cm,
+.wiki-content .highlight .cs {
+  color: var(--wiki-muted);
+}
+
+.wiki-content .highlight .s,
+.wiki-content .highlight .s1,
+.wiki-content .highlight .s2 {
+  color: #f2a6c0;
+}
+
+.wiki-content .highlight .se {
+  color: #ffb86c;
+}
+
+.wiki-content .highlight .nv,
+.wiki-content .highlight .vc,
+.wiki-content .highlight .vg,
+.wiki-content .highlight .vi {
+  color: #72d6c9;
+}
+
+.wiki-content .highlight .nb,
+.wiki-content .highlight .bp {
+  color: #7dcfff;
+}
+
 .wiki-content table {
   display: block;
   overflow-x: auto;
@@ -487,12 +520,18 @@ a.wiki-nav-link:focus,
   }
 
   .wiki-mobile-chevron {
-    width: 1em;
-    text-align: center;
+    width: 0.45rem;
+    height: 0.45rem;
+    margin: 0 0.15rem 0 0.1rem;
+    color: #587086;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform 160ms ease;
   }
 
   .wiki-mobile-navigation[open] .wiki-mobile-chevron {
-    transform: rotate(180deg);
+    transform: rotate(45deg);
   }
 
   .wiki-mobile-toggle:hover,
