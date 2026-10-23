@@ -10,11 +10,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://www.sniffnet.app"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|LICENSE|README|feed|404|_data|tags|staticman)}i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_wiki|LICENSE|README|feed|404|_data|tags|staticman)}i) }
 
   spec.metadata      = {
     "changelog_uri"     => "https://github.com/GyulyVGC/sniffnet/blob/main/CHANGELOG.md",
-    "documentation_uri" => "https://github.com/GyulyVGC/sniffnet/wiki"
+    "documentation_uri" => "https://sniffnet.app/wiki/"
   }
 
   spec.add_runtime_dependency "jekyll", ">= 3.9"

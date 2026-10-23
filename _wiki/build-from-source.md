@@ -1,0 +1,24 @@
+---
+title: "Build from source"
+share-description: "Build Sniffnet from source by installing Rust and the required system dependencies, cloning the repository, and compiling the application."
+---
+> This guide is to be followed by programmers who intend to contribute to the project.
+>
+> If you just want to use the application, it's suggested to follow the installation guide for your specific operating system: [Windows]({{ '/wiki/install-on-windows/' | relative_url }}) \| [Linux]({{ '/wiki/install-on-linux/' | relative_url }}) \| [macOS]({{ '/wiki/install-on-macos/' | relative_url }})
+{: .wiki-callout .wiki-callout-warning data-callout-label="WARNING"}
+
+***
+
+**_Would you like to build the application source code?_**
+
+You can do that by following the next steps:
+
+1. <a target="_blank" rel="noopener" href="https://www.rust-lang.org/tools/install">install the Rust programming language</a> on your machine, making sure to follow all the required steps
+
+2. install all the needed [build dependencies]({{ '/wiki/required-dependencies/' | relative_url }}) for Sniffnet
+
+3. clone Sniffnet repository locally
+
+4. run the command `cargo build` from the cloned repository directory
+
+5. you have successfully built the source code! The generated binary path, relative to the repository directory, is `./target/debug/sniffnet`

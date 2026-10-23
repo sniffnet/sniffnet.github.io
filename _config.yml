@@ -9,6 +9,7 @@ navbar-links:
   Download: "/download/"
   News: "/news/"
   Gallery: "/gallery/"
+  Wiki: "/wiki/"
   Sponsor: "/sponsor/"
 
 # Logo
@@ -56,6 +57,11 @@ highlighter: rouge
 permalink: /news/:title/
 future: true
 
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:name/
+
 kramdown:
   input: GFM
 
@@ -67,6 +73,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "wiki"
+      nav-title: "Wiki"
+      body-class: "wiki-page"
+      css:
+        - /assets/css/wiki.css
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
