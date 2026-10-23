@@ -10,7 +10,7 @@ as they can help identify or block traffic from bad actors.
 Sniffnet supports importing custom IP blacklists from the settings _General_ tab.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/ip_blacklist.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/ip_blacklist.png' | relative_url }}">
 </div>
 
 The app supports blocklists in any file format,
@@ -27,5 +27,5 @@ Some open-source IP blacklists are available at the following links:
 ***
 
 Once imported, Sniffnet will check for matches between the addresses in the blacklist and the IP addresses of the network traffic it monitors. <br>
-When a match is found, if blacklist [notifications](/wiki/notifications/) are enabled, the app will display a notification alerting the user about the potential threat. <br>
-You can also see all blacklisted connections in the [_Inspect_ page](/wiki/traffic-inspection/) table by activating the corresponding filter toggle.
+When a match is found, if blacklist [notifications]({{ '/wiki/notifications/' | relative_url }}) are enabled, the app will display a notification alerting the user about the potential threat. <br>
+You can also see all blacklisted connections in the [_Inspect_ page]({{ '/wiki/traffic-inspection/' | relative_url }}) table by activating the corresponding filter toggle.

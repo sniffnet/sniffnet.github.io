@@ -9,7 +9,7 @@ As soon as your machine exchanges any network data, you'll be able to see real-t
 As the name suggests, this page provides a high-level overview of your traffic in the form of an **insightful dashboard of your Internet activity**.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/overview_page.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/overview_page.png' | relative_url }}">
 </div>
 
 The top-right section of the page features a **live chart** depicting the **traffic rate** relative to the latest 30 seconds of analysis:
@@ -22,7 +22,7 @@ The chart is updated once per second to always display the most recent activity,
 Moving away from the chart, we notice that the **top-left portion of the page** includes a section providing other useful information — let's examine it a little deeper.
 
 <div align="center">
-<img alt="" width="40%" src="/assets/img/wiki/info_col.png">
+<img alt="" width="40%" src="{{ '/assets/img/wiki/info_col.png' | relative_url }}">
 </div>
 
 Starting from the top-left, we can find details about the **network adapter** monitored: this is the same device previously selected for inspection in the initial page of the application. <br>
@@ -44,4 +44,4 @@ Finally, in this portion of the page you can find a **donut chart** reporting **
 
 ***
 
-The bottom section of the _Overview_ page includes further insights about items discussed in the next dedicated sections: [network hosts](/wiki/network-hosts/), [services](/wiki/services/), and [programs](/wiki/programs/).
+The bottom section of the _Overview_ page includes further insights about items discussed in the next dedicated sections: [network hosts]({{ '/wiki/network-hosts/' | relative_url }}), [services]({{ '/wiki/services/' | relative_url }}), and [programs]({{ '/wiki/programs/' | relative_url }}).

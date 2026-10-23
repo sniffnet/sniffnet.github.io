@@ -6,7 +6,7 @@ share-description: "Install Sniffnet on Linux using the official DEB or RPM pack
 
 You can easily do that by following the next steps:
 
-1. download a Linux-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
+1. download a Linux-compatible version of the application, available from the [official website]({{ '/download/' | relative_url }}) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded package (DEB or RPM depending on your distribution) with the native `Software Install` utility and click `Install`
 
@@ -14,7 +14,7 @@ You can easily do that by following the next steps:
 
 ***
 
-> Installing Sniffnet via the provided packages should automatically add all the needed dependencies; if this is not the case, check the [required dependencies page](/wiki/required-dependencies/).
+> Installing Sniffnet via the provided packages should automatically add all the needed dependencies; if this is not the case, check the [required dependencies page]({{ '/wiki/required-dependencies/' | relative_url }}).
 {: .wiki-callout .wiki-callout-note data-callout-label="NOTE"}
 
 > If you decide to download Sniffnet in an alternative way (e.g., using a dedicated package manager), remember that you may need to set capabilities to correctly inspect a network adapter:
@@ -29,4 +29,3 @@ You can easily do that by following the next steps:
 {: .wiki-callout .wiki-callout-warning data-callout-label="WARNING"}
 
 
- 

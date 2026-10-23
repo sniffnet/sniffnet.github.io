@@ -6,7 +6,7 @@ share-description: "Install Sniffnet on Windows with the official package, confi
 
 You can easily do that by following the next steps:
 
-1. download a Windows-compatible version of the application, available from the [official website](https://sniffnet.app/download/) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
+1. download a Windows-compatible version of the application, available from the [official website]({{ '/download/' | relative_url }}) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded file, allowing its execution by selecting `Keep anyway`
 <p align="center"><img alt="" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/0710f8b6-6ee1-4ec2-9a5f-6c80425fcde6"/></p>
@@ -23,4 +23,3 @@ You can easily do that by following the next steps:
 
 
 
- 

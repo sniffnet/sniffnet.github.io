@@ -6,7 +6,7 @@ Sniffnet allows configuring **custom notifications** to warn you about specific 
 You can set up notifications from the _Notifications_ tab of the application's settings.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/settings_notifications.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/settings_notifications.png' | relative_url }}">
 </div>
 
 By default, all notifications are disabled. <br>
@@ -28,14 +28,14 @@ and, in case of data threshold exceeded notifications, you can specify a **custo
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
 
 This settings page also includes a checkbox to enable remote notifications forwarding to a custom endpoint;
-such feature is described in the dedicated [Remote notifications](/wiki/remote-notifications/) Wiki page.
+such feature is described in the dedicated [Remote notifications]({{ '/wiki/remote-notifications/' | relative_url }}) Wiki page.
 
 ***
 
 The notifications received during a monitoring session are visible in the _Notifications_ page of the app.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/notifications_page.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/notifications_page.png' | relative_url }}">
 </div>
 
 Events are listed from the **most recent** to the oldest,
@@ -43,6 +43,6 @@ and each notification includes details about the type of event, the timestamp of
 and other information depending on the specific event.
 
 > 
-> Enabling notifications is particularly useful when paired with a custom [filters configuration](/wiki/filters-configuration/),
+> Enabling notifications is particularly useful when paired with a custom [filters configuration]({{ '/wiki/filters-configuration/' | relative_url }}),
 > as you can set up alerts for specific network conditions that you want to monitor closely.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}

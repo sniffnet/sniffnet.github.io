@@ -5,9 +5,9 @@ share-description: "Explore advanced Sniffnet features, including remote notific
 This section covers additional topics needed to completely master all the application functionalities.
 
 _Contents_:
-* [Remote notifications](/wiki/remote-notifications/)
-* [Custom themes](/wiki/custom-themes/)
-* [Custom databases](/wiki/custom-databases/)
-* [IP blacklists](/wiki/ip-blacklists/)
-* [Keyboard shortcuts](/wiki/keyboard-shortcuts/)
-* [Command line arguments](/wiki/command-line-arguments/)
+* [Remote notifications]({{ '/wiki/remote-notifications/' | relative_url }})
+* [Custom themes]({{ '/wiki/custom-themes/' | relative_url }})
+* [Custom databases]({{ '/wiki/custom-databases/' | relative_url }})
+* [IP blacklists]({{ '/wiki/ip-blacklists/' | relative_url }})
+* [Keyboard shortcuts]({{ '/wiki/keyboard-shortcuts/' | relative_url }})
+* [Command line arguments]({{ '/wiki/command-line-arguments/' | relative_url }})

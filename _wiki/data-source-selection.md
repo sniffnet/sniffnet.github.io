@@ -8,7 +8,7 @@ Sniffnet's initial page displays different options to configure the network traf
 The first option we focus on is the **selection of the data source**, visible in the left portion of the page.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_capture_source.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_capture_source.png' | relative_url }}">
 </div>
 
 Sniffnet supports two alternative sources to capture traffic data from:
@@ -52,7 +52,7 @@ Sniffnet can read PCAP files and display the captured data in a user-friendly wa
 Select "Capture file" from the dropdown, and a button to import such kind of files will appear:
 
 <div align="center">
-<img alt="" width="40%" src="/assets/img/wiki/import_pcap.png">
+<img alt="" width="40%" src="{{ '/assets/img/wiki/import_pcap.png' | relative_url }}">
 </div>
 
 Clicking on it will open a selection dialog, allowing you to choose a PCAP file from your local filesystem.

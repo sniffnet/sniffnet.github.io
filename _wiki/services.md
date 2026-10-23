@@ -5,7 +5,7 @@ share-description: "Learn how Sniffnet identifies network services from transpor
 It's now time to dig into **network services**, visible in the bottom-middle portion of the _Overview_ page.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_services.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_services.png' | relative_url }}">
 </div>
 
 The entries of this list are the services that were observed since the beginning of the analysis. <br>

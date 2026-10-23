@@ -5,7 +5,7 @@ share-description: "Understand the network hosts shown by Sniffnet, including IP
 The bottom-left portion of the _Overview_ page features interesting details about the **network hosts** your machine is exchanging data with.
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_hosts.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_hosts.png' | relative_url }}">
 </div>
 
 A **bunch of information** can be obtained by carefully examining this section, and this is the reason why I think it's necessary to dedicate a whole Wiki page to this aspect.
@@ -21,7 +21,7 @@ These 3 parameters, in the order, are displayed for each of the hosts, and are b
 ## Geographical location
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_country.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_country.png' | relative_url }}">
 </div>
 
 The geolocation of a host has **country-wide granularity** and is represented by the corresponding **flag**. <br>
@@ -42,7 +42,7 @@ This file format potentially allows Sniffnet to execute hundreds of different IP
 ## Domain name
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_domain.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_domain.png' | relative_url }}">
 </div>
 
 Put in simple terms, the domain name can identify:
@@ -56,7 +56,7 @@ In the event a rDNS fails, the IP address itself will be used as domain name for
 ## Autonomous System Name
 
 <div align="center">
-<img alt="" width="80%" src="/assets/img/wiki/clip_asn.png">
+<img alt="" width="80%" src="{{ '/assets/img/wiki/clip_asn.png' | relative_url }}">
 </div>
 
 An **Autonomous System** (AS) is an **administrative entity** that has control over a very large network or group of networks characterised by a common routing policy. 
@@ -79,4 +79,3 @@ Now that you have a more solid background about what a network host is, you shou
 > You can also tag as **favorites** the hosts you are most interested in: you can do it by clicking on the _star_ icon (`⭐`) of the corresponding entry. <br>
 > By clicking instead on the _funnel_ icon in the header of this section, you can filter hosts to show only the ones you marked as favorites.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
- 
