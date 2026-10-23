@@ -145,7 +145,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <div align="center">
 <a href="{{ '/wiki/' | relative_url }}">
-<img alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
+<img alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </div>
 
