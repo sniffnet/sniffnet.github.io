@@ -15,6 +15,9 @@ navbar-links:
 # Logo
 avatar: "/favicon.svg"
 
+# Default social preview image
+share-img: "/assets/img/preview.png"
+
 # If you want to have an image logo in the top-left corner instead of having the title of the website
 #title-img: /path/to/image
 

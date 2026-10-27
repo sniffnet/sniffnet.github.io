@@ -64,6 +64,8 @@
       {{ page.share-img }}
     {%- elsif page.thumbnail-img -%}
       {{ page.thumbnail-img }}
+    {%- elsif site.share-img -%}
+      {{ site.share-img }}
     {%- elsif site.avatar -%}
       {{ site.avatar }}
     {% endif %}
