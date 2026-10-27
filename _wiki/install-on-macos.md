@@ -10,12 +10,14 @@ You can easily do that by following the next steps:
 1. download a macOS-compatible version of the application, available from the [official website]({{ '/download/' | relative_url }}) or <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>
 
 2. open the downloaded file, and drag Sniffnet icon into the `Applications` folder
-<p align="center"><img alt="macOS installer window for dragging Sniffnet into the Applications folder" width="80%" src="{{ '/assets/img/wiki/macos_1.png' | relative_url }}"/></p>
+
+    <p align="center"><img class="myShadow" alt="macOS installer window for dragging Sniffnet into the Applications folder" width="80%" src="{{ '/assets/img/wiki/macos_1.png' | relative_url }}"/></p>
 
 3. open your `Applications` folder, right click on Sniffnet and select `Open`, allowing your macOS to execute it
 
 4. in case the application doesn't launch, open `Settings` -> `Security & Privacy` and click the `Open Anyway` button
-<p align="center"><img alt="macOS Privacy and Security settings with the Open Anyway button" width="80%" src="{{ '/assets/img/wiki/macos_2.png' | relative_url }}"/></p>
+
+    <p align="center"><img class="myShadow" alt="macOS Privacy and Security settings with the Open Anyway button" width="80%" src="{{ '/assets/img/wiki/macos_2.png' | relative_url }}"/></p>
 
 5. and... you are finally ready to comfortably monitor your Internet traffic with Sniffnet! 🕵️‍♂️
 

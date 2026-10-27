@@ -6,7 +6,7 @@ last_modified_at: "2026-10-27"
 It's now time to dig into **network services**, visible in the bottom-middle portion of the _Overview_ page.
 
 <div align="center">
-<img alt="Services panel in Sniffnet's Overview page" width="80%" src="{{ '/assets/img/wiki/clip_services.png' | relative_url }}">
+<img class="myShadow" alt="Services panel in Sniffnet's Overview page" width="80%" src="{{ '/assets/img/wiki/clip_services.png' | relative_url }}">
 </div>
 
 The entries of this list are the services that were observed since the beginning of the analysis. <br>
@@ -53,5 +53,5 @@ and is available in the file <a target="_blank" rel="noopener" href="https://raw
 >
 > The Internet Assigned Numbers Authority (IANA) is responsible for maintaining
 > the official assignments of port numbers for specific uses. <br>
-> Remember that this a **convention**, not a strict rule: many unofficial uses of well-known port numbers occur in practice.
+> Remember that this is a **convention**, not a strict rule: many unofficial uses of well-known port numbers occur in practice.
 {: .wiki-callout .wiki-callout-warning data-callout-label="WARNING"}

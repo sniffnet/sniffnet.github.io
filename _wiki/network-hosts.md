@@ -6,7 +6,7 @@ last_modified_at: "2026-10-27"
 The bottom-left portion of the _Overview_ page features interesting details about the **network hosts** your machine is exchanging data with.
 
 <div align="center">
-<img alt="Network hosts panel in Sniffnet's Overview page" width="80%" src="{{ '/assets/img/wiki/clip_hosts.png' | relative_url }}">
+<img class="myShadow" alt="Network hosts panel in Sniffnet's Overview page" width="80%" src="{{ '/assets/img/wiki/clip_hosts.png' | relative_url }}">
 </div>
 
 A **bunch of information** can be obtained by carefully examining this section, and this is the reason why I think it's necessary to dedicate a whole Wiki page to this aspect.
@@ -19,10 +19,12 @@ A network host is intended as an entity participating in a data exchange with th
 
 These 3 parameters, in the order, are displayed for each of the hosts, and are better described in the following. <br>
 
+<hr>
+
 ## Geographical location
 
 <div align="center">
-<img alt="Sniffnet network host entry showing its country flag" width="80%" src="{{ '/assets/img/wiki/clip_country.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet network host entry showing its country flag" width="80%" src="{{ '/assets/img/wiki/clip_country.png' | relative_url }}">
 </div>
 
 The geolocation of a host has **country-wide granularity** and is represented by the corresponding **flag**. <br>
@@ -40,10 +42,12 @@ The geographical location is **based on the host IP address**, and it's retrieve
 
 This file format potentially allows Sniffnet to execute hundreds of different IP lookups in a matter of a few milliseconds.
 
+<hr>
+
 ## Domain name
 
 <div align="center">
-<img alt="Sniffnet network host entry showing its domain name" width="80%" src="{{ '/assets/img/wiki/clip_domain.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet network host entry showing its domain name" width="80%" src="{{ '/assets/img/wiki/clip_domain.png' | relative_url }}">
 </div>
 
 Put in simple terms, the domain name can identify:
@@ -54,10 +58,12 @@ Put in simple terms, the domain name can identify:
 Domain names are determined by performing **reverse DNS resolutions** (rDNS), that are querying techniques to obtain a name starting from an IP address. <br>
 In the event a rDNS fails, the IP address itself will be used as domain name for the corresponding host.
 
+<hr>
+
 ## Autonomous System Name
 
 <div align="center">
-<img alt="Sniffnet network host entry showing its autonomous system name" width="80%" src="{{ '/assets/img/wiki/clip_asn.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet network host entry showing its autonomous system name" width="80%" src="{{ '/assets/img/wiki/clip_asn.png' | relative_url }}">
 </div>
 
 An **Autonomous System** (AS) is an **administrative entity** that has control over a very large network or group of networks characterised by a common routing policy. 

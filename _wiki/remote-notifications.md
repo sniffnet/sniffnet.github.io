@@ -13,7 +13,7 @@ Or even you're a network administrator in need to be alerted about events happen
 To address these and other possible scenarios, you can set up remote notifications from the _Notifications_ tab of the application's settings. <br>
 
 <div align="center">
-<img alt="Sniffnet remote notification settings with a webhook endpoint URL" width="70%" src="{{ '/assets/img/wiki/remote_notifications.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet remote notification settings with a webhook endpoint URL" width="70%" src="{{ '/assets/img/wiki/remote_notifications.png' | relative_url }}">
 </div>
 
 All you need is to provide an **endpoint URL** where notifications will be sent via HTTP POST webhook. <br>

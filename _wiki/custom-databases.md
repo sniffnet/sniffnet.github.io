@@ -32,7 +32,7 @@ To use your own MMDB files in Sniffnet, open the application settings and go to 
 There, you can find buttons to select the **IP to country** and **IP to ASN** databases you want to use.
 
 <div align="center">
-<img alt="Sniffnet settings for selecting custom IP geolocation and ASN databases" width="80%" src="{{ '/assets/img/wiki/custom_databases.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet settings for selecting custom IP geolocation and ASN databases" width="80%" src="{{ '/assets/img/wiki/custom_databases.png' | relative_url }}">
 </div>
 
 > 

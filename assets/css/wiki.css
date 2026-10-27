@@ -48,7 +48,7 @@ layout: null
 }
 
 .wiki-sidebar-scroll:hover,
-.wiki-sidebar-scroll:focus-within {
+.wiki-sidebar-scroll:has(:focus-visible) {
   --wiki-scrollbar-thumb: rgba(145, 165, 186, 0.65);
 }
 
@@ -61,7 +61,7 @@ layout: null
 }
 
 .wiki-sidebar-scroll:hover::-webkit-scrollbar-track,
-.wiki-sidebar-scroll:focus-within::-webkit-scrollbar-track {
+.wiki-sidebar-scroll:has(:focus-visible)::-webkit-scrollbar-track {
   background: rgba(145, 165, 186, 0.2);
 }
 
@@ -72,7 +72,7 @@ layout: null
 }
 
 .wiki-sidebar-scroll:hover::-webkit-scrollbar-thumb:hover,
-.wiki-sidebar-scroll:focus-within::-webkit-scrollbar-thumb:hover {
+.wiki-sidebar-scroll:has(:focus-visible)::-webkit-scrollbar-thumb:hover {
   background: #b8c8d7;
 }
 
@@ -234,7 +234,6 @@ a.wiki-nav-link:focus,
 
 .wiki-article h2 {
   scroll-margin-top: 5.5rem;
-  margin: 3.4rem 0 1rem;
   color: #f5fbff;
   font-size: 1.65rem;
   letter-spacing: -0.02em;
@@ -272,10 +271,6 @@ a.wiki-nav-link:focus,
 .wiki-content li {
   margin: 0.45rem 0;
   line-height: 1.6;
-}
-
-.wiki-content hr {
-  margin: 2.5rem 0;
 }
 
 .wiki-content pre {
@@ -373,7 +368,7 @@ a.wiki-nav-link:focus,
   max-width: 100%;
   height: auto;
   margin: 0.75rem auto;
-  border-radius: 0.45rem;
+  border-radius: 10px;
 }
 
 .wiki-content summary img {
@@ -462,6 +457,10 @@ a.wiki-nav-link:focus,
 .wiki-content blockquote.wiki-callout strong {
   color: #edf9ff;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.wiki-content blockquote.wiki-callout a strong {
+  color: inherit;
 }
 
 .wiki-content blockquote.wiki-callout p {

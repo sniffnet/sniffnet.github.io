@@ -9,13 +9,13 @@ This special format is **widely adopted** among network monitoring tools and is 
 You can configure whether to export a capture file in the initial page of the app.
 
 <div align="center">
-<img alt="Sniffnet capture setup with PCAP file export controls" width="80%" src="{{ '/assets/img/wiki/clip_export_pcap.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet capture setup with PCAP file export controls" width="80%" src="{{ '/assets/img/wiki/clip_export_pcap.png' | relative_url }}">
 </div>
 
 By default, this functionality is not active, but you can enable it by clicking on the dedicated checkbox.
 
 <div align="center">
-<img alt="Sniffnet PCAP export path and file name controls" width="80%" src="{{ '/assets/img/wiki/export_pcap.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet PCAP export path and file name controls" width="80%" src="{{ '/assets/img/wiki/export_pcap.png' | relative_url }}">
 </div>
 
 You can **customise the output path** of the file by setting a file name (default: `sniffnet.pcap`) and picking a target directory (defaults to your home directory). <br>

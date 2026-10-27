@@ -7,7 +7,7 @@ Sniffnet allows configuring **custom notifications** to warn you about specific 
 You can set up notifications from the _Notifications_ tab of the application's settings.
 
 <div align="center">
-<img alt="Sniffnet Notifications settings with configurable event alerts" width="80%" src="{{ '/assets/img/wiki/settings_notifications.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet Notifications settings with configurable event alerts" width="80%" src="{{ '/assets/img/wiki/settings_notifications.png' | relative_url }}">
 </div>
 
 By default, all notifications are disabled. <br>
@@ -36,7 +36,7 @@ such feature is described in the dedicated [Remote notifications]({{ '/wiki/remo
 The notifications received during a monitoring session are visible in the _Notifications_ page of the app.
 
 <div align="center">
-<img alt="Sniffnet Notifications page listing triggered network events" width="80%" src="{{ '/assets/img/wiki/notifications_page.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet Notifications page listing triggered network events" width="80%" src="{{ '/assets/img/wiki/notifications_page.png' | relative_url }}">
 </div>
 
 Events are listed from the **most recent** to the oldest,

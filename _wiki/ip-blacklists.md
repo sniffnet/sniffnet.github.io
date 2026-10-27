@@ -11,7 +11,7 @@ as they can help identify or block traffic from bad actors.
 Sniffnet supports importing custom IP blacklists from the settings _General_ tab.
 
 <div align="center">
-<img alt="Sniffnet General settings for importing an IP blacklist" width="80%" src="{{ '/assets/img/wiki/ip_blacklist.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet General settings for importing an IP blacklist" width="80%" src="{{ '/assets/img/wiki/ip_blacklist.png' | relative_url }}">
 </div>
 
 The app supports blocklists in any file format,

@@ -9,7 +9,7 @@ let's talk about how you can use it to **inspect** each of your **connections** 
 The _Inspect_ page of the app allows you to gain **more fine-grained insights** about the network traffic you're monitoring.
 
 <div align="center">
-<img alt="Sniffnet Inspect page with filters and a table of network connections" width="80%" src="{{ '/assets/img/wiki/inspect_page.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet Inspect page with filters and a table of network connections" width="80%" src="{{ '/assets/img/wiki/inspect_page.png' | relative_url }}">
 </div>
 
 Before diving into the functionalities of this page,
@@ -30,7 +30,7 @@ The upper portion of the page includes a set of **filters** to limit the connect
 based on their blacklist or favorite status, and the attributes of the remote network host or local program involved in the communication.
 
 <div align="center">
-<img alt="Sniffnet Inspect filters for selecting a network host" width="70%" src="{{ '/assets/img/wiki/filter_by_host.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet Inspect filters for selecting a network host" width="70%" src="{{ '/assets/img/wiki/filter_by_host.png' | relative_url }}">
 </div>
 
 > 
@@ -41,7 +41,7 @@ based on their blacklist or favorite status, and the attributes of the remote ne
 The **table** right below shows a list of all the network connections observed during the monitoring session.
 
 <div align="center">
-<img alt="Sniffnet connection table with sortable columns and search fields" width="80%" src="{{ '/assets/img/wiki/inspect_table.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet connection table with sortable columns and search fields" width="80%" src="{{ '/assets/img/wiki/inspect_table.png' | relative_url }}">
 </div>
 
 The table header not only includes the respective column names, but also provides:
@@ -66,5 +66,5 @@ By clicking on each of the table rows, you can obtain more details about the spe
 From this modal, you can also check the **latency** of the selected connection (measured as round-trip time in milliseconds).
 
 <div align="center">
-<img alt="Sniffnet connection details showing host, protocol, traffic, and latency information" width="80%" src="{{ '/assets/img/wiki/connection_details_page.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet connection details showing host, protocol, traffic, and latency information" width="80%" src="{{ '/assets/img/wiki/connection_details_page.png' | relative_url }}">
 </div>
