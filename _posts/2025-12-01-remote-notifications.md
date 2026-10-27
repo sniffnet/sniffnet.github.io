@@ -88,7 +88,7 @@ Now that we have a webhook URL ready to receive notifications, it's time to conf
 
 1. Open Sniffnet and head to the settings by clicking on the button at the top right.
 2. Select the _"Notifications"_ tab.
-3. Enable the events you want to be alerted about: you can learn more about them in the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki/Notifications">_Notifications_</a> Wiki page.
+3. Enable the events you want to be alerted about: you can learn more about them in the <a href="{{ '/wiki/notifications/' | relative_url }}">_Notifications_</a> Wiki page.
 4. In the same settings tab, enable the _"Remote notifications"_ toggle, and paste the SIGNL4 URL you got from the previous section.
 
 <div align="center">
@@ -119,7 +119,7 @@ However, if you want to closely track a certain kind of traffic, you can leverag
 Such programs follow the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Berkeley Packet Filter</a> (BPF) syntax, a standardized, powerful, and flexible way to specify the traffic you want to monitor. <br>
 Online you can find many resources to learn BPF syntax: <a target="_blank" rel="noopener" href="https://www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters">this IBM guide</a> is a good starting point.
 
-Once you're familiar with the syntax, setting up a filter is simple and can be done from Sniffnet initial screen as described in the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki/Filters-configuration">_Filters configuration_</a> Wiki page.
+Once you're familiar with the syntax, setting up a filter is simple and can be done from Sniffnet initial screen as described in the <a href="{{ '/wiki/filters-configuration/' | relative_url }}">_Filters configuration_</a> Wiki page.
 
 As an example, let's say you want to be notified whenever your machine opens a new TCP connection to a server running on port 22 (SSH). <br>
 To do so, you can set a filter like the following one:

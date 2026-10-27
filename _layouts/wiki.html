@@ -1,0 +1,160 @@
+---
+layout: base
+---
+
+<div class="wiki-shell">
+  <details class="wiki-mobile-navigation">
+    <summary class="wiki-mobile-toggle">
+      <span class="wiki-mobile-chevron" aria-hidden="true"></span>
+      <span>Browse Wiki</span>
+    </summary>
+    <div class="wiki-mobile-menu">
+      {% include wiki-navigation.html id_prefix="mobile" label="Wiki navigation" collapsible=true %}
+    </div>
+  </details>
+
+  <aside class="wiki-sidebar">
+    <div class="wiki-sidebar-scroll">
+      {% include wiki-navigation.html id_prefix="desktop" label="Wiki navigation" collapsible=true %}
+    </div>
+  </aside>
+
+  <main class="wiki-main" id="main-content">
+    {% assign wiki_breadcrumb_section_title = nil %}
+    {% assign wiki_breadcrumb_section_page = nil %}
+    {% for section in site.data.wiki.sections %}
+      {% for item in section.items %}
+        {% if item.page == page.slug %}
+          {% assign wiki_breadcrumb_section_title = section.title %}
+          {% assign wiki_breadcrumb_section_page = section.page %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% unless page.slug == 'sniffnet-wiki' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Sniffnet Wiki",
+          "item": {{ '/wiki/' | absolute_url | jsonify }}
+        },
+        {% if wiki_breadcrumb_section_page %}
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ wiki_breadcrumb_section_title | jsonify }},
+          "item": {{ '/wiki/' | append: wiki_breadcrumb_section_page | append: '/' | absolute_url | jsonify }}
+        },
+        {% endif %}
+        {
+          "@type": "ListItem",
+          "position": {% if wiki_breadcrumb_section_page %}3{% else %}2{% endif %},
+          "name": {{ page.title | strip_html | jsonify }},
+          "item": {{ page.url | absolute_url | jsonify }}
+        }
+      ]
+    }
+    </script>
+    <nav class="wiki-breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      {% if wiki_breadcrumb_section_page %}
+      <a href="{{ '/wiki/' | append: wiki_breadcrumb_section_page | append: '/' | relative_url }}">{{ wiki_breadcrumb_section_title }}</a>
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      {% endif %}
+      <span aria-current="page">{{ page.title }}</span>
+    </nav>
+    {% endunless %}
+
+    <article class="wiki-article">
+      <header class="wiki-title-row">
+        <h1>{{ page.title }}</h1>
+      </header>
+      <hr>
+      <div class="wiki-content">
+        {{ content }}
+      </div>
+    </article>
+
+    {% assign wiki_previous_title = nil %}
+    {% assign wiki_previous_url = nil %}
+    {% assign wiki_next_title = nil %}
+    {% assign wiki_next_url = nil %}
+    {% assign wiki_found_current = false %}
+    {% assign wiki_last_title = 'Sniffnet Wiki' %}
+    {% assign wiki_last_url = '/wiki/' %}
+    {% if page.slug == 'sniffnet-wiki' %}
+      {% assign wiki_found_current = true %}
+    {% endif %}
+
+    {% for section in site.data.wiki.sections %}
+      {% assign wiki_candidate_url = '/wiki/' | append: section.page | append: '/' %}
+      {% if wiki_found_current %}
+        {% unless wiki_next_url %}
+          {% assign wiki_next_title = section.title %}
+          {% assign wiki_next_url = wiki_candidate_url %}
+        {% endunless %}
+      {% elsif section.page == page.slug %}
+        {% assign wiki_previous_title = wiki_last_title %}
+        {% assign wiki_previous_url = wiki_last_url %}
+        {% assign wiki_found_current = true %}
+      {% endif %}
+      {% assign wiki_last_title = section.title %}
+      {% assign wiki_last_url = wiki_candidate_url %}
+
+      {% for item in section.items %}
+        {% assign wiki_candidate_url = '/wiki/' | append: item.page | append: '/' %}
+        {% if wiki_found_current %}
+          {% unless wiki_next_url %}
+            {% assign wiki_next_title = item.title %}
+            {% assign wiki_next_url = wiki_candidate_url %}
+          {% endunless %}
+        {% elsif item.page == page.slug %}
+          {% assign wiki_previous_title = wiki_last_title %}
+          {% assign wiki_previous_url = wiki_last_url %}
+          {% assign wiki_found_current = true %}
+        {% endif %}
+        {% assign wiki_last_title = item.title %}
+        {% assign wiki_last_url = wiki_candidate_url %}
+      {% endfor %}
+    {% endfor %}
+
+    {% if wiki_found_current %}
+      {% unless wiki_next_url %}
+        {% unless page.slug == 'faq' %}
+          {% assign wiki_next_title = 'FAQ' %}
+          {% assign wiki_next_url = '/wiki/faq/' %}
+        {% endunless %}
+      {% endunless %}
+    {% elsif page.slug == 'faq' %}
+      {% assign wiki_previous_title = wiki_last_title %}
+      {% assign wiki_previous_url = wiki_last_url %}
+      {% assign wiki_found_current = true %}
+    {% endif %}
+
+    {% if wiki_previous_url or wiki_next_url %}
+      <hr>
+      <ul style="margin-top: 50px" class="pagination blog-pager wiki-pager" aria-label="Wiki page navigation">
+        {% if wiki_previous_url %}
+        <li class="page-item previous">
+          <a class="page-link" href="{{ wiki_previous_url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ wiki_previous_title | strip_html | xml_escape }}">
+            <span><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Previous Page</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if wiki_next_url %}
+        <li class="page-item next">
+          <a class="page-link" href="{{ wiki_next_url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ wiki_next_title | strip_html | xml_escape }}">
+            <span>Next Page&nbsp;<i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    {% endif %}
+  </main>
+</div>

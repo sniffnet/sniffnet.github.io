@@ -12,7 +12,7 @@ layout: page
       "operatingSystem": "Windows, macOS, Linux",
       "url": {{ '/' | absolute_url | jsonify }},
       "downloadUrl": {{ '/download/' | absolute_url | jsonify }},
-      "softwareHelp": "https://github.com/GyulyVGC/sniffnet/wiki",
+      "softwareHelp": {{ '/wiki/' | absolute_url | jsonify }},
       "description": {{ page.share-description | jsonify }},
       "image": {{ '/assets/img/overview_page.png' | absolute_url | jsonify }},
       "license": "https://github.com/GyulyVGC/sniffnet/blob/main/LICENSE-MIT",
@@ -139,15 +139,15 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <h2 class="myHeading"> User manual </h2>
 Do you want to learn more? <br>
-Check out the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">Sniffnet Wiki</a>, a comprehensive manual to help you
+Check out the <a href="{{ '/wiki/' | relative_url }}">Sniffnet Wiki</a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
-<p align="center">
-<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">
-<img class="hoverExpand" alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
+<div align="center">
+<a href="{{ '/wiki/' | relative_url }}">
+<img alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
-</p>
+</div>
 
 <hr/>
 
