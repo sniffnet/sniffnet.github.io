@@ -1,6 +1,7 @@
 ---
 title: "IP blacklists"
 share-description: "Load custom IP blacklists in Sniffnet to identify connections involving addresses known to be malicious or suspicious."
+last_modified_at: "2026-10-27"
 ---
 An **IP blacklist** (or blocklist) is a set of IP addresses that are known to be **malicious**
 or **suspicious** given their past behavior, including spamming, malware distribution, and DDoS attacks. <br>
@@ -10,7 +11,7 @@ as they can help identify or block traffic from bad actors.
 Sniffnet supports importing custom IP blacklists from the settings _General_ tab.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/ip_blacklist.png' | relative_url }}">
+<img alt="Sniffnet General settings for importing an IP blacklist" width="80%" src="{{ '/assets/img/wiki/ip_blacklist.png' | relative_url }}">
 </div>
 
 The app supports blocklists in any file format,

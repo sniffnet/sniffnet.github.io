@@ -1,6 +1,7 @@
 ---
 title: "Remote notifications"
 share-description: "Configure Sniffnet to send remote network notifications through webhook services such as SIGNL4, IFTTT, Svix, or a custom endpoint."
+last_modified_at: "2026-10-27"
 ---
 Sniffnet allows you to be warned about specific network events in the form of [in-app notifications]({{ '/wiki/notifications/' | relative_url }}). <br>
 While this is useful to get alerts on the monitored machine, sometimes you may want to be **notified remotely**.
@@ -12,14 +13,14 @@ Or even you're a network administrator in need to be alerted about events happen
 To address these and other possible scenarios, you can set up remote notifications from the _Notifications_ tab of the application's settings. <br>
 
 <div align="center">
-<img alt="" width="70%" src="{{ '/assets/img/wiki/remote_notifications.png' | relative_url }}">
+<img alt="Sniffnet remote notification settings with a webhook endpoint URL" width="70%" src="{{ '/assets/img/wiki/remote_notifications.png' | relative_url }}">
 </div>
 
 All you need is to provide an **endpoint URL** where notifications will be sent via HTTP POST webhook. <br>
 In the example above notifications are configured to be sent to a <a target="_blank" rel="noopener" href="https://signl4.com/">SIGNL4</a> URL, and will appear as alerts on the mobile device associated with that account.
 
 <div align="center">
-<img alt="" width="30%" src="{{ '/assets/img/wiki/signl4.png' | relative_url }}">
+<img alt="SIGNL4 mobile alert generated from a Sniffnet remote notification" width="30%" src="{{ '/assets/img/wiki/signl4.png' | relative_url }}">
 </div>
 
 SIGNL4 is an example of service to receive remote notifications,

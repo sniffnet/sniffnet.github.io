@@ -1,6 +1,7 @@
 ---
 title: "Alternative installation methods"
 share-description: "Explore alternative ways to install Sniffnet, including Cargo, Homebrew, Scoop, Nix, Arch Linux packages, and packages for BSD systems."
+last_modified_at: "2026-10-27"
 ---
 The recommended way to install Sniffnet is via the [official download page]({{ '/download/' | relative_url }}), which provides packages featuring the latest version directly from <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases">GitHub releases</a>.
 

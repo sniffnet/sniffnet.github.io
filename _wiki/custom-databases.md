@@ -1,6 +1,7 @@
 ---
 title: "Custom databases"
 share-description: "Configure custom MMDB databases in Sniffnet for IP geolocation and autonomous system information from providers such as IPinfo."
+last_modified_at: "2026-10-27"
 ---
 Sniffnet **natively embeds MMDB databases** useful to gain insights about the observed IP addresses.
 
@@ -31,7 +32,7 @@ To use your own MMDB files in Sniffnet, open the application settings and go to 
 There, you can find buttons to select the **IP to country** and **IP to ASN** databases you want to use.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/custom_databases.png' | relative_url }}">
+<img alt="Sniffnet settings for selecting custom IP geolocation and ASN databases" width="80%" src="{{ '/assets/img/wiki/custom_databases.png' | relative_url }}">
 </div>
 
 > 

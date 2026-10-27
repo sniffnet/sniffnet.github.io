@@ -1,6 +1,7 @@
 ---
 title: "Build from source"
 share-description: "Build Sniffnet from source by installing Rust and the required system dependencies, cloning the repository, and compiling the application."
+last_modified_at: "2026-10-27"
 ---
 > This guide is to be followed by programmers who intend to contribute to the project.
 >

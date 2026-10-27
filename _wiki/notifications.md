@@ -1,12 +1,13 @@
 ---
 title: "Notifications"
 share-description: "Configure Sniffnet notifications for network events, traffic thresholds, specific hosts, services, countries, or monitored applications."
+last_modified_at: "2026-10-27"
 ---
 Sniffnet allows configuring **custom notifications** to warn you about specific network events. <br>
 You can set up notifications from the _Notifications_ tab of the application's settings.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/settings_notifications.png' | relative_url }}">
+<img alt="Sniffnet Notifications settings with configurable event alerts" width="80%" src="{{ '/assets/img/wiki/settings_notifications.png' | relative_url }}">
 </div>
 
 By default, all notifications are disabled. <br>
@@ -35,7 +36,7 @@ such feature is described in the dedicated [Remote notifications]({{ '/wiki/remo
 The notifications received during a monitoring session are visible in the _Notifications_ page of the app.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/notifications_page.png' | relative_url }}">
+<img alt="Sniffnet Notifications page listing triggered network events" width="80%" src="{{ '/assets/img/wiki/notifications_page.png' | relative_url }}">
 </div>
 
 Events are listed from the **most recent** to the oldest,

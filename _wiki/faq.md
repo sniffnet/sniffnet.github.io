@@ -1,6 +1,7 @@
 ---
 title: "FAQ"
 share-description: "Find answers to common Sniffnet questions about features, supported platforms, permissions, installation, traffic capture, and troubleshooting."
+last_modified_at: "2026-10-27"
 ---
 This page collects some of the most **common questions** about Sniffnet, divided by topic:
 - [Features and functionalities](#features-and-functionalities)
@@ -189,7 +190,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 <summary><I>Windows error: libpcap returned invalid UTF-8</i></summary>
 
 > This error can be solved by checking the box `Beta : use unicode utf8 format` in Windows regional options:
-> ![image](https://user-images.githubusercontent.com/114009421/217346846-b159ecd2-c5e1-4f6c-b0d0-da0fa9524969.png)
+> ![Windows regional settings with the Beta UTF-8 option enabled](https://user-images.githubusercontent.com/114009421/217346846-b159ecd2-c5e1-4f6c-b0d0-da0fa9524969.png)
 
 </details>
 

@@ -1,6 +1,7 @@
 ---
 title: "Custom themes"
 share-description: "Create and use custom Sniffnet themes with TOML files to personalize application colors, text, charts, and interface elements."
+last_modified_at: "2026-10-27"
 ---
 Sniffnet is a technical tool that's all about monitoring network traffic, 
 but at the same time it wants to be **visually appealing**. <br>
@@ -33,12 +34,12 @@ Once you have created your TOML file, you can use it in Sniffnet
 by specifying its path in the application's settings, at the bottom of the _Style_ tab.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/custom_themes_1.png' | relative_url }}">
+<img alt="Sniffnet Style settings with the custom theme file selector" width="80%" src="{{ '/assets/img/wiki/custom_themes_1.png' | relative_url }}">
 </div>
 
 The TOML file is validated and, if everything's correct,
 the theme will be immediately applied to the graphical interface.
 
 <div align="center">
-<img alt="" width="80%" src="{{ '/assets/img/wiki/custom_themes_2.png' | relative_url }}">
+<img alt="Sniffnet interface using a custom theme" width="80%" src="{{ '/assets/img/wiki/custom_themes_2.png' | relative_url }}">
 </div>

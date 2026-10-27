@@ -77,10 +77,15 @@
   <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
 
-  {% if page.id %}
+  {% if page.collection == 'posts' %}
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="{{ site.author }}">
   <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% elsif page.collection == 'wiki' %}
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="{{ site.author }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% else %}

@@ -1,6 +1,7 @@
 ---
 title: "Install on Linux"
 share-description: "Install Sniffnet on Linux using the official DEB or RPM package and complete the permissions setup required to capture network traffic."
+last_modified_at: "2026-10-27"
 ---
 **_Would you like to install Sniffnet on Linux?_**
 

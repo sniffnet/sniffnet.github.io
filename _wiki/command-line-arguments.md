@@ -1,6 +1,7 @@
 ---
 title: "Command line arguments"
 share-description: "Review the command-line arguments supported by Sniffnet to customize startup behavior, select configurations, and control application options."
+last_modified_at: "2026-10-27"
 ---
 **Command line arguments** are parameters that can be passed to a program when it is executed, to customize its behavior.
 

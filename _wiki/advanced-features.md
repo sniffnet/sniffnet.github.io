@@ -1,6 +1,7 @@
 ---
 title: "Advanced features"
 share-description: "Explore advanced Sniffnet features, including remote notifications, custom themes and databases, IP blacklists, shortcuts, and CLI options."
+last_modified_at: "2026-10-27"
 ---
 This section covers additional topics needed to completely master all the application functionalities.
 

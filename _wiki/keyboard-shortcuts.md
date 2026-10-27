@@ -1,6 +1,7 @@
 ---
 title: "Keyboard shortcuts"
 share-description: "Use Sniffnet keyboard shortcuts to navigate the interface and perform common monitoring actions more efficiently."
+last_modified_at: "2026-10-27"
 ---
 Sniffnet provides a set of **keyboard shortcuts** to efficiently perform some of the most common interactions with the application.
 

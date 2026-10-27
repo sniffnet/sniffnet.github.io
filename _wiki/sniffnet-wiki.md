@@ -1,10 +1,11 @@
 ---
 title: "Sniffnet Wiki"
 share-description: "The Sniffnet user manual, with installation instructions, traffic monitoring guides, advanced features, and frequently asked questions."
+last_modified_at: "2026-10-27"
 permalink: /wiki/
 ---
 <div align="center" markdown="1">
-<img alt="" width="400px" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}"/>
+<img alt="Sniffnet Wiki" width="400px" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}"/>
 
 **_Welcome to the Sniffnet Wiki!_**
 </div>
