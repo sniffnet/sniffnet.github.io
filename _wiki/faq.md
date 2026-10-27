@@ -8,6 +8,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 - [Platforms](#platforms)
 - [Usage problems](#usage-problems)
 
+<hr>
 
 ## Features and functionalities
 
@@ -129,9 +130,9 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 </details>
 
+<hr>
 
 ## Platforms
-
 
 <details markdown="1">
 
@@ -172,9 +173,9 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 </details>
 
+<hr>
 
 ## Usage problems
-
 
 <details markdown="1">
 

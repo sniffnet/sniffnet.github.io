@@ -4,24 +4,22 @@ share-description: "The Sniffnet user manual, with installation instructions, tr
 last_modified_at: "2026-10-27"
 permalink: /wiki/
 ---
-<div align="center" markdown="1">
-<img alt="Sniffnet Wiki" width="400px" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}"/>
 
-**_Welcome to the Sniffnet Wiki!_**
+If you are here, there is a good chance you want to learn how to use Sniffnet to its fullest potential.<br>
+Well, this is the right place!
+
+<div align="center">
+<img alt="Sniffnet Wiki" width="400px" src="{{ '/assets/img/wiki/wikilogo.svg' | relative_url }}"/>
 </div>
 
 
-If you are here, there are good chances you are interested in learning how to use Sniffnet to its fullest potential.<br>
-This is the right place!
-
-Despite one of Sniffnet's cornerstones is to be usable in a **straightforward** way,
-the constant addition of new features is leading to considerable **evolution of the app**,
-introducing the need for users to have a **reference manual**. <br>
-The Sniffnet Wiki wants to address this concern.
+Although Sniffnet is designed to be straightforward to use,
+its continuous evolution and expanding feature set have created the need for a comprehensive **reference manual**. <br>
+The Sniffnet Wiki aims to address this need.
 
 ***
 
-For your convenience, the wiki is divided into **different sections**, each one targeting specific aspects of the application:
+For your convenience, the wiki is divided into **different sections**, each covering a specific aspect of the application:
 
 - [**_Getting started_**]({{ '/wiki/getting-started/' | relative_url }}): the first section wants to guide new users through the installation of the app; accurate directions are provided based on the target operating system
 
@@ -31,4 +29,4 @@ For your convenience, the wiki is divided into **different sections**, each one 
 
 - [**_Advanced features_**]({{ '/wiki/advanced-features/' | relative_url }}): it covers additional topics needed to completely master all the application functionalities
 
-Moreover, there's also an [**_FAQ page_**]({{ '/wiki/faq/' | relative_url }}) answering some of the most common questions about the application.
+Moreover, there's an [**_FAQ page_**]({{ '/wiki/faq/' | relative_url }}) answering some of the most common questions about the application.
