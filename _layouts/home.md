@@ -94,7 +94,7 @@ It is trusted by thousands of users worldwide, and backed by prestigious interna
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many people as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">26 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many people as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">28 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -119,20 +119,20 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li>💻 choose a <b>network adapter</b> of your PC to inspect</li>
   <li>🏷️ select a set of <b>filters</b> to apply to the observed traffic</li>
   <li>📁 <b>import</b> and <b>export</b> comprehensive capture reports as <b>PCAP</b> files</li>
+  <li>📡 collect and analyze <b>IPFIX flow data</b> exported by other devices</li>
   <li>📊 view overall <b>statistics</b> about your Internet traffic</li>
-  <li>📈 view <b>real-time charts</b> about traffic intensity</li>
+  <li>📈 view <b>real-time charts</b> of traffic intensity</li>
   <li>🏠 identify connections in your <b>local network</b></li>
   <li>🌍 discover the <b>geographical location</b> of remote hosts</li>
   <li>🌐 find out <b>domain name</b> and <b>ASN</b> of the hosts you are exchanging traffic with</li>
-  <li>📖 identify <b>6000+ upper layer services</b>, protocols, trojans, and worms</li>
+  <li>📖 identify <b>6000+ upper-layer services</b>, protocols, trojans, and worms</li>
   <li>🎮 see which <b>programs</b> are using network bandwidth</li>
   <li>⭐ save your <b>favorite</b> network hosts, services, and programs</li>
   <li>📌 keep an eye on your network even when the application is <b>minimized</b></li>
   <li>🔎️ search and <b>inspect</b> each of your network connections in real time</li>
-  <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
+  <li>🔉 set custom <b>notifications</b> for specific network events</li>
   <li>🚫 import custom <b>IP blacklists</b> to highlight potentially dangerous connections</li>
-  <li>🎨 choose the <b>style</b> that fits you the most, including custom themes support</li>
-  <li>...and more!</li>
+  <li>🎨 choose the <b>style</b> that suits you best, with support for custom themes</li>
 </ul>
 
 <hr/>
