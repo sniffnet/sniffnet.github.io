@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 YESTERDAY=$(date -d yesterday +%F)
 echo "---> YESTERDAY: $YESTERDAY"
 
@@ -13,25 +15,33 @@ if [ "$YESTERDAY" != "$EXPECTED_DATE" ]; then
     exit 1
 fi
 
-GITHUB_CURL=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases --header "Authorization: Bearer $GH_API_TOKEN")
+GITHUB_CURL=$(curl -fsS https://api.github.com/repos/gyulyvgc/sniffnet/releases?per_page=100 --header "Authorization: Bearer $GH_API_TOKEN")
 echo "---> GITHUB_CURL: $GITHUB_CURL"
 GITHUB_COUNT=$(echo "$GITHUB_CURL" | grep '"download_count"' | awk '{sum += $2} END {print sum}')
 echo "---> GITHUB_COUNT: $GITHUB_COUNT"
 
-CRATES_CURL=$(curl -s -A "sniffnet-website-download-stats (https://github.com/sniffnet/sniffnet.github.io)" https://crates.io/api/v1/crates/sniffnet)
+CRATES_CURL=$(curl -fsS -A "sniffnet-website-download-stats (https://github.com/sniffnet/sniffnet.github.io)" https://crates.io/api/v1/crates/sniffnet)
 echo "---> CRATES_CURL: $CRATES_CURL"
 CRATES_COUNT=$(echo "$CRATES_CURL" | grep -E -o '"downloads":[0-9]*' | head -1 | cut '-d:' -f 2)
 echo "---> CRATES_COUNT: $CRATES_COUNT"
 
-HOMEBREW_CURL=$(curl -s https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet)
+HOMEBREW_CURL=$(curl -fsS https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet)
 echo "---> HOMEBREW_CURL: $HOMEBREW_CURL"
 HOMEBREW_COUNT=$(echo "$HOMEBREW_CURL" | grep -A1 "Total downloads" | grep -o 'title="[0-9]*"' | cut '-d=' -f 2 | sed 's/"//g')
 echo "---> HOMEBREW_COUNT: $HOMEBREW_COUNT"
 
-GHCR_CURL=$(curl -s https://github.com/gyulyvgc/sniffnet/pkgs/container/sniffnet)
+GHCR_CURL=$(curl -fsS https://github.com/gyulyvgc/sniffnet/pkgs/container/sniffnet)
 echo "---> GHCR_CURL: $GHCR_CURL"
 GHCR_COUNT=$(echo "$GHCR_CURL" | grep -A1 "Total downloads" | grep -o 'title="[0-9]*"' | cut '-d=' -f 2 | sed 's/"//g')
 echo "---> GHCR_COUNT: $GHCR_COUNT"
+
+if ! [[ $GITHUB_COUNT =~ ^[0-9]+$ &&
+        $CRATES_COUNT =~ ^[0-9]+$ &&
+        $HOMEBREW_COUNT =~ ^[0-9]+$ &&
+        $GHCR_COUNT =~ ^[0-9]+$ ]]; then
+    echo "Error: Invalid download count"
+    exit 1
+fi
 
 TOTAL_DOWNLOADS=$((GITHUB_COUNT+CRATES_COUNT+HOMEBREW_COUNT+GHCR_COUNT))
 echo "TOTAL_DOWNLOADS: $TOTAL_DOWNLOADS"
@@ -51,7 +61,7 @@ echo -n "$(tail -n 31 download_daily.txt)" > download_daily_31.txt
 
 echo -n $TOTAL_DOWNLOADS > download_count.txt
 
-if [ $TOTAL_DOWNLOADS -ge 1000000 ]; then
+if [ $TOTAL_DOWNLOADS -ge 999500 ]; then
     FLOAT=$(bc -l <<< "$TOTAL_DOWNLOADS/1000000")
     DOWNLOADS_STRING=$(printf "%.1f" $FLOAT)M
 else
