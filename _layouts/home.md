@@ -14,7 +14,7 @@ layout: page
       "downloadUrl": {{ '/download/' | absolute_url | jsonify }},
       "softwareHelp": {{ '/wiki/' | absolute_url | jsonify }},
       "description": {{ page.share-description | jsonify }},
-      "image": {{ '/assets/img/overview_page.png' | absolute_url | jsonify }},
+      "image": {{ '/assets/img/wiki/overview_page.png' | absolute_url | jsonify }},
       "license": "https://github.com/GyulyVGC/sniffnet/blob/main/LICENSE-MIT",
       "author": {
         "@type": "Person",
@@ -71,7 +71,7 @@ layout: page
 {% endif %}
 
 <div align="center">
-  <img class="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="Sniffnet overview page showing live traffic statistics, charts, and host information" />
+  <img class="myShadow" width="100%" src="{{ 'assets/img/wiki/overview_page.png' | relative_url }}" alt="Sniffnet overview page showing live traffic statistics, charts, and host information" />
   <br/><br/>
  Cross-platform. Intuitive. Reliable.
  </div>
@@ -90,25 +90,25 @@ It is trusted by thousands of users worldwide, and backed by prestigious interna
 <h2 class="myHeading"> What makes Sniffnet unique? </h2>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a technical tool, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are difficult to understand, while one of Sniffnet's cornerstones is to be usable with ease by everyone.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/homepage-unique/simple.svg' | relative_url }}" alt="" />Sniffnet is a technical tool, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are difficult to understand, while one of Sniffnet's cornerstones is to be usable with ease by everyone.
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many people as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">28 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/homepage-unique/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many people as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">28 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/homepage-unique/security.svg' | relative_url }}" alt="" />
 Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' data privacy and system integrity, as demonstrated by <a href="{{ '/news/security-audit/' | relative_url }}">security audits</a> assessing the application safety.
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt="Sniffnet source code on GitHub"/></a>
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/homepage-unique/github.svg' | relative_url }}" alt="Sniffnet source code on GitHub"/></a>
 Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/rust.svg' | relative_url }}" alt="" />
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/homepage-unique/rust.svg' | relative_url }}" alt="" />
 Last but not least, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.
 </div>
 
