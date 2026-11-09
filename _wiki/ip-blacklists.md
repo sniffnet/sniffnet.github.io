@@ -18,6 +18,12 @@ The app supports blocklists in any file format,
 as long as the file contains one IP address or CIDR range per line. <br>
 Sniffnet will ignore any lines that do not start with a valid IP address or CIDR range.
 
+If the import is successful, the app will show the number of addresses and ranges correctly read from the file.
+
+<div align="center">
+<img class="myShadow" alt="Successfully imported IP blacklist statistics" width="40%" src="{{ '/assets/img/wiki/ip_blacklist_stats.png' | relative_url }}">
+</div>
+
 You are free to create your own blocklist, but it's advisable to use reputable sources that regularly update their lists based on the latest threat intelligence. <br>
 Some open-source IP blacklists are available at the following links:
 - <a target="_blank" rel="noopener" href="https://github.com/firehol/blocklist-ipsets">firehol/blocklist-ipsets</a>
