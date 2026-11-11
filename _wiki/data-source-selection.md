@@ -30,7 +30,7 @@ In the left portion of the page you can find a scrollable column containing the 
 This list is **dynamically kept up to date**: this means that if you disconnect one of the adapters or bring up a new one, the relative changes will be reflected here.
 
 <div align="center">
-<img class="myShadow" alt="Network adapters list" width="40%" src="{{ '/assets/img/wiki/cs_adapter.png' | relative_url }}">
+<img class="myShadow" alt="Network adapters list" width="50%" src="{{ '/assets/img/wiki/cs_adapter.png' | relative_url }}">
 </div>
 
 Each item of the list is a device (either physical or virtual) from which data will be captured and analysed by Sniffnet. <br>
@@ -62,7 +62,7 @@ Sniffnet can read PCAP files and display the captured data in a user-friendly wa
 Select "Capture file" from the dropdown, and a button to import such kind of files will appear:
 
 <div align="center">
-<img class="myShadow" alt="Sniffnet button for importing a PCAP capture file" width="40%" src="{{ '/assets/img/wiki/cs_pcap.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet button for importing a PCAP capture file" width="50%" src="{{ '/assets/img/wiki/cs_pcap.png' | relative_url }}">
 </div>
 
 Clicking on it will open a selection dialog, allowing you to choose a PCAP file from your local filesystem.
@@ -80,7 +80,7 @@ forwarding their traffic to a single Sniffnet instance that aggregates and visua
 Select "IPFIX collector" from the dropdown, and you'll be able to specify the IP address and port you want Sniffnet to listen on for incoming IPFIX data:
 
 <div align="center">
-<img class="myShadow" alt="Sniffnet IPFIX collector settings" width="40%" src="{{ '/assets/img/wiki/cs_ipfix.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet IPFIX collector settings" width="50%" src="{{ '/assets/img/wiki/cs_ipfix.png' | relative_url }}">
 </div>
 
 By default, Sniffnet is configured to listen on all available network interfaces (address `0.0.0.0`) on UDP port 4739 (the standard port for IPFIX). <br>
