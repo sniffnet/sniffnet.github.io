@@ -3,7 +3,7 @@ title: "FAQ"
 share-description: "Find answers to common Sniffnet questions about features, supported platforms, permissions, installation, traffic capture, and troubleshooting."
 last_modified_at: "2026-11-11"
 ---
-This page collects some of the most **common questions** about Sniffnet, divided by topic:
+This page answers some of the most **common questions** about Sniffnet, divided by topic:
 - [Features and functionalities](#features-and-functionalities)
 - [Platforms](#platforms)
 - [Usage problems](#usage-problems)
