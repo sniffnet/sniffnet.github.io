@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 share-description: "Find answers to common Sniffnet questions about features, supported platforms, permissions, installation, traffic capture, and troubleshooting."
-last_modified_at: "2026-10-27"
+last_modified_at: "2026-11-11"
 ---
 This page collects some of the most **common questions** about Sniffnet, divided by topic:
 - [Features and functionalities](#features-and-functionalities)
@@ -18,10 +18,10 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 > Compared to Wireshark, Sniffnet is a **more lightweight and user-friendly** packet analyzer,
 > designed to be straightforward to use for both beginners and professionals. <br>
-> In terms of number of functionalities, **Wireshark is much richer**, being it developed by a large team of developers for more than 20 years. <br>
-> New features are constantly being added to Sniffnet, although its main focus will remain
+> Wireshark supports decoding a larger number of protocols and allows more in-depth diagnostics, but has a much steeper learning curve and is not as intuitive to use. <br>
+> Even though new features are constantly being added to Sniffnet, its main focus will remain
 > on the **ease of use**: it includes the **key features** necessary to keep track of your traffic without introducing the complexity that characterises Wireshark and other network monitoring tools. <br>
-> In any case, Sniffnet can effectively be used in alternative to other tools, or in a complementary and supporting fashion, depending on the specific use case.
+> Sniffnet can effectively be used in alternative to other networking tools or in a complementary and supporting fashion, depending on the specific use case.
 
 </details>
 
@@ -115,8 +115,8 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 <summary><i>Can Sniffnet be used to monitor a remote host?</i></summary>
 
-> No, it can't. Sniffnet is designed to monitor the network traffic of the machine it is running on. <br>
-> However, this is a planned feature for the upcoming future (see <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/303">#303</a>).
+> Yes, since version 1.6 Sniffnet can receive IPFIX flow data from other devices on the network.<br>
+> See <a href="{{ '/wiki/data-source-selection/#ipfix-exporters' | relative_url }}">here</a> for more info.
 
 </details>
 
@@ -126,7 +126,7 @@ This page collects some of the most **common questions** about Sniffnet, divided
 <summary><i>Can I import a custom IP blacklist in Sniffnet?</i></summary>
 
 > Yes, you can select a custom IP blacklist file from Sniffnet's settings (_General_ tab). <br>
-> The file must contain a single IP address per line.
+> The file must contain a single IP address or CIDR range per line.
 
 </details>
 
@@ -158,7 +158,8 @@ This page collects some of the most **common questions** about Sniffnet, divided
 
 <summary><i>Can I use Sniffnet on my mobile device?</i></summary>
 
-> No, you can't. Sniffnet is not available for mobile devices, and mobile support is not planned.<br>
+> No, you can't.<br>
+> Sniffnet is not available for mobile devices, and mobile support is not planned at the moment.
 
 </details>
 
