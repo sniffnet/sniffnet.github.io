@@ -70,5 +70,6 @@ By clicking on each of the table rows, you can obtain more details about the spe
 - **ICMP message types**, in case of ICMP connections
 - **ARP message types**, in case of ARP connections
 - **IGMP message types**, in case of IGMP connections
+- **VLAN ID**, in case of tagged connections
 
 From this modal, you can also check the **latency** of the selected connection (measured as round-trip time in milliseconds).
