@@ -20,6 +20,6 @@ Sniffnet supports the following command line arguments:
 | `-l`          | `--logs`             | Show the logs (stdout and stderr) of the most recent application run. <br> Only available on Windows.                       |
 | `-r`          | `--restore-default`  | Restore the default settings of the application.                                                                            |
 | `-h`          | `--help`             | Print command line usage.                                                                                                   |
-| `-v`          | `--version`          | Print the version of the application.                                                                                       |
+| `-V`          | `--version`          | Print the version of the application.                                                                                       |
 
 </div>

@@ -9,7 +9,7 @@ The bottom-left portion of the _Overview_ page features interesting details abou
 <img class="myShadow" alt="Network hosts panel in Sniffnet's Overview page" width="80%" src="{{ '/assets/img/wiki/clip_hosts.png' | relative_url }}">
 </div>
 
-A **bunch of information** can be obtained by carefully examining this section, and this is the reason why I think it's necessary to dedicate a whole Wiki page to this aspect.
+A **bunch of information** can be obtained by carefully examining this section, and this is the reason why a whole Wiki page is dedicated to this aspect.
 
 Let's start by defining what Sniffnet qualifies as a _network host_. <br>
 A network host is intended as an entity participating in a data exchange with the monitored machine; such an entity is **identified by 3 different parameters**:
@@ -56,7 +56,7 @@ Put in simple terms, the domain name can identify:
 - the **name of the host itself** in case of an **individual** host computer — this is typical for devices resident in the same local network we are monitoring
 
 Domain names are determined by performing **reverse DNS resolutions** (rDNS), that are querying techniques to obtain a name starting from an IP address. <br>
-In the event a rDNS fails, the IP address itself will be used as domain name for the corresponding host.
+In the event a rDNS fails or is unavailable, the IP address itself will be used as domain name for the corresponding host.
 
 <hr>
 

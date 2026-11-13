@@ -18,6 +18,12 @@ The app supports blocklists in any file format,
 as long as the file contains one IP address or CIDR range per line. <br>
 Sniffnet will ignore any lines that do not start with a valid IP address or CIDR range.
 
+If the import is successful, the app will show the number of addresses and ranges correctly read from the file.
+
+<div align="center">
+<img class="myShadow" alt="Successfully imported IP blacklist statistics" width="40%" src="{{ '/assets/img/wiki/ip_blacklist_stats.png' | relative_url }}">
+</div>
+
 You are free to create your own blocklist, but it's advisable to use reputable sources that regularly update their lists based on the latest threat intelligence. <br>
 Some open-source IP blacklists are available at the following links:
 - <a target="_blank" rel="noopener" href="https://github.com/firehol/blocklist-ipsets">firehol/blocklist-ipsets</a>
@@ -30,3 +36,8 @@ Some open-source IP blacklists are available at the following links:
 Once imported, Sniffnet will check for matches between the addresses in the blacklist and the IP addresses of the network traffic it monitors. <br>
 When a match is found, if blacklist [notifications]({{ '/wiki/notifications/' | relative_url }}) are enabled, the app will display a notification alerting the user about the potential threat. <br>
 You can also see all blacklisted connections in the [_Inspect_ page]({{ '/wiki/traffic-inspection/' | relative_url }}) table by activating the corresponding filter toggle.
+
+<hr>
+
+> To learn more about this feature you can also read the blog post [_IP Blacklists: how to detect suspicious network connections with Sniffnet_]({{ '/news/ip-blacklists/' | relative_url }}).
+{: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
