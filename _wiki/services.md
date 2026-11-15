@@ -20,7 +20,7 @@ There are hundreds of different services, each one used for a **peculiar purpose
 To make it easier for you to understand what the observed services are used for,
 Sniffnet correlates each of them with a **category**, which is shown as an icon next to the service name. <br>
 Hovering the mouse over the icon will show you a tooltip with the category name.<br>
-The categories were defined after a careful taxonomy of the most common services, and they are meant to give you a quick idea of what the service is used for.
+The categories were defined after a careful taxonomy of the most common services, and they are meant to give you a quick idea of what's the service purpose.
 
 In the following is reported the list of categories, with their purpose and some of the most common services belonging to them.
 
@@ -39,7 +39,7 @@ In the following is reported the list of categories, with their purpose and some
 | <img width="32px" src="{{ service_categories_path }}/management.svg">  | Monitoring & Administration | IT monitoring, logs, diagnostics, configuration, deployment, availability, and resource management.                       | snmp, syslog, netconf-ssh, zabbix-agent. |
 |  <img width="32px" src="{{ service_categories_path }}/discovery.svg">  | Naming & Service Discovery  | Name resolution and locating network devices/services.                                                                    | domain, mdns, llmnr, svrloc.             |
 |   <img width="32px" src="{{ service_categories_path }}/network.svg">   |   Network Infrastructure    | Address assignment, network boot, time synchronization, routing, switching, mobility, and telecom/network control.        | dhcps, ntp, bgp, vxlan.                  |
-|     <img width="32px" src="{{ service_categories_path }}/vpn.svg">     |   VPN, Tunnels & Proxies    | General connection tunneling, network relays, VPN negotiation, and proxies.                                               | openvpn, isakmp, socks, http-proxy.      |
+|     <img width="32px" src="{{ service_categories_path }}/vpn.svg">     |   VPNs, Tunnels & Proxies   | General connection tunneling, network relays, VPN negotiation, and proxies.                                               | openvpn, isakmp, socks, http-proxy.      |
 |  <img width="32px" src="{{ service_categories_path }}/identity.svg">   |    Identity & Directory     | Authentication, authorization, directories, identity lookup, and credential/key/certificate services.                     | kerberos, ldap, radius, kmip.            |
 |  <img width="32px" src="{{ service_categories_path }}/printing.svg">   |     Printing & Scanning     | Printing, document scanning, fax, and their dedicated peripheral protocols.                                               | ipp, printer, jetdirect, sane-port.      |
 |   <img width="32px" src="{{ service_categories_path }}/gaming.svg">    |           Gaming            | Game sessions, multiplayer transports, game lobbies, and game-specific communication.                                     | minecraft, quake3, xbox.                 |
