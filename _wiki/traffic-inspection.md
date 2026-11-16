@@ -27,7 +27,7 @@ These fields are better known as the **5-tuple** of a connection, and they uniqu
 Keeping this in mind, we can now examine the features of the _Inspect_ page.
 
 The upper portion of the page includes a set of **filters** to limit the connections displayed in the table below,
-based on their blacklist or favorite status, and the attributes of the remote network host or local program involved in the communication.
+based on their blacklist or favorite status, the attributes of the remote network host, and the local program involved in the communication.
 
 <div align="center">
 <img class="myShadow" alt="Sniffnet Inspect filters for selecting a network host" width="70%" src="{{ '/assets/img/wiki/filter_by_host.png' | relative_url }}">
@@ -54,7 +54,14 @@ The table header not only includes the respective column names, but also provide
 > You can also **exclude** partial matches and exact matches by prepending `!` and `!=` characters, respectively.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
 
-By clicking on each of the table rows, you can obtain more details about the specific connection. <br>
+<hr>
+
+By clicking on each of the table rows, you can obtain more details about the specific connection.
+
+<div align="center">
+<img class="myShadow" alt="Sniffnet connection details showing host, protocol, traffic, and latency information" width="80%" src="{{ '/assets/img/wiki/connection_details_page.png' | relative_url }}">
+</div>
+
 **Additional information** is displayed in a **modal popup**, and includes:
 - **timestamps** of the first and last packet exchanged
 - **source and destination MAC addresses**
@@ -62,9 +69,7 @@ By clicking on each of the table rows, you can obtain more details about the spe
 - **ASN identifier** of the remote host
 - **ICMP message types**, in case of ICMP connections
 - **ARP message types**, in case of ARP connections
+- **IGMP message types**, in case of IGMP connections
+- **VLAN ID**, in case of tagged connections
 
 From this modal, you can also check the **latency** of the selected connection (measured as round-trip time in milliseconds).
-
-<div align="center">
-<img class="myShadow" alt="Sniffnet connection details showing host, protocol, traffic, and latency information" width="80%" src="{{ '/assets/img/wiki/connection_details_page.png' | relative_url }}">
-</div>

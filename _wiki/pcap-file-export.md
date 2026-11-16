@@ -15,7 +15,7 @@ You can configure whether to export a capture file in the initial page of the ap
 By default, this functionality is not active, but you can enable it by clicking on the dedicated checkbox.
 
 <div align="center">
-<img class="myShadow" alt="Sniffnet PCAP export path and file name controls" width="80%" src="{{ '/assets/img/wiki/export_pcap.png' | relative_url }}">
+<img class="myShadow" alt="Sniffnet PCAP export path and file name controls" width="70%" src="{{ '/assets/img/wiki/export_pcap.png' | relative_url }}">
 </div>
 
 You can **customise the output path** of the file by setting a file name (default: `sniffnet.pcap`) and picking a target directory (defaults to your home directory). <br>

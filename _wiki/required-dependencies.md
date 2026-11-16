@@ -10,7 +10,7 @@ Depending on your operating system, you may need to install some dependencies to
 
 <details markdown="1">
 
-  <summary>Windows dependencies&emsp;<img alt="" src="https://user-images.githubusercontent.com/100347457/193474292-d84f2a96-f445-40ac-8930-9d0f00a3c2bb.png" width="35px"/></summary>
+  <summary>Windows dependencies&emsp;<img alt="" src="{{ '/assets/img/systems/windows.svg' | relative_url }}" width="35px"/></summary>
 
   - Install <a target="_blank" rel="noopener" href="https://npcap.com/#download">Npcap</a>, making sure to check the box `Install Npcap in WinPcap API-compatible Mode` during the installation.
 
@@ -26,7 +26,7 @@ Depending on your operating system, you may need to install some dependencies to
 
 <details markdown="1">
 
-  <summary>Linux dependencies&emsp;<img alt="" src="https://user-images.githubusercontent.com/100347457/193474239-c48d37af-d4c1-4a94-9207-0d46c6d75f1f.png" width="35px"/></summary>
+  <summary>Linux dependencies&emsp;<img alt="" src="{{ '/assets/img/systems/linux.svg' | relative_url }}" width="35px"/></summary>
 
   - On <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based">Debian-based</a> distributions:
     - `libpcap-dev`
@@ -60,7 +60,7 @@ sudo -E sniffnet
 
 <details markdown="1">
 
-  <summary>MacOS dependencies&emsp;<img alt="" src="https://user-images.githubusercontent.com/100347457/193474398-7637e269-3e92-44bc-87c0-8ea18ca95693.png" width="35px"/></summary>
+  <summary>MacOS dependencies&emsp;<img alt="" src="{{ '/assets/img/systems/macos.svg' | relative_url }}" width="35px"/></summary>
 
   MacOS natively has all the dependencies you need to build and run Sniffnet! <br>
   However, remember to run the app with administrator privileges: this is needed to analyze the activity of your network device.

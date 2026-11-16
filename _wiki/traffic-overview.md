@@ -35,12 +35,12 @@ Hovering on the info icon next to the name of the adapter, you can see a tooltip
 > Other link types are currently unsupported, but this shouldn't be a problem for the vast majority of use cases.
 {: .wiki-callout .wiki-callout-note data-callout-label="NOTE"}
 
-This section also reports the filters configured for the capture and includes handy buttons that enable to quickly **change the unit of data displayed** in the whole _Overview_ page. <br>
-By default, the gathered data is represented in **bytes**, but if you prefer you can switch the unit of representation to **bits** or **packets**.
+This section also reports the filters configured for the capture, if any, and includes handy buttons that enable to quickly **change the data representation** of the observed traffic. <br>
+By default, data is shown as total bytes gathered since the start of the session, but if you prefer you can switch the unit of representation to bits or packets, and choose whether to display the cumulative traffic or the current data rate. <br>
 
-Finally, in this portion of the page you can find a **donut chart** reporting **cumulative statistics** for the ongoing analysis:
-- **incoming**: the total amount of data received by your machine
-- **outgoing**: the total amount of data sent by your machine
+Finally, in this portion of the page you can find a **donut chart** reporting statistics for the ongoing analysis:
+- **incoming**: the amount of data received by your machine
+- **outgoing**: the amount of data sent by your machine
 - **dropped**: data lost because not processed fast enough — such a value should be as low as possible
 
 ***

@@ -104,7 +104,6 @@ and is reported in the following.
 If you want to stop receiving remote notifications, simply disable the _Remote notifications_ toggle in the settings. <br>
 Sniffnet will remember the custom endpoint you provided, so that you can easily re-enable remote notifications later without having to type the URL again.
 
-
 <hr>
 
 > To learn more about this feature you can also read the blog post [_Sniffnet webhook notifications to monitor remote network activity_]({{ '/news/remote-notifications/' | relative_url }}).

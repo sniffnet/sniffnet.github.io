@@ -18,7 +18,7 @@ You can do that by following the next steps:
 
 2. install all the needed [build dependencies]({{ '/wiki/required-dependencies/' | relative_url }}) for Sniffnet
 
-3. clone Sniffnet repository locally
+3. clone <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet">Sniffnet GitHub repository</a> locally
 
 4. run the command `cargo build` from the cloned repository directory
 

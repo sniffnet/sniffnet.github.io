@@ -97,7 +97,7 @@ sudo docker run -d \
 
 <details markdown="1">
 
-  <summary>Crates.io</summary>
+  <summary>crates.io</summary>
 
 Follow this method only if you have <a target="_blank" rel="noopener" href="https://www.rust-lang.org/tools/install">Rust installed</a> on your machine. <br>
 In this case, the application binary can be built and installed with:

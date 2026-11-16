@@ -11,17 +11,17 @@ You can easily do that by following the next steps:
 
 2. open the downloaded file, allowing its execution by selecting `Keep anyway`
 
-    <p align="center"><img class="myShadow" alt="Windows security prompt with the Keep anyway option for the Sniffnet installer" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/0710f8b6-6ee1-4ec2-9a5f-6c80425fcde6"/></p>
+    <p align="center"><img class="myShadow" alt="Windows security prompt with the Keep anyway option for the Sniffnet installer" src="{{ '/assets/img/wiki/windows_1.png' | relative_url }}"/></p>
 
 3. follow the instructions on the screen that will guide you during Sniffnet installation
 
 4. in the last page of the installer, in case you don't have Npcap installed on your system yet, click on the box `Open Npcap website` and then `Finish`; this will redirect you to the <a target="_blank" rel="noopener" href="https://npcap.com/#download">Npcap installer download page</a>
 
-    <p align="center"><img class="myShadow" alt="Sniffnet installer option to open the Npcap download website" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/faed5904-b588-4206-9429-a4d28063918b"/></p>
+    <p align="center"><img class="myShadow" alt="Sniffnet installer option to open the Npcap download website" src="{{ '/assets/img/wiki/windows_2.png' | relative_url }}"/></p>
 
 5. install Npcap, making sure to check the box `Install Npcap in WinPcap API-compatible Mode` during the installation
 
-    <p align="center"><img class="myShadow" alt="Npcap installer with WinPcap API-compatible Mode selected" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/c9b3b3c3-b1c9-4d54-9ad1-6a2bed861a20"/></p>
+    <p align="center"><img class="myShadow" alt="Npcap installer with WinPcap API-compatible Mode selected" src="{{ '/assets/img/wiki/windows_3.png' | relative_url }}"/></p>
 
 6. and... you are finally ready to comfortably monitor your Internet traffic with Sniffnet! 🕵️‍♂️
 

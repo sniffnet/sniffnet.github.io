@@ -28,7 +28,7 @@ and, in case of data threshold exceeded notifications, you can specify a **custo
 > or you can disable sounds for specific notification kinds.
 {: .wiki-callout .wiki-callout-tip data-callout-label="TIP"}
 
-This settings page also includes a checkbox to enable remote notifications forwarding to a custom endpoint;
+Scrolling to the bottom of this page, you can also find a checkbox to enable notifications forwarding to a remote endpoint;
 such feature is described in the dedicated [Remote notifications]({{ '/wiki/remote-notifications/' | relative_url }}) Wiki page.
 
 ***
@@ -40,8 +40,8 @@ The notifications received during a monitoring session are visible in the _Notif
 </div>
 
 Events are listed from the **most recent** to the oldest,
-and each notification includes details about the type of event, the timestamp of occurrence,
-and other information depending on the specific event.
+and each notification includes details about the event kind, the timestamp of occurrence,
+and other useful insights.
 
 > 
 > Enabling notifications is particularly useful when paired with a custom [filters configuration]({{ '/wiki/filters-configuration/' | relative_url }}),
