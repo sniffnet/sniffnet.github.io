@@ -2,7 +2,7 @@ name: Update GitHub Badges
 
 on:
   schedule:
-    - cron: '0 17 * * *' # Every day at 5pm UTC
+    - cron: '13 17 * * *' # Every day at 17:13 UTC
   workflow_dispatch:
 
 env:
