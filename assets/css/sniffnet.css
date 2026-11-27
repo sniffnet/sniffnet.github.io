@@ -68,25 +68,6 @@ code {
 
 /* PINK STUFF */
 
-#myPinkBox {
-  background-color:#e58be515;
-  border-color: #e58be5;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 7px;
-  margin-left: 7px;
-  transition: all 200ms;
-  }
-
-  :hover#myPinkBox {
-    -webkit-box-shadow: 0px 0px 15px 5px #e58be544;
-    box-shadow: 0px 0px 15px 5px #e58be544;
-  }
-
 .pinkBG {
   padding: 10px;
   border-radius: 10px;
@@ -99,6 +80,75 @@ code {
 .pinkBG:hover {
   background-color: #e58be522;
   border-color: #e58be5;
+}
+
+.sponsor-grid,
+.sponsor-people {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+  max-width: 44rem;
+}
+
+.sponsor-grid > a:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: calc((100% - 1rem) / 2);
+}
+
+.sponsor-grid figure,
+.sponsor-people figure {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 0.75rem;
+}
+
+.sponsor-grid img {
+  width: 100%;
+  max-width: 15rem;
+  height: 3.75rem;
+  object-fit: contain;
+}
+
+.sponsor-people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.sponsor-people > a {
+  flex: 0 0 8rem;
+}
+
+.sponsor-people img {
+  width: 100px;
+  height: 100px;
+}
+
+.sponsor-people figcaption {
+  font-size: 1rem;
+}
+
+@media (max-width: 575px) {
+  .sponsor-grid {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 22rem;
+  }
+
+  .sponsor-grid > a:last-child:nth-child(odd) {
+    width: 100%;
+  }
 }
 
 /* ON HOVER EXPAND */
